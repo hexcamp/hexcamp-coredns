@@ -1,0 +1,6 @@
+https://.:1053 {
+    forward . 8.8.8.8
+    log
+    tls jpimac.local.pem jpimac.local-key.pem
+    errors
+}

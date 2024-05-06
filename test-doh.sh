@@ -1,3 +1,3 @@
 #! /bin/bash
 
-q @https://jpimac.local:1053 uxirkffr.hex.camp
+q @https://jpimac.local:1053 uxirkffr.test.hex.camp

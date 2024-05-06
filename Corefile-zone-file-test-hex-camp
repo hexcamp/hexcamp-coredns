@@ -1,5 +1,5 @@
 https://.:1053 {
-    file db.hex.camp hex.camp
+    file db.test.hex.camp test.hex.camp
     log
     tls jpimac.local.pem jpimac.local-key.pem
     errors

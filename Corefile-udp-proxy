@@ -1,4 +1,5 @@
 .:1053 {
+    bind fd9b:b8bb:64dc:ae42:18ba:4b69:dd9:cc9d
     dnsredir . {
       to ietf-doh://jpimac.local:1053/dns-query
       path_reload 3s

@@ -1,3 +1,3 @@
 #! /bin/bash
 
-../coredns-with-dnsredir/coredns -conf Corefile-udp-proxy
+sudo ../coredns-with-dnsredir/coredns -conf Corefile-udp-proxy

@@ -40,6 +40,29 @@ Query uxirkffr.test.hex.camp using live DNS via local unbound
 uxirkffr.test.hex.camp. 59m59s CNAME 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
 ```
 
+## localnet-farm-5 using proxy for doh2
+
+```
+On the DNS server:
+
+(in tmux) ./run-proxy-localnet-farm.sh
+
+./run-doh-localnet-farm.sh
+./run-proxy3.sh
+./run-unbound.sh
+
+$ ./test-proxy-hex-camp-localnet-farm.sh
+Query uxirkffr.test.hex.camp from first DOH via proxy
+uxirkffr.test.hex.camp. 1h CNAME 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
+
+Query 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp from second DOH via proxy
+3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 1h A 127.0.0.1
+
+Query uxirkffr.test.hex.camp using live DNS via local unbound
+3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 57m51s A 127.0.0.1
+uxirkffr.test.hex.camp. 57m50s CNAME 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
+```
+
 # License
 
 MIT or Apache 2

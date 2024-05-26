@@ -1,4 +1,10 @@
 .:53 {
+    bind 2600:1f11:2fc:e405:3d19:5862:7e21:2f5b
+    file db.test.hex.camp-localnet-farm test.hex.camp
+    log
+    errors
+}
+.:53 {
     bind 2600:1f11:2fc:e401:f19b:c8cd:c5af:b653
     dnsredir . {
       to ietf-doh://test-doh2.infra.hex.camp:30443/dns-query

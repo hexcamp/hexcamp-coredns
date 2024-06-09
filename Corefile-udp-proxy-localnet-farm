@@ -1,5 +1,10 @@
 .:53 {
     bind 2600:1f11:2fc:e405:3d19:5862:7e21:2f5b
+    route53 test.hex.camp.:Z054283718N71MNTWBOIM {
+	aws_access_key <key> <secret>
+        fallthrough
+    }
+    hexcamp
     file db.test.hex.camp-localnet-farm test.hex.camp
     log
     errors

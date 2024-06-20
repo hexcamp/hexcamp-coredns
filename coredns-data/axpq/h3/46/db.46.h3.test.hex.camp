@@ -1,0 +1,13 @@
+$ORIGIN 46.h3.hex.camp.
+@	3600 IN	SOA ns1.test.hex.camp. hostmaster.test.hex.camp. (
+				2017042745 ; serial
+				7200       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				3600       ; minimum (1 hour)
+				)
+
+	3600 IN NS ns1.46.h3.test.hex.camp.
+
+ns1 AAAA 2600:1f11:2fc:e401:f19b:c8cd:c5af:b653
+3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. A 127.0.0.1

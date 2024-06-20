@@ -1,0 +1,5 @@
+https://.:80 {
+    file db.46.h3.test.hex.camp 46.h3.test.hex.camp
+    log
+    errors
+}

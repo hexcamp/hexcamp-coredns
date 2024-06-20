@@ -19,5 +19,6 @@
 
 #q @127.0.0.1:2053 A uxirkffr.test.hex.camp
 q @8.8.8.8 A uxirkffr.test.hex.camp
+q @8.8.8.8 A jim1.test.hex.camp
 
 

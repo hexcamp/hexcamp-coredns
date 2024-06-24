@@ -1,15 +1,18 @@
 $ORIGIN test.hex.camp.
 @	3600 IN	SOA ns1.test.hex.camp. hostmaster.test.hex.camp. (
-				2024062002 ; serial
+				2024062301 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
-				3600       ; minimum (1 hour)
+				300       ; minimum (5 minutes)
 				)
 
-	3600 IN NS a.iana-servers.net.
-	3600 IN NS b.iana-servers.net.
-ns1	3600 AAAA 2600:1f11:2fc:e405:3d19:5862:7e21:2f5b
-_dnslink.uxirkffr     IN CNAME _dnslink.3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
-46.h3 3600 IN NS ns1.46.h3.test.hex.camp.
-ns1.46.h3.test.hex.camp. AAAA 2600:1f11:2fc:e401:f19b:c8cd:c5af:b653
+	3600 IN NS ns1
+ns1	300 AAAA 2600:1f11:2fc:e405:3d19:5862:7e21:2f5b
+; ai - tokyo
+23.h3 300 IN NS ns1.23.h3.test.hex.camp.
+ns1.23.h3.test.hex.camp. 300 IN AAAA 2600:1f11:2fc:e401:6799:cf22:da72:5550
+; axpq - hawaii
+46.h3 300 IN NS ns1.46.h3.test.hex.camp.
+ns1.46.h3.test.hex.camp. 300 IN AAAA 2600:1f11:2fc:e401:f19b:c8cd:c5af:b653
+

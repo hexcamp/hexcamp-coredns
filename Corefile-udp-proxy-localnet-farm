@@ -1,10 +1,11 @@
+# test.hex.camp
 .:53 {
     bind 2600:1f11:2fc:e405:3d19:5862:7e21:2f5b
     route53 test.hex.camp.:Z054283718N71MNTWBOIM {
 	aws_access_key <key> <secret>
         fallthrough
     }
-    hexcamp
+    hexcamp test.hex.camp
     file db.test.hex.camp-localnet-farm test.hex.camp
     log
     errors
@@ -12,13 +13,25 @@
 .:53 {
     bind 2600:1f11:2fc:e401:f19b:c8cd:c5af:b653
     dnsredir . {
-      to ietf-doh://test-doh2.infra.hex.camp:30443/dns-query
+      to ietf-doh://axpq.doh-test.hex.camp:30443/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1
       expire 1s
       health_check 100000s
-      #spray
+    }
+    log
+    errors
+}
+.:53 {
+    bind 2600:1f11:2fc:e401:6799:cf22:da72:5550
+    dnsredir . {
+      to ietf-doh://ai.doh-test.hex.camp:30443/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
     }
     log
     errors

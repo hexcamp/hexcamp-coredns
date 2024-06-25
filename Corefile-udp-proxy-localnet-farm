@@ -10,6 +10,7 @@
     log
     errors
 }
+# Hawaii
 .:53 {
     bind 2600:1f11:2fc:e401:f19b:c8cd:c5af:b653
     dnsredir . {
@@ -23,10 +24,25 @@
     log
     errors
 }
+# Tokyo
 .:53 {
     bind 2600:1f11:2fc:e401:6799:cf22:da72:5550
     dnsredir . {
       to ietf-doh://ai.doh-test.hex.camp:30443/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+    }
+    log
+    errors
+}
+# Victoria
+.:53 {
+    bind 2600:1f11:2fc:e406:9c72:2191:70b0:5e83
+    dnsredir hex/20.h3.test.hex.camp {
+      to ietf-doh://akpq.doh-test.hex.camp:30443/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1

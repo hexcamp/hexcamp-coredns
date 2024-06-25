@@ -26,4 +26,12 @@ echo
 echo 6l22glmvqj2a.test.hex.camp
 q @8.8.8.8 A 6l22glmvqj2a.test.hex.camp
 q @8.8.8.8 TXT _dnslink.6l22glmvqj2a.test.hex.camp
-#dig 6l22glmvqj2a.test.hex.camp
+echo
+
+echo 2kgrv5ga2i.test.hex.camp
+q @8.8.8.8 A 2kgrv5ga2i.test.hex.camp
+q @8.8.8.8 TXT _dnslink.2kgrv5ga2i.test.hex.camp
+q @2600:1f11:2fc:e406:9c72:2191:70b0:5e83 A 3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp
+echo
+
+

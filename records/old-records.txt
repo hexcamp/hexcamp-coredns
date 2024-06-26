@@ -1,11 +1,17 @@
+Photos - Dallas Road - jim
 _dnslink.2kgrue625c7q.hex.camp
 "dnslink=/ipfs/QmSZQAsgTYGTXTJunEXeEg51qqqrdnfCafi3XQdv5XyVMM"
+ikgrw/h3/20/3/2/1/5 - 2.4.6.5.6.6.3.2.0.5.1.2.3.20.h3.hex.camp
 
+Photos - Craigflower Manor - jim
 _dnslink.2kgrug2zvv7q.hex.camp
 "dnslink=/ipfs/QmTKxPoTCpivKPb9bVp44ZaAbmyk2d1dDJELAxekTQx6vc"
+ikgrw/h3/20/3/2/1/5 - 5.6.2.3.6.2.3.3.0.5.1.2.3.20.h3.hex.camp
 
+Photos - Saanich Gorge Park - jim
 _dnslink.2kgrugszem7q.hex.camp
 "dnslink=/ipfs/QmRdyN2LRtMTb7AwTprJs6diS5eqkHMeKeLrNnnHQWJehk"
+ikgrw/h3/20/3/2/1/5 - 4.1.2.2.6.2.2.3.0.5.1.2.3.20.h3.hex.camp
 
 _dnslink.2kgrv5deib7q.hex.camp
 "dnslink=/ipfs/QmbBRVQ6ePAiRcrJDKzF3pk9xVVxtiwbwjy5ZNWeZzvKM4"

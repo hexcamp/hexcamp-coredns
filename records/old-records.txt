@@ -38,7 +38,7 @@ _dnslink.6l22glmvqj2a.hex.camp
 "dnslink=/ipfs/QmeqPJcvEJNcEPahPHGadz7Z1dGqFBxQwHdxhic1dz7x88"
 ai/h3/23 - 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp
 
-Welcome to Hex.Camp HackMD
+Welcome to Hex.Camp HackMD - Jim
 _dnslink.uxirkffr.hex.camp
 "dnslink=/ipfs/QmP8zX12WAbaaFyZGW9guhcTfVhyv1fiZjFYwJanoMeqAX"
 axpq/h3/46 - 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp
@@ -48,19 +48,27 @@ _dnslink.wkgrugwxj4.hex.camp
 "dnslink=/ipfs/QmeCfGmca9dGnH5nhPehvq3MZq1L2m5J9VtEsqYxqc5832"
 ikgrw/h3/20/3/2/1/5 - 4.6.5.6.2.3.0.5.1.2.3.20.h3.hex.camp
 
-
-
+Photos - Banfield Park - Jim
 _dnslink.4kgrvlj3fixq.hex.camp
-"dnslink=/ipfs/QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx"
+"dnslink=/ipfs/QmVGBsAxSruLx4ZcDgn2Xw7gMGPCdP92bCJTyunMRZWJaU"
+ikgrw/h3/20/3/2/1/5 - 5.0.5.2.6.6.1.5.5.2.5.1.2.3.20.h3.hex.camp
 
+Hex.Camp Landing Page - Jim
 _dnslink.skgyeut3.hex.camp
 "dnslink=/ipfs/QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx"
+# Cortes Island - 6.3.2.2.1.1.0.3.3.20.h3.hex.camp
 
+Photos - Okinawa - Jim
 _dnslink.ssrgdfv3.hex.camp
 "dnslink=/ipfs/Qmegz7qn6ZCHTTu5RfJmjocGSsfRJ3KVg8ubH4GzFPop7G"
+# Okinawa - 6.5.6.2.6.0.6.4.0.37.h3.hex.camp
 
+Demo - WebRTC Hex Swarm - Jim
 _dnslink.ukgrvlfnp4.hex.camp
 "dnslink=/ipfs/QmRPBmdBhySHaUzpEkEoHTr9tdNY4r5mF3fRx7behAwxkd"
+ikgrw/h3/20/3/2/1/5 - 2.3.5.4.5.2.5.1.2.3.20.h3.hex.camp
+
+
 
 _dnslink.wkgrvqgfj4.hex.camp
 "dnslink=/ipfs/QmWHa3cU4yfdmun9nmUkDVdgkNy7wPeLF9qGjzLE5h8V48"

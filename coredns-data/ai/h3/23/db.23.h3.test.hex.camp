@@ -1,6 +1,6 @@
-$ORIGIN 23.h3.hex.camp.
-@	3600 IN	SOA ns1.test.hex.camp. hostmaster.test.hex.camp. (
-				2024062303 ; serial
+$ORIGIN 23.h3.test.hex.camp.
+@	3600 IN	SOA ns1.23.h3.test.hex.camp. hostmaster.test.hex.camp. (
+				2024062501 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -9,7 +9,9 @@ $ORIGIN 23.h3.hex.camp.
 
 	3600 IN NS ns1.23.h3.test.hex.camp.
 
-ns1 AAAA 2600:1f11:2fc:e401:6799:cf22:da72:5550
+ns1 3600 IN AAAA 2600:1f11:2fc:e401:6799:cf22:da72:5550
+
+; 6l22glmvqj2a.hex.camp - jim - Encoded Hexagon Lookup Tool 
 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
 _dnslink.4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.	30 IN	TXT	"dnslink=/ipfs/QmeqPJcvEJNcEPahPHGadz7Z1dGqFBxQwHdxhic1dz7x88"
 

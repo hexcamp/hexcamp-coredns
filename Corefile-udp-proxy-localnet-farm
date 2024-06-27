@@ -41,6 +41,14 @@
 # Victoria
 .:53 {
     bind 2600:1f11:2fc:e406:9c72:2191:70b0:5e83
+    dnsredir hex/5.1.2.3.20.h3.test.hex.camp {
+      to ietf-doh://ikgrw.doh-test.hex.camp:30443/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+    }
     dnsredir hex/20.h3.test.hex.camp {
       to ietf-doh://akpq.doh-test.hex.camp:30443/dns-query
       path_reload 3s

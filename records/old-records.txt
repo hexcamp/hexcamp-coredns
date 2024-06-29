@@ -93,12 +93,10 @@ _dnslink.ykgrv5aexe.hex.camp
 "dnslink=/ipfs/QmQ1n9vLxVKAFvKs93vy9rbWsJwA2cfBws6aUio3rRWA3E"
 ikgrw/h3/20/3/2/1/5 - 4.3.1.1.0.4.6.3.5.1.2.3.20.h3.hex.camp
 
-Needs zones:
-
 Photos - Okinawa - Jim
 _dnslink.ssrgdfv3.hex.camp
 "dnslink=/ipfs/Qmegz7qn6ZCHTTu5RfJmjocGSsfRJ3KVg8ubH4GzFPop7G"
-# Okinawa - 6.5.6.2.6.0.6.4.0.37.h3.hex.camp
+as7q/h3/37 - 6.5.6.2.6.0.6.4.0.37.h3.hex.camp
 
 Hex.Camp Landing Page - Jim
 _dnslink.skgyeut3.hex.camp

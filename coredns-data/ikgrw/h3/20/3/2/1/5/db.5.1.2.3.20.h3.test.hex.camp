@@ -1,6 +1,6 @@
 $ORIGIN 5.1.2.3.20.h3.test.hex.camp.
 @	3600 IN	SOA ns1.5.1.2.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2024062610 ; serial
+				2024062808 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -50,4 +50,32 @@ _dnslink.5.0.5.2.6.6.1.5.5.2.5.1.2.3.20.h3.test.hex.camp. 30 IN TXT "dnslink=/ip
 ; ukgrvlfnp4.hex.camp - jim - Demo - WebRTC Hex Swarm
 2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
 _dnslink.2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 30 IN TXT "dnslink=/ipfs/QmRPBmdBhySHaUzpEkEoHTr9tdNY4r5mF3fRx7behAwxkd"
+
+; wkgrvqgfj4.hex.camp - jim - Demo - libp2p-browser-to-browser-playground
+4.2.1.6.0.0.3.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+_dnslink.4.2.1.6.0.0.3.5.1.2.3.20.h3.test.hex.camp. 30 IN TXT "dnslink=/ipfs/QmWHa3cU4yfdmun9nmUkDVdgkNy7wPeLF9qGjzLE5h8V48"
+
+; wkgrvqgfl4.hex.camp - jim - Demo - Hex.Camp Demos
+5.2.1.6.0.0.3.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+_dnslink.5.2.1.6.0.0.3.5.1.2.3.20.h3.test.hex.camp. 30 IN TXT "dnslink=/ipfs/QmcCAtp8HmYhFJXt18Tf5twUqMh7wZcyLGWHTF9vNWDTTf" 
+
+; ykgrudu3e4.hex.camp - jim - Photos - Albert Head Lagoon
+3.2.6.6.4.6.1.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+_dnslink.3.2.6.6.4.6.1.0.5.1.2.3.20.h3.test.hex.camp. 30 IN TXT "dnslink=/ipfs/QmVqPHBW4xTcnqCqAuBHL5MUsaw1bMgHpsAeB9LCAooSmL"
+
+; ykgrug2ukm.hex.camp - jim - Photos - Portage Park
+1.5.0.5.2.3.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+_dnslink.1.5.0.5.2.3.3.0.5.1.2.3.20.h3.test.hex.camp. 30 IN TXT "dnslink=/ipfs/QmeDXbYUpn3kyu9JZ1wzTRrnXy3qkidv5R1snnfqgpa5Ur"
+
+; ykgruhtnu4.hex.camp - jim - Demos - WebRTC Helia Stamen
+3.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+_dnslink.3.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. 30 IN TXT "dnslink=/ipfs/QmdnXgnnFa8ZdyBnbsmUq6VqGSnBHhCjp1ej48jNKdGiqd"
+
+; ykgruhtnuu.hex.camp - jim - Demos - WebRTC Helia Collector
+2.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+_dnslink.2.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. 30 IN TXT "dnslink=/ipfs/QmZHeUEKaeR5uvcYUy2HiaonSYNmRq3mJPqz6GXS6eHW4B"
+
+; ykgrv5aexe.hex.camp - jim - Photos - Portage Inlet Park
+4.3.1.1.0.4.6.3.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+_dnslink.4.3.1.1.0.4.6.3.5.1.2.3.20.h3.test.hex.camp. 30 IN TXT "dnslink=/ipfs/QmQ1n9vLxVKAFvKs93vy9rbWsJwA2cfBws6aUio3rRWA3E"
 

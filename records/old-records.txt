@@ -53,42 +53,55 @@ _dnslink.4kgrvlj3fixq.hex.camp
 "dnslink=/ipfs/QmVGBsAxSruLx4ZcDgn2Xw7gMGPCdP92bCJTyunMRZWJaU"
 ikgrw/h3/20/3/2/1/5 - 5.0.5.2.6.6.1.5.5.2.5.1.2.3.20.h3.hex.camp
 
-Hex.Camp Landing Page - Jim
-_dnslink.skgyeut3.hex.camp
-"dnslink=/ipfs/QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx"
-# Cortes Island - 6.3.2.2.1.1.0.3.3.20.h3.hex.camp
+Demo - WebRTC Hex Swarm - Jim
+_dnslink.ukgrvlfnp4.hex.camp
+"dnslink=/ipfs/QmRPBmdBhySHaUzpEkEoHTr9tdNY4r5mF3fRx7behAwxkd"
+ikgrw/h3/20/3/2/1/5 - 2.3.5.4.5.2.5.1.2.3.20.h3.hex.camp
+
+Demo - libp2p-browser-to-browser-playground - Jim
+_dnslink.wkgrvqgfj4.hex.camp
+"dnslink=/ipfs/QmWHa3cU4yfdmun9nmUkDVdgkNy7wPeLF9qGjzLE5h8V48"
+ikgrw/h3/20/3/2/1/5 - 4.2.1.6.0.0.3.5.1.2.3.20.h3.hex.camp
+
+Demo - Hex.Camp Demos - Jim
+_dnslink.wkgrvqgfl4.hex.camp
+"dnslink=/ipfs/QmcCAtp8HmYhFJXt18Tf5twUqMh7wZcyLGWHTF9vNWDTTf"
+ikgrw/h3/20/3/2/1/5 - 5.2.1.6.0.0.3.5.1.2.3.20.h3.hex.camp
+
+Photos - Albert Head Lagoon - Jim
+_dnslink.ykgrudu3e4.hex.camp
+"dnslink=/ipfs/QmVqPHBW4xTcnqCqAuBHL5MUsaw1bMgHpsAeB9LCAooSmL"
+ikgrw/h3/20/3/2/1/5 - 3.2.6.6.4.6.1.0.5.1.2.3.20.h3.hex.camp
+
+Photos - Portage Park - Jim
+_dnslink.ykgrug2ukm.hex.camp
+"dnslink=/ipfs/QmeDXbYUpn3kyu9JZ1wzTRrnXy3qkidv5R1snnfqgpa5Ur"
+ikgrw/h3/20/3/2/1/5 - 1.5.0.5.2.3.3.0.5.1.2.3.20.h3.hex.camp
+
+Demos - WebRTC Helia Stamen - Jim
+_dnslink.ykgruhtnu4.hex.camp
+"dnslink=/ipfs/QmdnXgnnFa8ZdyBnbsmUq6VqGSnBHhCjp1ej48jNKdGiqd"
+ikgrw/h3/20/3/2/1/5 - 3.2.3.3.3.6.3.0.5.1.2.3.20.h3.hex.camp
+
+Demos - WebRTC Helia Collector - Jim
+_dnslink.ykgruhtnuu.hex.camp
+"dnslink=/ipfs/QmZHeUEKaeR5uvcYUy2HiaonSYNmRq3mJPqz6GXS6eHW4B"
+ikgrw/h3/20/3/2/1/5 - 2.2.3.3.3.6.3.0.5.1.2.3.20.h3.hex.camp
+
+Photos - Portage Inlet Park - Jim
+_dnslink.ykgrv5aexe.hex.camp
+"dnslink=/ipfs/QmQ1n9vLxVKAFvKs93vy9rbWsJwA2cfBws6aUio3rRWA3E"
+ikgrw/h3/20/3/2/1/5 - 4.3.1.1.0.4.6.3.5.1.2.3.20.h3.hex.camp
+
+Needs zones:
 
 Photos - Okinawa - Jim
 _dnslink.ssrgdfv3.hex.camp
 "dnslink=/ipfs/Qmegz7qn6ZCHTTu5RfJmjocGSsfRJ3KVg8ubH4GzFPop7G"
 # Okinawa - 6.5.6.2.6.0.6.4.0.37.h3.hex.camp
 
-Demo - WebRTC Hex Swarm - Jim
-_dnslink.ukgrvlfnp4.hex.camp
-"dnslink=/ipfs/QmRPBmdBhySHaUzpEkEoHTr9tdNY4r5mF3fRx7behAwxkd"
-ikgrw/h3/20/3/2/1/5 - 2.3.5.4.5.2.5.1.2.3.20.h3.hex.camp
-
-
-
-_dnslink.wkgrvqgfj4.hex.camp
-"dnslink=/ipfs/QmWHa3cU4yfdmun9nmUkDVdgkNy7wPeLF9qGjzLE5h8V48"
-4.6.5.6.2.3.0.5.1.2.3.20.h3.hex.camp
-
-_dnslink.wkgrvqgfl4.hex.camp
-"dnslink=/ipfs/QmcCAtp8HmYhFJXt18Tf5twUqMh7wZcyLGWHTF9vNWDTTf"
-
-_dnslink.ykgrudu3e4.hex.camp
-"dnslink=/ipfs/QmVqPHBW4xTcnqCqAuBHL5MUsaw1bMgHpsAeB9LCAooSmL"
-
-_dnslink.ykgrug2ukm.hex.camp
-"dnslink=/ipfs/QmeDXbYUpn3kyu9JZ1wzTRrnXy3qkidv5R1snnfqgpa5Ur"
-
-_dnslink.ykgruhtnu4.hex.camp
-"dnslink=/ipfs/QmdnXgnnFa8ZdyBnbsmUq6VqGSnBHhCjp1ej48jNKdGiqd"
-
-_dnslink.ykgruhtnuu.hex.camp
-"dnslink=/ipfs/QmZHeUEKaeR5uvcYUy2HiaonSYNmRq3mJPqz6GXS6eHW4B"
-
-_dnslink.ykgrv5aexe.hex.camp
-"dnslink=/ipfs/QmQ1n9vLxVKAFvKs93vy9rbWsJwA2cfBws6aUio3rRWA3E"
+Hex.Camp Landing Page - Jim
+_dnslink.skgyeut3.hex.camp
+"dnslink=/ipfs/QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx"
+# Cortes Island - 6.3.2.2.1.1.0.3.3.20.h3.hex.camp
 

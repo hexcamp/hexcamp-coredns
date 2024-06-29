@@ -24,11 +24,21 @@
     log
     errors
 }
-# Tokyo
+# Tokyo, Okinawa
 .:53 {
     bind 2600:1f11:2fc:e401:6799:cf22:da72:5550
-    dnsredir . {
+    # Tokyo
+    dnsredir hex/23.h3.test.hex.camp {
       to ietf-doh://ai.doh-test.hex.camp:30443/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+    }
+    # Okinawa
+    dnsredir hex/37.h3.test.hex.camp {
+      to ietf-doh://as7q.doh-test.hex.camp:30443/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1
@@ -38,9 +48,10 @@
     log
     errors
 }
-# Victoria
+# Victoria, Vancouver, Seattle, etc.
 .:53 {
     bind 2600:1f11:2fc:e406:9c72:2191:70b0:5e83
+    # Victoria
     dnsredir hex/5.1.2.3.20.h3.test.hex.camp {
       to ietf-doh://ikgrw.doh-test.hex.camp:30443/dns-query
       path_reload 3s
@@ -49,6 +60,16 @@
       expire 1s
       health_check 100000s
     }
+    # Cortes Island
+    dnsredir hex/0.3.3.20.h3.test.hex.camp {
+      to ietf-doh://gkgy6.doh-test.hex.camp:30443/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+    }
+    # Full zone
     dnsredir hex/20.h3.test.hex.camp {
       to ietf-doh://akpq.doh-test.hex.camp:30443/dns-query
       path_reload 3s

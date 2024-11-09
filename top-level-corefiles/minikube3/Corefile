@@ -1,0 +1,23 @@
+# Tokyo, Okinawa
+.:53 {
+    # Tokyo
+    dnsredir hex/23.h3.test.hex.camp {
+      to ietf-doh://ai.doh-test.hex.camp:30443/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+    }
+    # Okinawa
+    dnsredir hex/37.h3.test.hex.camp {
+      to ietf-doh://as7q.doh-test.hex.camp:30443/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+    }
+    log
+    errors
+}

@@ -1,0 +1,13 @@
+# Hawaii
+.:53 {
+    dnsredir . {
+      to ietf-doh://axpq.doh-test.hex.camp:30443/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+    }
+    log
+    errors
+}

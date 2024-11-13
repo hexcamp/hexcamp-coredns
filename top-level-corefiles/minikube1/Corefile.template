@@ -8,4 +8,6 @@
     file db.test.hex.camp test.hex.camp
     log
     errors
+    reload
+    cache
 }

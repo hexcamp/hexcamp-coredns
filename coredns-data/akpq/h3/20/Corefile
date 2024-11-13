@@ -3,4 +3,6 @@ https://.:80 {
     log
     errors
     ready
+    reload
+    forward . 8.8.8.8
 }

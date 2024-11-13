@@ -8,6 +8,7 @@
       max_fails 1
       expire 1s
       health_check 100000s
+      spray # Use even without health check
     }
     # Cortes Island
     dnsredir hex/0.3.3.20.h3.test.hex.camp {
@@ -17,6 +18,7 @@
       max_fails 1
       expire 1s
       health_check 100000s
+      spray # Use even without health check
     }
     # Full zone
     dnsredir hex/20.h3.test.hex.camp {
@@ -26,7 +28,11 @@
       max_fails 1
       expire 1s
       health_check 100000s
+      spray # Use even without health check
     }
     log
     errors
+    reload
+    debug
+    cache
 }

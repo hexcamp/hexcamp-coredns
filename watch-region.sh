@@ -1,7 +1,7 @@
 #! /bin/bash
 
 
-REGION=$!
+REGION=$1
 
 if [ -z "$REGION" ]; then
   REGION=as7q

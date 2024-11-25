@@ -58,7 +58,7 @@ echo
 # q @minikube1.localnet.farm A 6l22glmvqj2a.test.hex.camp
 # 6l22glmvqj2a.test.hex.camp. 0s CNAME 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.
 
-# q @minikube3.localnet.farm A 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.
+# q @minikube5.localnet.farm A 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.
 # 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp. 1h CNAME pq-pop-ca-1.infra.hex.camp.
 
 # q @8.8.8.8 A 6l22glmvqj2a.test.hex.camp
@@ -73,8 +73,8 @@ echo
 # q @minikube1.localnet.farm A ssrgdfv3.test.hex.camp
 # ssrgdfv3.test.hex.camp. 0s CNAME 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp.
 
-# q @minikube3.localnet.farm A 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp.
-# 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp. 5s CNAME pq-pop-ca-1.infra.hex.camp.
+# q @minikube5.localnet.farm A 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp.
+# 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp. 5m A 15.235.47.12
 
 # q @8.8.8.8 A ssrgdfv3.test.hex.camp
 # pq-pop-ca-1.infra.hex.camp. 5m A 15.235.47.12

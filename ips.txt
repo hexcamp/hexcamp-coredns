@@ -1,7 +1,6 @@
-minikube1 54.71.121.208   # 2600:1f11:2fc:e405:3d19:5862:7e21:2f5b - Top - ns1.test.hex.camp
-minikube2 52.35.19.155    # 2600:1f11:2fc:e401:f19b:c8cd:c5af:b653 - Hawaii - ns1.46.h3.test.hex.camp
-minikube3 52.26.220.249   # 2600:1f11:2fc:e401:6799:cf22:da72:5550 - Tokyo, Okinawa - ns1.23.h3.test.hex.camp, ns1.37.h3.test.hex.camp
-minikube4 34.214.47.222   # 2600:1f11:2fc:e406:9c72:2191:70b0:5e83 - Victoria, Vancouver, Seattle, etc. - ns1.20.h3.test.hex.camp
-minikube5 54.193.120.31   # 2600:1f11:2fc:e401:6799:cf22:da72:5550 - Tokyo, Okinawa - ns1.23.h3.test.hex.camp, ns1.37.h3.test.hex.camp
+minikube1 54.71.121.208   # Top - ns1.test.hex.camp
+minikube2 52.35.19.155    # Hawaii - ns1.46.h3.test.hex.camp
+minikube4 34.214.47.222   # Victoria, Vancouver, Seattle, etc. - ns1.20.h3.test.hex.camp
+minikube5 54.193.120.31   # Tokyo, Okinawa - ns1.23.h3.test.hex.camp, ns1.37.h3.test.hex.camp
 
 

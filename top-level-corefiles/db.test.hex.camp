@@ -1,6 +1,6 @@
 $ORIGIN test.hex.camp.
 @	3600 IN	SOA ns1.test.hex.camp. hostmaster.test.hex.camp. (
-				2024112401 ; serial
+				2024112801 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)

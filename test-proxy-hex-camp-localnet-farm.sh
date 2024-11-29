@@ -40,25 +40,25 @@ echo
 #   _dnslink.3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 30s TXT "dnslink=/ipfs/QmP8zX12WAbaaFyZGW9guhcTfVhyv1fiZjFYwJanoMeqAX"
 
 
-# Minikube1 / Minikube2 - Hawaii
+# minikube6 / minikube2 - Hawaii
 
 # curl 'https://axpq.doh-test.hex.camp:30443/dns-query?ct=application/dns-message&dns=AAABAAABAAAAAAAAAAACAAE' --output - | xxd 
 #
 
-# q @minikube1.localnet.farm A uxirkffr.test.hex.camp
+# q @minikube6.localnet.farm A uxirkffr.test.hex.camp
 # uxirkffr.test.hex.camp. 0s CNAME 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
 
 # q @minikube2.localnet.farm A 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
 # 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 1h CNAME pq-pop-ca-1.infra.hex.camp.
 
-# Minikube1 / Minikube3 - Tokyo, Okinawa
+# minikube6 / minikube7 - Tokyo, Okinawa
 
 # 6l22glmvqj2a.test.hex.camp - Encoded Hexagon lookup tool
 
-# q @minikube1.localnet.farm A 6l22glmvqj2a.test.hex.camp
+# q @minikube6.localnet.farm A 6l22glmvqj2a.test.hex.camp
 # 6l22glmvqj2a.test.hex.camp. 0s CNAME 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.
 
-# q @minikube5.localnet.farm A 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.
+# q @minikube7.localnet.farm A 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.
 # 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp. 1h CNAME pq-pop-ca-1.infra.hex.camp.
 
 # q @8.8.8.8 A 6l22glmvqj2a.test.hex.camp
@@ -70,10 +70,10 @@ echo
 
 # Okinawa photos
 
-# q @minikube1.localnet.farm A ssrgdfv3.test.hex.camp
+# q @minikube6.localnet.farm A ssrgdfv3.test.hex.camp
 # ssrgdfv3.test.hex.camp. 0s CNAME 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp.
 
-# q @minikube5.localnet.farm A 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp.
+# q @minikube7.localnet.farm A 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp.
 # 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp. 5m A 15.235.47.12
 
 # q @8.8.8.8 A ssrgdfv3.test.hex.camp
@@ -82,7 +82,7 @@ echo
 # 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp. 5s CNAME pq-pop-ca-1.infra.hex.camp.
 
 # q @https://as7q.doh-test.hex.camp:30443 A 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp
-# 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp. 5m CNAME pq-pop-ca-1.infra.hex.camp.
+# 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp. 5m A 15.235.47.12
 
 
 

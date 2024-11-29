@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -e
+
 . SETENV
 
 if [ -z "$AWS_ACCESS_KEY_ID" ]; then
@@ -9,18 +11,18 @@ if [ -z "$AWS_SECRET_ACCESS_KEY" ]; then
   echo Need AWS_SECRET_ACCESS_KEY in SETENV
 fi
 
-cd top-level-corefiles/minikube5
+cd top-level-corefiles/minikube7
 
 rsync -vaP \
   --exclude '*.template' \
   --exclude .gitignore \
-  . minikube5:/home/ubuntu/storage/coredns-test
+  . minikube7:/home/ubuntu/storage/coredns-test
 
 cd ../../coredns-data
 
 rsync -vaP \
   ai \
   as7q \
-  minikube5:/home/ubuntu/storage/coredns-data
+  minikube7:/home/ubuntu/storage/coredns-data
 
 

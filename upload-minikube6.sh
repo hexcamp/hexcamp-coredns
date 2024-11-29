@@ -1,5 +1,7 @@
 #! /bin/bash
 
+set -e
+
 . SETENV
 
 if [ -z "$AWS_ACCESS_KEY_ID" ]; then

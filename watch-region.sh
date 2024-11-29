@@ -1,6 +1,6 @@
 #! /bin/bash
 
-CONTEXT=minikube5
+CONTEXT=minikube7
 REGION=$1
 
 

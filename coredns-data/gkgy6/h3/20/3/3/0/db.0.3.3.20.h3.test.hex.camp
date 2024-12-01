@@ -1,7 +1,7 @@
 $ORIGIN 0.3.3.20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns1.0.3.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2024111207 ; serial
+				2024113001 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,7 +10,7 @@ $TTL 5m
 
 	    IN NS ns1.0.3.3.20.h3.test.hex.camp.
 
-ns1 IN A 34.214.47.222
+ns1 IN A 35.89.150.76
 
 ; skgyeut3.hex.camp - jim - Hex.Camp Landing Page
 6.3.2.2.1.1.0.3.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.

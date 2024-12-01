@@ -40,7 +40,7 @@ echo
 #   _dnslink.3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 30s TXT "dnslink=/ipfs/QmP8zX12WAbaaFyZGW9guhcTfVhyv1fiZjFYwJanoMeqAX"
 
 
-# minikube6 / minikube2 - Hawaii
+# minikube6 / minikube9 - Hawaii
 
 # curl 'https://axpq.doh-test.hex.camp:30443/dns-query?ct=application/dns-message&dns=AAABAAABAAAAAAAAAAACAAE' --output - | xxd 
 #
@@ -48,7 +48,7 @@ echo
 # q @minikube6.localnet.farm A uxirkffr.test.hex.camp
 # uxirkffr.test.hex.camp. 0s CNAME 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
 
-# q @minikube2.localnet.farm A 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
+# q @minikube9.localnet.farm A 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
 # 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 1h CNAME pq-pop-ca-1.infra.hex.camp.
 
 # minikube6 / minikube7 - Tokyo, Okinawa

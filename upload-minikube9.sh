@@ -11,17 +11,17 @@ if [ -z "$AWS_SECRET_ACCESS_KEY" ]; then
   echo Need AWS_SECRET_ACCESS_KEY in SETENV
 fi
 
-cd top-level-corefiles/minikube2
+cd top-level-corefiles/minikube9
 
 rsync -vaP \
   --exclude '*.template' \
   --exclude .gitignore \
-  . minikube2:/home/centos/storage/coredns-test
+  . minikube9:/home/ubuntu/storage/coredns-test
 
 cd ../../coredns-data
 
 rsync -vaP \
   axpq \
-  minikube2:/home/centos/storage/coredns-data
+  minikube9:/home/ubuntu/storage/coredns-data
 
 

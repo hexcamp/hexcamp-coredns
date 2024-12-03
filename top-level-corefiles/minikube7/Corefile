@@ -2,7 +2,7 @@
 .:53 {
     # Tokyo
     dnsredir hex/23.h3.test.hex.camp {
-      to ietf-http-doh://ai.doh-test.hex.camp:30080/dns-query
+      to ietf-http-doh://hexcamp-ai.ai.minikube7.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1
@@ -12,7 +12,7 @@
     }
     # Okinawa
     dnsredir hex/37.h3.test.hex.camp {
-      to ietf-http-doh://hexcamp-as7q.as7q.svc.cluster.local:80/dns-query
+      to ietf-http-doh://hexcamp-as7q.as7q.minikube7.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1
@@ -27,10 +27,5 @@
     cache
     rrl . {
       responses-per-second 3
-    }
-    kubernetes cluster.local in-addr.arpa ip6.arpa {
-      pods insecure
-      fallthrough in-addr.arpa ip6.arpa
-      ttl 30
     }
 }

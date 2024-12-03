@@ -2,7 +2,7 @@
 .:53 {
     # Victoria
     dnsredir hex/5.1.2.3.20.h3.test.hex.camp {
-      to ietf-doh://ikgrw.doh-test2.hex.camp:30443/dns-query
+      to ietf-http-doh://hexcamp-ikgrw.ikgrw.minikube8.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1
@@ -12,7 +12,7 @@
     }
     # Cortes Island
     dnsredir hex/0.3.3.20.h3.test.hex.camp {
-      to ietf-doh://gkgy6.doh-test.hex.camp:30443/dns-query
+      to ietf-http-doh://hexcamp-gkgy6.gkgy6.minikube8.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1
@@ -22,7 +22,7 @@
     }
     # Full zone
     dnsredir hex/20.h3.test.hex.camp {
-      to ietf-doh://akpq.doh-test.hex.camp:30443/dns-query
+      to ietf-http-doh://hexcamp-akpq.akpq.minikube8.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1

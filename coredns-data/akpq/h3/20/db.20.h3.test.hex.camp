@@ -1,7 +1,7 @@
 $ORIGIN 20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns1.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2024120202 ; serial
+				2024120301 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,10 +10,10 @@ $TTL 5m
 
 	IN NS ns1.20.h3.test.hex.camp.
 
-ns1 IN A 44.244.63.230
+ns1 IN A 52.12.112.97
 
 ; Victoria
 5.1.2.3.20.h3.test.hex.camp. 3600 IN NS ns1.5.1.2.3.20.h3.test.hex.camp. 
-ns1.5.1.2.3.20.h3.test.hex.camp. 3600 IN A 44.244.63.230
+ns1.5.1.2.3.20.h3.test.hex.camp. 3600 IN A 52.12.112.97
 
 

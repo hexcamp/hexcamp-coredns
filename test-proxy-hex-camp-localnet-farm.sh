@@ -84,7 +84,14 @@ echo
 # q @https://as7q.doh-test.hex.camp:30443 A 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp
 # 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp. 5m A 15.235.47.12
 
+# DOH-HTTPS
+# q @https://as7q.doh-test.hex.camp:30443 A 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp
 
+# DOH-HTTP
+# q @http://as7q.doh-test.hex.camp:30080 A 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp
+
+# Local test coredns - UDP
+# q @127.0.0.1:5300 A 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp
 
 # curl 'https://as7q.doh-test.hex.camp:30443/dns-query?ct=application/dns-message&dns=AAABAAABAAAAAAAAAAACAAE' --output - | xxd 
 #

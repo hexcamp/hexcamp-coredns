@@ -17,14 +17,14 @@ gen_new_file() {
   CURSUM=$(cat current/$DIRNAME/$BASENAME | sha512sum)
   if [ "$PREVSUM" != "$CURSUM" ]; then
     DATE=$(date +"%Y%m%d")
-    if (echo $SERIAL | grep "^$DATE"); then
+    if (echo $SERIAL | grep "^$DATE") > /dev/null; then
       #echo Same Date, increment
       SERIAL=$((SERIAL + 1))
     else
       #echo New Date
       SERIAL="${DATE}01"
     fi
-    echo SERIAL: $SERIAL
+    #echo SERIAL: $SERIAL
     cat ips.json | jq ".serial=$SERIAL" | minijinja-cli -f json templates/$DIRNAME/$BASENAME - > current/$DIRNAME/$BASENAME
   fi
 }

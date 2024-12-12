@@ -1,8 +1,0 @@
-https://.:80 {
-    file db.23.h3.test.hex.camp 23.h3.test.hex.camp
-    log
-    errors
-    ready
-    reload
-    forward . 8.8.8.8
-}

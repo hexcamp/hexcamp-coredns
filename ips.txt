@@ -1,7 +1,0 @@
-minikube6 18.223.241.236   # us-east-2: Top - ns1.test.hex.camp
-minikube7 52.192.142.148 # ap-northeast-1: Tokyo, Okinawa - ns1.23.h3.test.hex.camp, ns1.37.h3.test.hex.camp
-minikube8 34.212.187.214 # us-west-2: Victoria, Vancouver, Seattle, etc. - ns1.20.h3.test.hex.camp
-minikube9 3.69.232.138   # eu-central-1: Hawaii - ns1.46.h3.test.hex.camp
-
-
-

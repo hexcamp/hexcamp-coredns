@@ -1,6 +1,6 @@
 $ORIGIN test.hex.camp.
 @	3600 IN	SOA ns1.test.hex.camp. hostmaster.test.hex.camp. (
-				2024121201 ; serial
+				2024121202 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -11,10 +11,10 @@ $ORIGIN test.hex.camp.
 ns1	300 A 18.223.241.236
 ; ai - tokyo
 23.h3 300 IN NS ns1.23.h3.test.hex.camp.
-ns1.23.h3.test.hex.camp. 300 IN A 52.192.142.148
+ns1.23.h3.test.hex.camp. 300 IN A 13.115.80.123
 ; as7q - okinawa
 37.h3 300 IN NS ns1.37.h3.test.hex.camp.
-ns1.37.h3.test.hex.camp. 300 IN A 52.192.142.148
+ns1.37.h3.test.hex.camp. 300 IN A 13.115.80.123
 ; axpq - hawaii
 46.h3 300 IN NS ns1.46.h3.test.hex.camp.
 ns1.46.h3.test.hex.camp. 300 IN A 3.69.232.138

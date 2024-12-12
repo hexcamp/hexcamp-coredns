@@ -11,7 +11,7 @@ if [ -z "$AWS_SECRET_ACCESS_KEY" ]; then
   echo Need AWS_SECRET_ACCESS_KEY in SETENV
 fi
 
-cd top-level-corefiles/minikube6
+cd generator/current/corefiles/minikube6
 
 cat Corefile.template | \
   sed "s,<key>,\"$AWS_ACCESS_KEY_ID\"," | \

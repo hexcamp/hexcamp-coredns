@@ -11,7 +11,7 @@ if [ -z "$AWS_SECRET_ACCESS_KEY" ]; then
   echo Need AWS_SECRET_ACCESS_KEY in SETENV
 fi
 
-cd generator/current/corefiles/minikube6
+cd generator/current/corefiles/minikube10
 
 cat Corefile.template | \
   sed "s,<key>,\"$AWS_ACCESS_KEY_ID\"," | \
@@ -21,6 +21,6 @@ cat Corefile.template | \
 rsync -vaP \
   --exclude '*.template' \
   --exclude .gitignore \
-  . minikube6:/home/ubuntu/storage/coredns-test
+  . minikube10:/home/ubuntu/storage/coredns-test
 
 

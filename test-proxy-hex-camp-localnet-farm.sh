@@ -40,22 +40,22 @@ echo
 #   _dnslink.3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 30s TXT "dnslink=/ipfs/QmP8zX12WAbaaFyZGW9guhcTfVhyv1fiZjFYwJanoMeqAX"
 
 
-# minikube6 / minikube9 - Hawaii
+# minikube10 / minikube9 - Hawaii
 
 # curl 'https://axpq.doh-test.hex.camp:30443/dns-query?ct=application/dns-message&dns=AAABAAABAAAAAAAAAAACAAE' --output - | xxd 
 #
 
-# q @minikube6.localnet.farm A uxirkffr.test.hex.camp
+# q @minikube10.localnet.farm A uxirkffr.test.hex.camp
 # uxirkffr.test.hex.camp. 0s CNAME 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
 
 # q @minikube9.localnet.farm A 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp.
 # 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 1h CNAME pq-pop-ca-1.infra.hex.camp.
 
-# minikube6 / minikube7 - Tokyo, Okinawa
+# minikube10 / minikube7 - Tokyo, Okinawa
 
 # 6l22glmvqj2a.test.hex.camp - Encoded Hexagon lookup tool
 
-# q @minikube6.localnet.farm A 6l22glmvqj2a.test.hex.camp
+# q @minikube10.localnet.farm A 6l22glmvqj2a.test.hex.camp
 # 6l22glmvqj2a.test.hex.camp. 0s CNAME 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.
 
 # q @minikube7.localnet.farm A 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.
@@ -70,7 +70,7 @@ echo
 
 # Okinawa photos
 
-# q @minikube6.localnet.farm A ssrgdfv3.test.hex.camp
+# q @minikube10.localnet.farm A ssrgdfv3.test.hex.camp
 # ssrgdfv3.test.hex.camp. 0s CNAME 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp.
 
 # q @minikube7.localnet.farm A 6.5.6.2.6.0.6.4.0.37.h3.test.hex.camp.

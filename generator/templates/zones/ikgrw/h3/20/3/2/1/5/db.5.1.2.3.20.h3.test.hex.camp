@@ -76,7 +76,11 @@ _dnslink.3.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/Q
 2.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
 _dnslink.2.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmZHeUEKaeR5uvcYUy2HiaonSYNmRq3mJPqz6GXS6eHW4B"
 
-; ykgrv5aexe.hex.camp - jim - Photos - Portage Inlet Park
-4.3.1.1.0.4.6.3.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.4.3.1.1.0.4.6.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmQ1n9vLxVKAFvKs93vy9rbWsJwA2cfBws6aUio3rRWA3E"
+{% for site in sites -%}
+; {{ site.hex_id }}.test.hex.camp - {{ site.who }} - {{ site.comment }}
+{{ site.hex_reverse_path }}.h3.test.hex.camp. IN A {{ site.target_ipfs_server }}
+_dnslink.{{ site.hex_reverse_path }}.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{{ site.hex_reverse_path }}.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+
+{%- endfor %}
 

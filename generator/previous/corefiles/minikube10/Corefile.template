@@ -1,4 +1,4 @@
-# test.hex.camp - minikube1
+# test.hex.camp - minikube10
 .:53 {
     route53 test.hex.camp.:Z054283718N71MNTWBOIM {
 	  aws_access_key <key> <secret>

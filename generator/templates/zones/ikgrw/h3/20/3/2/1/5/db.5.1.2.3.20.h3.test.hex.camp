@@ -10,7 +10,7 @@ $TTL 5m
 
 	  IN NS ns1.5.1.2.3.20.h3.test.hex.camp.
 
-ns1 IN A {{ minikube8_ip }}
+ns1 IN A {{ ips.minikube8_ip }}
 
 ; 2kgrv5ga2i.hex.camp - jim - Victoria Photos Collection
 3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.

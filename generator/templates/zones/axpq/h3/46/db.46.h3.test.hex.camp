@@ -10,7 +10,7 @@ $TTL 5m
 
 	3600 IN NS ns1.46.h3.test.hex.camp.
 
-ns1 3600 IN A {{ minikube9_ip }} ; minikube9
+ns1 3600 IN A {{ ips.minikube9_ip }}
 
 ; uxirkffr.hex.camp - jim - Welcome to Hex.Camp HackMD
 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.

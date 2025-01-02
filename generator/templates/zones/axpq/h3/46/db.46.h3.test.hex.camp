@@ -12,7 +12,11 @@ $TTL 5m
 
 ns1 3600 IN A {{ ips.minikube9_ip }}
 
-; uxirkffr.hex.camp - jim - Welcome to Hex.Camp HackMD
-3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 60 IN	TXT	"dnslink=/ipfs/QmP8zX12WAbaaFyZGW9guhcTfVhyv1fiZjFYwJanoMeqAX"
+{% for site in sites -%}
+; {{ site.hex_id }}.test.hex.camp - {{ site.who }} - {{ site.comment }}
+{{ site.hex_reverse_path }}.h3.test.hex.camp. IN A {{ site.target_ipfs_server }}
+_dnslink.{{ site.hex_reverse_path }}.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{{ site.hex_reverse_path }}.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+
+{%- endfor %}
 

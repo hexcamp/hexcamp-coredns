@@ -1,7 +1,7 @@
 $ORIGIN 46.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns1.46.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025010101 ; serial
+				2025010102 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -15,4 +15,9 @@ ns1 3600 IN A 18.192.121.102
 ; uxirkffr.hex.camp - jim - Welcome to Hex.Camp HackMD
 3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
 _dnslink.3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 60 IN	TXT	"dnslink=/ipfs/QmP8zX12WAbaaFyZGW9guhcTfVhyv1fiZjFYwJanoMeqAX"
+
+; uxirkffr.test.hex.camp - jimpick.com - Welcome to Hex.Camp HackMD
+3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. IN A 15.235.47.12
+_dnslink.3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmP8zX12WAbaaFyZGW9guhcTfVhyv1fiZjFYwJanoMeqAX"
+3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmP8zX12WAbaaFyZGW9guhcTfVhyv1fiZjFYwJanoMeqAX"
 

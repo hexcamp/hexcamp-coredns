@@ -12,7 +12,10 @@ $TTL 5m
 
 ns1 IN A {{ ips.minikube7_ip }}
 
-; 6l22glmvqj2a.hex.camp - jim - Encoded Hexagon Lookup Tool 
-4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.	60 IN	TXT	"dnslink=/ipfs/QmeqPJcvEJNcEPahPHGadz7Z1dGqFBxQwHdxhic1dz7x88"
+{% for site in sites -%}
+; {{ site.hex_id }}.test.hex.camp - {{ site.who }} - {{ site.comment }}
+{{ site.hex_reverse_path }}.h3.test.hex.camp. IN A {{ site.target_ipfs_server }}
+_dnslink.{{ site.hex_reverse_path }}.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{{ site.hex_reverse_path }}.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
 
+{%- endfor %}

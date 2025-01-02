@@ -23,8 +23,10 @@ gen_new_file() {
     serial: "$SERIAL"
   }
 EOT
+  REGION=$(echo $DIRNAME | sed -n -E 's,^.*zones/([^/]+)/.*,\1,p')
+  cat tmp/sites-jim.json | jq "[.[] | select(.region == \"$REGION\")]" > tmp/region-sites.json
   jq -n \
-    --slurpfile sites tmp/sites-jim.json \
+    --slurpfile sites tmp/region-sites.json \
     --slurpfile ips ips.json \
     -f tmp/jq-cmd.txt > tmp/data.json
   minijinja-cli templates/$DIRNAME/$BASENAME tmp/data.json > current/$DIRNAME/$BASENAME
@@ -48,7 +50,7 @@ EOT
     }
 EOT
   jq -n \
-    --slurpfile sites tmp/sites-jim.json \
+    --slurpfile sites tmp/region-sites.json \
     --slurpfile ips ips.json \
     -f tmp/jq-cmd.txt > tmp/data.json
     minijinja-cli templates/$DIRNAME/$BASENAME tmp/data.json  > current/$DIRNAME/$BASENAME
@@ -57,6 +59,12 @@ EOT
 
 mkdir -p tmp
 
+csvclean -n sites/jim.csv > tmp/csv-clean.txt
+if [ -n "$(cat tmp/csv-clean.txt | grep -v 'No errors.')" ]; then
+  echo "CSV errors in sites/jim.csv!"
+  cat tmp/csv-clean.txt
+  exit 1
+fi
 csvjson sites/jim.csv > tmp/sites-jim.json
 
 for f in $(find templates -type f | sed 's,templates/,,'); do

@@ -13,6 +13,11 @@ fi
 
 cd generator/current/corefiles/minikube9
 
+cat Corefile.template | \
+  sed "s,<key>,\"$AWS_ACCESS_KEY_ID\"," | \
+  sed "s,<secret>,\"$AWS_SECRET_ACCESS_KEY\","  \
+  > Corefile
+
 rsync -vaP \
   --exclude '*.template' \
   --exclude .gitignore \

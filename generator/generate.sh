@@ -10,6 +10,7 @@ set -euo pipefail
 gen_new_file() {
   DIRNAME=$(dirname $1)
   BASENAME=$(basename $1)
+  #echo Generating: current/$DIRNAME/$BASENAME
   mkdir -p current/$DIRNAME
   SERIAL=$(cat previous/$DIRNAME/$BASENAME | sed -n -E 's,^[[:space:]]+([[:digit:]]+).*; serial,\1,p')
   if [ -z "$SERIAL" ]; then

@@ -12,13 +12,9 @@ $TTL 5m
 
 ns1 IN A {{ ips.minikube8_ip }}
 
-; 2kgrv5ga2i.test.hex.camp - jim - Victoria Photos Collection
-;3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-;_dnslink.3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmTk2UrD2WiV5NCH2GE5xDqAVExWxQHT8v5hsFuEAw472t"
-
 ; wkgrugwxj4.test.hex.camp - jim - Photos - Highrock Cairn Park
-4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmeCfGmca9dGnH5nhPehvq3MZq1L2m5J9VtEsqYxqc5832"
+; 4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+; _dnslink.4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmeCfGmca9dGnH5nhPehvq3MZq1L2m5J9VtEsqYxqc5832"
 
 ; 2kgrue625c7q.test.hex.camp - jim - Photos - Dallas Road
 2.4.6.5.6.6.3.2.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.

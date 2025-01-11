@@ -94,4 +94,9 @@ _dnslink.5.0.5.2.6.6.1.5.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ip
 _dnslink.2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmRPBmdBhySHaUzpEkEoHTr9tdNY4r5mF3fRx7behAwxkd"
 2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmRPBmdBhySHaUzpEkEoHTr9tdNY4r5mF3fRx7behAwxkd"
 
+; wkgrvqgfj4.test.hex.camp - jimpick.com - Demo - libp2p-browser-to-browser-playground
+4.2.1.6.0.0.3.5.1.2.3.20.h3.test.hex.camp. IN A 15.235.47.12
+_dnslink.4.2.1.6.0.0.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmWHa3cU4yfdmun9nmUkDVdgkNy7wPeLF9qGjzLE5h8V48"
+4.2.1.6.0.0.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmWHa3cU4yfdmun9nmUkDVdgkNy7wPeLF9qGjzLE5h8V48"
+
 

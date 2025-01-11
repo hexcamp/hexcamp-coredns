@@ -12,13 +12,9 @@ $TTL 5m
 
 ns1 IN A {{ ips.minikube8_ip }}
 
-; ykgrudu3e4.test.hex.camp - jim - Photos - Albert Head Lagoon
-; 3.2.6.6.4.6.1.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-; _dnslink.3.2.6.6.4.6.1.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmVqPHBW4xTcnqCqAuBHL5MUsaw1bMgHpsAeB9LCAooSmL"
-
 ; ykgrug2ukm.test.hex.camp - jim - Photos - Portage Park
-1.5.0.5.2.3.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.1.5.0.5.2.3.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmeDXbYUpn3kyu9JZ1wzTRrnXy3qkidv5R1snnfqgpa5Ur"
+; 1.5.0.5.2.3.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+; _dnslink.1.5.0.5.2.3.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmeDXbYUpn3kyu9JZ1wzTRrnXy3qkidv5R1snnfqgpa5Ur"
 
 ; ykgruhtnu4.test.hex.camp - jim - Demos - WebRTC Helia Stamen
 3.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.

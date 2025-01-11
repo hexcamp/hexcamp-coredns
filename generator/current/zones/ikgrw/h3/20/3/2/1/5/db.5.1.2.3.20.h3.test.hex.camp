@@ -1,7 +1,7 @@
 $ORIGIN 5.1.2.3.20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns1.5.1.2.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025011110 ; serial
+				2025011111 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -12,13 +12,9 @@ $TTL 5m
 
 ns1 IN A 54.202.130.30
 
-; 4kgrvlj3fixq.test.hex.camp - jim - Photos - Banfield Park
-; 5.0.5.2.6.6.1.5.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-; _dnslink.5.0.5.2.6.6.1.5.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmVGBsAxSruLx4ZcDgn2Xw7gMGPCdP92bCJTyunMRZWJaU"
-
 ; ukgrvlfnp4.test.hex.camp - jim - Demo - WebRTC Hex Swarm
-2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmRPBmdBhySHaUzpEkEoHTr9tdNY4r5mF3fRx7behAwxkd"
+; 2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+; _dnslink.2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmRPBmdBhySHaUzpEkEoHTr9tdNY4r5mF3fRx7behAwxkd"
 
 ; wkgrvqgfj4.test.hex.camp - jim - Demo - libp2p-browser-to-browser-playground
 4.2.1.6.0.0.3.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
@@ -96,5 +92,10 @@ _dnslink.1.1.6.4.6.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs
 5.0.5.2.6.6.1.5.5.2.5.1.2.3.20.h3.test.hex.camp. IN A 15.235.47.12
 _dnslink.5.0.5.2.6.6.1.5.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmVGBsAxSruLx4ZcDgn2Xw7gMGPCdP92bCJTyunMRZWJaU"
 5.0.5.2.6.6.1.5.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmVGBsAxSruLx4ZcDgn2Xw7gMGPCdP92bCJTyunMRZWJaU"
+
+; ukgrvlfnp4.test.hex.camp - jimpick.com - Demo - WebRTC Hex Swarm
+2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. IN A 15.235.47.12
+_dnslink.2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmRPBmdBhySHaUzpEkEoHTr9tdNY4r5mF3fRx7behAwxkd"
+2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmRPBmdBhySHaUzpEkEoHTr9tdNY4r5mF3fRx7behAwxkd"
 
 

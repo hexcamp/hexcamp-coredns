@@ -12,13 +12,9 @@ $TTL 5m
 
 ns1 IN A {{ ips.minikube8_ip }}
 
-; 2kgrvkwfni7q.test.hex.camp - jim - Photos - Mount Tolmie
-; 0.5.6.2.1.6.2.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-; _dnslink.0.5.6.2.1.6.2.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmTo1A3fJ9ZsavLp4qhGiQrPz9fxyoD67gAkJntYSm8rZe"
-
 ; 2kgrvlf2mj7q.test.hex.camp - jim - Victoria Libraries Map
-1.1.6.4.6.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.1.1.6.4.6.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmfG8WKELiubU4rRVLAidyfpSBw8yCkkqhZHxaJaRkeV48"
+; 1.1.6.4.6.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+; _dnslink.1.1.6.4.6.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmfG8WKELiubU4rRVLAidyfpSBw8yCkkqhZHxaJaRkeV48"
 
 ; 4kgrvlj3fixq.test.hex.camp - jim - Photos - Banfield Park
 5.0.5.2.6.6.1.5.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.

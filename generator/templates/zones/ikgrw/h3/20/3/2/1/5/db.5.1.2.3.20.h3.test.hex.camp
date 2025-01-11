@@ -12,13 +12,9 @@ $TTL 5m
 
 ns1 IN A {{ ips.minikube8_ip }}
 
-; ykgruhtnu4.test.hex.camp - jim - Demos - WebRTC Helia Stamen
-; 3.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-; _dnslink.3.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmdnXgnnFa8ZdyBnbsmUq6VqGSnBHhCjp1ej48jNKdGiqd"
-
 ; ykgruhtnuu.test.hex.camp - jim - Demos - WebRTC Helia Collector
-2.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.2.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmZHeUEKaeR5uvcYUy2HiaonSYNmRq3mJPqz6GXS6eHW4B"
+; 2.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+; _dnslink.2.2.3.3.3.6.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmZHeUEKaeR5uvcYUy2HiaonSYNmRq3mJPqz6GXS6eHW4B"
 
 ; generated
 

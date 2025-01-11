@@ -12,17 +12,9 @@ $TTL 5m
 
 ns1 IN A {{ ips.minikube8_ip }}
 
-; 2kgrugszem7q.test.hex.camp - jim - Photos - Saanich Gorge Park
-; 4.1.2.2.6.2.2.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-; _dnslink.4.1.2.2.6.2.2.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmRdyN2LRtMTb7AwTprJs6diS5eqkHMeKeLrNnnHQWJehk"
-
-; 2kgrv5deib7q.test.hex.camp - jim - Photos - Knockan Hill Park
-1.0.4.0.1.3.4.6.3.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.1.0.4.0.1.3.4.6.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmbBRVQ6ePAiRcrJDKzF3pk9xVVxtiwbwjy5ZNWeZzvKM4"
-
 ; 2kgrvkwfni7q.test.hex.camp - jim - Photos - Mount Tolmie
-0.5.6.2.1.6.2.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.0.5.6.2.1.6.2.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmTo1A3fJ9ZsavLp4qhGiQrPz9fxyoD67gAkJntYSm8rZe"
+; 0.5.6.2.1.6.2.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+; _dnslink.0.5.6.2.1.6.2.5.2.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmTo1A3fJ9ZsavLp4qhGiQrPz9fxyoD67gAkJntYSm8rZe"
 
 ; 2kgrvlf2mj7q.test.hex.camp - jim - Victoria Libraries Map
 1.1.6.4.6.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.

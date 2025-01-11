@@ -1,7 +1,7 @@
 $ORIGIN 5.1.2.3.20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns1.5.1.2.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025011103 ; serial
+				2025011104 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -12,13 +12,9 @@ $TTL 5m
 
 ns1 IN A 54.202.130.30
 
-; wkgrugwxj4.test.hex.camp - jim - Photos - Highrock Cairn Park
-; 4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-; _dnslink.4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmeCfGmca9dGnH5nhPehvq3MZq1L2m5J9VtEsqYxqc5832"
-
 ; 2kgrue625c7q.test.hex.camp - jim - Photos - Dallas Road
-2.4.6.5.6.6.3.2.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
-_dnslink.2.4.6.5.6.6.3.2.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmSZQAsgTYGTXTJunEXeEg51qqqrdnfCafi3XQdv5XyVMM"
+; 2.4.6.5.6.6.3.2.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
+; _dnslink.2.4.6.5.6.6.3.2.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmSZQAsgTYGTXTJunEXeEg51qqqrdnfCafi3XQdv5XyVMM"
 
 ; 2kgrug2zvv7q.test.hex.camp - jim - Photos - Craigflower Manor
 5.6.2.3.6.2.3.3.0.5.1.2.3.20.h3.test.hex.camp. CNAME pq-pop-ca-1.infra.hex.camp.
@@ -89,5 +85,10 @@ _dnslink.3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs
 4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. IN A 15.235.47.12
 _dnslink.4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmeCfGmca9dGnH5nhPehvq3MZq1L2m5J9VtEsqYxqc5832"
 4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmeCfGmca9dGnH5nhPehvq3MZq1L2m5J9VtEsqYxqc5832"
+
+; 2kgrue625c7q.test.hex.camp - jimpick.com - Photos - Dallas Road
+2.4.6.5.6.6.3.2.0.5.1.2.3.20.h3.test.hex.camp. IN A 15.235.47.12
+_dnslink.2.4.6.5.6.6.3.2.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmSZQAsgTYGTXTJunEXeEg51qqqrdnfCafi3XQdv5XyVMM"
+2.4.6.5.6.6.3.2.0.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmSZQAsgTYGTXTJunEXeEg51qqqrdnfCafi3XQdv5XyVMM"
 
 

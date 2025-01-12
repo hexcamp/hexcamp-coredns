@@ -1,7 +1,7 @@
 # Victoria, Vancouver, Seattle, etc.
 .:53 {
     # Victoria
-    dnsredir hex/5.1.2.3.20.h3.test.hex.camp {
+    dnsredir hex/5.1.2.3.20.h3.vichex.ca {
       to ietf-http-doh://hexcamp-ikgrw.ikgrw.minikube8.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s

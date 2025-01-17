@@ -6,6 +6,14 @@
     }
     hexcamp test.hex.camp
     file db.test.hex.camp test.hex.camp
+
+    route53 vichex.ca.:Z07768951ZVF1QU7K2JBT {
+        aws_access_key <key> <secret>
+        fallthrough
+    }
+    hexcamp vichex.ca
+    file db.vichex.ca vichex.ca
+
     log
     errors
     reload

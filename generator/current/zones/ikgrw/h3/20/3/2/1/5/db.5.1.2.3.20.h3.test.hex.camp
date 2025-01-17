@@ -1,7 +1,7 @@
 $ORIGIN 5.1.2.3.20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns1.5.1.2.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025011118 ; serial
+				2025011201 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -20,8 +20,8 @@ _dnslink.4.3.1.1.0.4.6.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/Q
 
 ; 2kgrv5ga2i.test.hex.camp - jimpick.com - Victoria Photos Collection
 3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. IN A 15.235.47.12
-_dnslink.3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmTk2UrD2WiV5NCH2GE5xDqAVExWxQHT8v5hsFuEAw472t"
-3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmTk2UrD2WiV5NCH2GE5xDqAVExWxQHT8v5hsFuEAw472t"
+_dnslink.3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmUP68Q2ZbAFgftCZ9NFZ6Z1PuB7vvh5WdWC5HBAD3rvio"
+3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmUP68Q2ZbAFgftCZ9NFZ6Z1PuB7vvh5WdWC5HBAD3rvio"
 
 ; wkgrugwxj4.test.hex.camp - jimpick.com - Photos - Highrock Cairn Park
 4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. IN A 15.235.47.12

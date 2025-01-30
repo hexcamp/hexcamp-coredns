@@ -1,7 +1,7 @@
 $ORIGIN 20.h3.vichex.ca.
 $TTL 5m
 @	3600 IN	SOA ns1.20.h3.vichex.ca. hostmaster.vichex.ca. (
-				2025011701 ; serial
+				2025012901 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,8 +10,8 @@ $TTL 5m
 
 	IN NS ns1.20.h3.vichex.ca.
 
-ns1 IN A 35.92.64.8
+ns1 IN A 52.88.20.177
 
 ; Victoria
 5.1.2.3.20.h3.vichex.ca. 3600 IN NS ns1.5.1.2.3.20.h3.vichex.ca. 
-ns1.5.1.2.3.20.h3.vichex.ca. 3600 IN A 35.92.64.8
+ns1.5.1.2.3.20.h3.vichex.ca. 3600 IN A 52.88.20.177

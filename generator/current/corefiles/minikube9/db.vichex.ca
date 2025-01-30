@@ -1,6 +1,6 @@
 $ORIGIN vichex.ca.
 @	3600 IN	SOA ns1.vichex.ca. hostmaster.vichex.ca. (
-				2025012001 ; serial
+				2025012901 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -9,8 +9,8 @@ $ORIGIN vichex.ca.
 
 	3600 IN NS ns1
 	3600 IN NS ns2
-ns1	300 A 18.156.73.62
-ns2	300 A 18.116.45.232
+ns1	300 A 18.184.173.241
+ns2	300 A 18.188.154.249
 ; akpq - victoria
 20.h3 300 IN NS ns1.20.h3.vichex.ca.
-ns1.20.h3.vichex.ca. 300 IN A 35.92.64.8
+ns1.20.h3.vichex.ca. 300 IN A 52.88.20.177

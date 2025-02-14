@@ -8,7 +8,8 @@ pushd generator
 ./generate.sh
 popd
 
-./upload-minikube10.sh
+set +e
 ./upload-minikube7.sh
 ./upload-minikube8.sh
 ./upload-minikube9.sh
+./upload-minikube10.sh

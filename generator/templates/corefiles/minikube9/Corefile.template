@@ -32,4 +32,5 @@
     rrl . {
       responses-per-second 3
     }
+    prometheus 0.0.0.0:9153
 }

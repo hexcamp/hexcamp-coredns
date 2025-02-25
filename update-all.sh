@@ -2,6 +2,13 @@
 
 set -euxo pipefail
 
+sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+
+ssh minikube7 date
+ssh minikube8 date
+ssh minikube9 date
+ssh minikube10 date
+
 pushd generator
 ./copy-current-to-prev.sh
 ./update-ips-from-tofu.sh

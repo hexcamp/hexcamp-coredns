@@ -1,7 +1,7 @@
 $ORIGIN 5.1.2.3.20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns1.5.1.2.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025022002 ; serial
+				2025022501 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,7 +10,7 @@ $TTL 5m
 
 	  IN NS ns1.5.1.2.3.20.h3.test.hex.camp.
 
-ns1 IN A 34.216.29.227
+ns1 IN A 35.91.184.170
 
 
 ; ykgrv5aexe.test.hex.camp - jimpick.com - Photos - Portage Inlet Park

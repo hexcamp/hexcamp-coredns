@@ -13,14 +13,14 @@ fi
 
 cd generator/current/corefiles/minikube8
 
-rsync -vaP \
+rsync -qaP \
   --exclude '*.template' \
   --exclude .gitignore \
   . minikube8:/home/ubuntu/storage/coredns-test
 
 cd ../../zones
 
-rsync -vaP \
+rsync -qaP \
   ikgrw \
   gkgy6 \
   akpq \

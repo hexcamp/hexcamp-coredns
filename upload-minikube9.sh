@@ -18,14 +18,14 @@ cat Corefile.template | \
   sed "s,<secret>,\"$AWS_SECRET_ACCESS_KEY\","  \
   > Corefile
 
-rsync -vaP \
+rsync -qaP \
   --exclude '*.template' \
   --exclude .gitignore \
   . minikube9:/home/ubuntu/storage/coredns-test
 
 cd ../../zones
 
-rsync -vaP \
+rsync -qaP \
   axpq \
   minikube9:/home/ubuntu/storage/coredns-data
 

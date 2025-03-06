@@ -3,4 +3,4 @@
 set -euxo pipefail
 
 rm -rf previous
-cp -av current previous
+cp -a current previous

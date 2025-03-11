@@ -2,6 +2,12 @@
 
 set -euo pipefail
 
+echo "Events:"
+kubectl --context ryzen9 -n repair logs -l app=event-display | tail -7
+
+echo "Last IPs:"
+cat generator/ips.json
+
 echo "sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
 

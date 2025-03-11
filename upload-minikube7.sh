@@ -20,9 +20,10 @@ rsync -qaP \
 
 cd ../../zones
 
-rsync -qaP \
-  ai \
-  minikube7:/home/ubuntu/storage/coredns-data
+#rsync -qaP \
+#  ai \
+#  minikube7:/home/ubuntu/storage/coredns-data
 
+rclone copy ai ai:
 rclone copy as7q as7q:
 

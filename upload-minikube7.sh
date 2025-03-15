@@ -13,17 +13,10 @@ fi
 
 cd generator/current/corefiles/minikube7
 
-rsync -qaP \
-  --exclude '*.template' \
-  --exclude .gitignore \
-  . minikube7:/home/ubuntu/storage/coredns-test
+rclone copy . minikube7-proxy:
 
 cd ../../zones
 
-#rsync -qaP \
-#  ai \
-#  minikube7:/home/ubuntu/storage/coredns-data
-
-rclone copy ai ai:
-rclone copy as7q as7q:
+rclone copy ai minikube7-ai:
+rclone copy as7q minikube7-as7q:
 

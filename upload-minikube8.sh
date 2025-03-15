@@ -13,17 +13,11 @@ fi
 
 cd generator/current/corefiles/minikube8
 
-rsync -qaP \
-  --exclude '*.template' \
-  --exclude .gitignore \
-  . minikube8:/home/ubuntu/storage/coredns-test
+rclone copy . minikube8-proxy:
 
 cd ../../zones
 
-rsync -qaP \
-  ikgrw \
-  gkgy6 \
-  akpq \
-  minikube8:/home/ubuntu/storage/coredns-data
-
+rclone copy akpq minikube8-akpq:
+rclone copy ikgrw minikube8-ikgrw:
+rclone copy gkgy6 minikube8-gkgy6:
 

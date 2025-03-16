@@ -21,20 +21,24 @@ IP_9=$(cat generator/ips.json | jq -r .minikube9_ip)
 IP_10=$(cat generator/ips.json | jq -r .minikube10_ip)
 
 if [ -n "$IP_7" ]; then
-  echo -n "minikube7: "
-  curl -s http://$IP_7:9153/metrics | grep ^coredns_dns_do_requests_total
+  echo "minikube7: http://$IP_7:9153/metrics"
+  echo -n "           "
+  curl -s http://$IP_7:9153/metrics | grep ^coredns_build_info
 fi
 if [ -n "$IP_8" ]; then
-  echo -n "minikube8: "
-  curl -s http://$IP_8:9153/metrics | grep ^coredns_dns_do_requests_total
+  echo "minikube8: http://$IP_8:9153/metrics"
+  echo -n "           "
+  curl -s http://$IP_8:9153/metrics | grep ^coredns_build_info
 fi
 if [ -n "$IP_9" ]; then
-  echo -n "minikube9: "
-  curl -s http://$IP_9:9153/metrics | grep ^coredns_dns_do_requests_total
+  echo "minikube9: http://$IP_9:9153/metrics"
+  echo -n "           "
+  curl -s http://$IP_9:9153/metrics | grep ^coredns_build_info
 fi
 if [ -n "$IP_10" ]; then
-  echo -n "minikube10: "
-  curl -s http://$IP_10:9153/metrics | grep ^coredns_dns_do_requests_total
+  echo "minikube10: http://$IP_10:9153/metrics"
+  echo -n "            "
+  curl -s http://$IP_10:9153/metrics | grep ^coredns_build_info
 fi
 
 cd generator

@@ -1,1 +1,1 @@
-while true; do kubectl --context minikube7 logs -f coredns-test; sleep 1; done
+while true; do kubectl --context minikube7 logs -f coredns-proxy; sleep 1; done

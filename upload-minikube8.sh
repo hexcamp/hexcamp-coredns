@@ -13,11 +13,11 @@ fi
 
 cd generator/current/corefiles/minikube8
 
-rclone copy . minikube8-proxy:
+rclone sync . minikube8-proxy:
 
 cd ../../zones
 
-rclone copy akpq minikube8-akpq:
-rclone copy ikgrw minikube8-ikgrw:
-rclone copy gkgy6 minikube8-gkgy6:
+rclone sync akpq minikube8-akpq:
+rclone sync ikgrw minikube8-ikgrw:
+rclone sync gkgy6 minikube8-gkgy6:
 

@@ -22,19 +22,19 @@ IP_10=$(cat generator/ips.json | jq -r .minikube10_ip)
 
 if [ -n "$IP_7" ]; then
   echo -n "minikube7: "
-  ssh minikube7 date
+  curl -s http://$IP_7:9153/metrics | grep ^coredns_dns_do_requests_total
 fi
 if [ -n "$IP_8" ]; then
   echo -n "minikube8: "
-  ssh minikube8 date
+  curl -s http://$IP_8:9153/metrics | grep ^coredns_dns_do_requests_total
 fi
 if [ -n "$IP_9" ]; then
   echo -n "minikube9: "
-  ssh minikube9 date
+  curl -s http://$IP_9:9153/metrics | grep ^coredns_dns_do_requests_total
 fi
 if [ -n "$IP_10" ]; then
   echo -n "minikube10: "
-  ssh minikube10 date
+  curl -s http://$IP_10:9153/metrics | grep ^coredns_dns_do_requests_total
 fi
 
 cd generator

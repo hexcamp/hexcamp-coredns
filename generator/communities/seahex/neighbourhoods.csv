@@ -1,11 +1,34 @@
-name,hex_id
-University District,
-Fremont,
-Ballard,
-Magnolia,
-Queen Anne,
-Downtown,
-Capitol Hill,
-Belltown,
-Chinatown-International District,
-Central District,
+name,resolution,hex_id,reverse_path
+University District,8,qkgvide7,4.4.1.0.2
+University District,8,qkgvidg7,6.4.1.0.2
+University District,8,qkgvide7,4.4.1.0.2
+University District,8,qkgvikt7,3.2.5.0.2
+Fremont,8,qkgvi5w7,6.6.6.1.2
+Fremont,8,qkgvik57,5.3.5.0.2
+Fremont,8,qkgvik47,4.3.5.0.2
+Ballard,8,qkgvi4b7,1.0.6.1.2
+Ballard,8,qkgvi4d7,3.0.6.1.2
+Ballard,8,qkgvi4a7,0.0.6.1.2
+Ballard,8,qkgvi4c7,2.0.6.1.2
+Magnolia,8,qkgvi5b7,1.4.6.1.2
+Magnolia,8,qkgvi5f7,5.4.6.1.2
+Magnolia,8,qkgvi5a7,0.4.6.1.2
+Magnolia,8,qkgvi5e7,4.4.6.1.2
+Queen Anne,8,qkgviki7,0.1.5.0.2
+Queen Anne,8,qkgviko7,6.1.5.0.2
+Queen Anne,8,qkgvill7,3.5.5.0.2
+Queen Anne,8,qkgvikf7,5.0.5.0.2
+Belltown,9,skgvilot,4.6.5.5.0.2
+Belltown,9,skgvilfh,1.5.4.5.0.2
+Belltown,9,skgvilfp,3.5.4.5.0.2
+Belltown,9,skgvilfd,0.5.4.5.0.2
+Downtown,9,skgvilax,5.0.4.5.0.2
+Downtown,9,skgvilf3,6.5.4.5.0.2
+Downtown,9,skgvileh,1.4.4.5.0.2
+Downtown,9,skgvilep,3.4.4.5.0.2
+Capitol Hill,8,qkgvilv7,5.6.5.0.2
+Capitol Hill,8,qkgvilc7,2.4.5.0.2
+Capitol Hill,8,qkgvilu7,4.6.5.0.2
+Central District,8,qkgviin7,5.1.4.0.2
+Central District,8,qkgviii7,0.1.4.0.2
+Central District,8,qkgviim7,4.1.4.0.2

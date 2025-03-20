@@ -14,6 +14,13 @@
     hexcamp vichex.ca
     file db.vichex.ca vichex.ca
 
+    route53 seahex.org.:Z067634225NKASXQ5OWP6 {
+        aws_access_key <key> <secret>
+        fallthrough
+    }
+    hexcamp seahex.org
+    file db.seahex.org seahex.org
+
     log
     errors
     reload

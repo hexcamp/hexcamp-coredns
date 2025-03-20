@@ -1,12 +1,16 @@
 #! /bin/bash
 
-# Mt Tolmie
+# SEAHex.org Landing Page
 #
-# https://2kgrvkwfni7q.test.hex.camp/
+# https://6kgvileuk4va.seahex.org/
 
 set -x
 
-#   q @minikube9.localnet.farm A 2kgrvkwfni7q.test.hex.camp
+q @minikube9.localnet.farm A 6kgvileuk4va.seahex.org
+# 6kgvileuk4va.seahex.org. 5s CNAME 2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org.
+
+
+
 #   # 2kgrvkwfni7q.test.hex.camp. 5s CNAME 0.5.6.2.1.6.2.5.2.5.1.2.3.20.h3.test.hex.camp.
 #   
 #   q @minikube9.localnet.farm A 2kgrvkwfni7q.seahex.org

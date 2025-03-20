@@ -20,4 +20,4 @@ cd ../../zones
 rclone copy akpq minikube8-akpq:
 rclone copy ikgrw minikube8-ikgrw:
 rclone copy gkgy6 minikube8-gkgy6:
-
+rclone copy gkgv6 minikube8-gkgv6:

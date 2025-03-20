@@ -1,0 +1,25 @@
+$ORIGIN seahex.org.
+@	3600 IN	SOA ns1.seahex.org. hostmaster.seahex.org. (
+				{{ serial }} ; serial
+				7200       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				300       ; minimum (5 minutes)
+				)
+
+{%- if ips.minikube9_ip %}
+@ 3600 IN NS ns1
+ns1	300 A {{ ips.minikube9_ip }}
+{%- endif %}
+
+{%- if ips.minikube10_ip %}
+@ 3600 IN NS ns2
+ns2	300 A {{ ips.minikube10_ip }}
+{%- endif %}
+
+; akpq - victoria / seattle / vancouver / california
+20.h3 300 IN NS ns1.20.h3.seahex.org.
+{%- if ips.minikube8_ip %}
+ns1.20.h3.seahex.org. 300 IN A {{ ips.minikube8_ip }}
+{%- endif %}
+

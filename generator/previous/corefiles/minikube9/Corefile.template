@@ -13,6 +13,13 @@
     hexcamp vichex.ca
     file db.vichex.ca vichex.ca
 
+    route53 seahex.org.:Z067634225NKASXQ5OWP6 {
+        aws_access_key <key> <secret>
+        fallthrough
+    }
+    hexcamp seahex.org
+    file db.seahex.org seahex.org
+
     # Hawaii
     dnsredir hex/46.h3.test.hex.camp {
       to ietf-http-doh://hexcamp-axpq.axpq.minikube9.localnet.farm:30080/dns-query

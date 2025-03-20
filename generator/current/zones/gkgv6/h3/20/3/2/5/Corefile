@@ -1,0 +1,8 @@
+https://.:80 {
+    file db.5.2.3.20.h3.seahex.org 5.3.3.20.h3.seahex.org
+    log
+    errors
+    ready
+    reload
+    forward . 8.8.8.8
+}

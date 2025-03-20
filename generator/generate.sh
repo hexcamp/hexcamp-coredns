@@ -25,6 +25,7 @@ gen_new_file() {
   }
 EOT
   REGION=$(echo $DIRNAME | sed -n -E 's,^.*zones/([^/]+)/.*,\1,p')
+  echo Region: $REGION
   cat tmp/sites-jim.json | jq "[.[] | select(.region == \"$REGION\")]" > tmp/region-sites.json
   jq -n \
     --slurpfile sites tmp/region-sites.json \
@@ -67,6 +68,15 @@ if [ -n "$(cat tmp/csv-clean.txt | grep -v 'No errors.')" ]; then
   exit 1
 fi
 csvjson sites/jim.csv > tmp/sites-jim.json
+
+#TEST=zones/gkgv6/h3/20/3/2/5/db.5.2.3.20.h3.seahex.org
+TEST=
+if [ -n "$TEST" ]; then
+  echo $TEST
+  gen_new_file $TEST
+  diff -u previous/$TEST current/$TEST || true
+  exit
+fi
 
 for f in $(find templates -type f | sed 's,templates/,,'); do
   #echo $f

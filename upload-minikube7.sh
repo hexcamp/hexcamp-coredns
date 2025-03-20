@@ -13,10 +13,10 @@ fi
 
 cd generator/current/corefiles/minikube7
 
-rclone copy . minikube7-proxy:
+rclone sync --ignore-times . minikube7-proxy:
 
 cd ../../zones
 
-rclone copy ai minikube7-ai:
-rclone copy as7q minikube7-as7q:
+rclone sync --ignore-times ai minikube7-ai:
+rclone sync --ignore-times as7q minikube7-as7q:
 

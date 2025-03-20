@@ -1,4 +1,4 @@
-$ORIGIN 5.3.3.20.h3.seahex.org.
+$ORIGIN 5.2.3.20.h3.seahex.org.
 $TTL 5m
 @	3600 IN	SOA ns1.5.2.3.20.h3.seahex.org. hostmaster.seahex.org. (
 				{{ serial }} ; serial

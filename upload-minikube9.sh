@@ -18,9 +18,9 @@ cat Corefile.template | \
   sed "s,<secret>,\"$AWS_SECRET_ACCESS_KEY\","  \
   > Corefile
 
-rclone copy . minikube9-proxy:
+rclone sync --ignore-times . minikube9-proxy:
 
 cd ../../zones
 
-rclone copy axpq minikube9-axpq:
+rclone sync --ignore-times axpq minikube9-axpq:
 

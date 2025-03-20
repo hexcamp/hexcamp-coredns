@@ -18,5 +18,5 @@ cat Corefile.template | \
   sed "s,<secret>,\"$AWS_SECRET_ACCESS_KEY\","  \
   > Corefile
 
-rclone sync . minikube10-proxy:
+rclone copy . minikube10-proxy:
 

@@ -1,7 +1,9 @@
 import base32 from 'base32.js'
 import { Buffer } from 'buffer'
-import { geoToH3, h3GetBaseCell, h3GetResolution, h3IndexToSplitLong } from "h3-js";
-import { getEnabledCategories } from 'trace_events';
+import { getOriginH3IndexFromUnidirectionalEdge, h3GetBaseCell, h3GetResolution, h3IndexToSplitLong } from "h3-js";
+import { parse } from 'csv-parse/sync';
+import { readFileSync, writeFileSync } from 'fs';
+
 
 function urlToHex(url) {
   const decoder = new base32.Decoder({ type: 'rfc4648', lc: true })
@@ -49,7 +51,7 @@ function getIndexDigit(lower, upper, res) {
   return ((upper & 1) << 2) + (lower >>> 30);
 }
 
-function getDigits(h4Str, resolution) {
+function getDigits(h3Str, resolution) {
   const [lower, upper] = h3IndexToSplitLong(h3Str);
   const digits = [];
   for (let i = 1; i <= resolution; i++) {
@@ -91,7 +93,7 @@ function getH3Bits(res, base, digits) {
 
 function toBytes(big, byteLen) {
   big = (big << 4n) + 15n;
-  console.log('Big2:', big.toString(2))
+  // console.log('Big2:', big.toString(2))
   let result = new Uint8Array(byteLen);
   let i = 1;
   while (big > 0n) {
@@ -103,13 +105,14 @@ function toBytes(big, byteLen) {
 }
 
 function getH3(res, base, digits) {
-  const bits = getH3Bits(resolution, base, digits);
+  const bits = getH3Bits(res, base, digits);
   const bytes = toBytes(bits, 8)
   const byteStr = Buffer.from(bytes).toString('hex')
   return byteStr.slice(0, byteStr.length - 1)
 }
 
 
+/*
 const hexId = '6kgvileuk4va'
 console.log('HexId:', hexId);
 const h3Str = urlToHex(hexId);
@@ -129,3 +132,51 @@ console.log('Bytes:', Buffer.from(bytes).toString('hex'))
 const newH3Str = getH3(resolution, base, digits);
 console.log('New H3:', newH3Str)
 console.log('New Hex ID:', hexToUrl(newH3Str))
+*/
+
+function genSubAllocHex(res, base, digits, childNum) {
+  res++;
+  const newDigits = [...digits];
+  newDigits.push(childNum);
+  while (res < 15) {
+    res++;
+    newDigits.push(6);
+  }
+  const newH3Str = getH3(res, base, newDigits);
+  return newH3Str;
+}
+
+// https://csv.js.org/parse/api/sync/
+
+const input = readFileSync('../neighbourhoods.csv', 'utf8')
+const records = parse(input, {
+  columns: true,
+  skip_empty_lines: true
+});
+
+let output = 'name,neighbourhood_hex_id,child_num,hex_id\n'
+
+for (const {name, resolution, hex_id, reverse_path} of records) {
+  console.log(name, resolution, hex_id, reverse_path);
+  const h3Str = urlToHex(hex_id);
+  console.log('  H3:', h3Str);
+  const res = h3GetResolution(h3Str);
+  console.log('  Resolution:', res);
+  const base = h3GetBaseCell(h3Str);
+  console.log('  Base Cell:', base);
+  const digits = getDigits(h3Str, res);
+  console.log('  Digits:', digits.join(', '));
+  const children = []
+  for (let i = 0; i < 4; i++) {
+    const childH3Str = genSubAllocHex(res, base, digits, i);
+    const childHexId = hexToUrl(childH3Str);
+    console.log('  Child %d: %s, %s', i, childH3Str, childHexId)
+    const childRes = h3GetResolution(childH3Str);
+    console.log('    Resolution:', childRes);
+    const childDigits = getDigits(childH3Str, childRes);
+    console.log('    Digits:', childDigits.join(', '));
+    output += `${name},${hex_id},${i},${childHexId}\n`;
+  }
+}
+// console.log(output)
+writeFileSync('../allocated.csv', output);

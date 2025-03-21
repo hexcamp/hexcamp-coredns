@@ -13,6 +13,20 @@ function urlToHex(url) {
   return padded
 }
 
+function hexToUrl(h3Index) {
+  if (!h3Index) return ''
+  let trimmed = h3Index.replace(/f*$/, '')
+  if (trimmed[0] !== '8') return 'Error'
+  if (trimmed.length % 2 === 0) {
+    trimmed += 'f'
+  }
+  const buf = Buffer.from(trimmed.slice(1), 'hex')
+  const encoder = new base32.Encoder({ type: 'rfc4648', lc: true })
+  // console.log("Jim hexToUrl", h3Index, buf)
+  const str = encoder.write(buf).finalize()
+  return str
+}
+
 // From https://observablehq.com/@nrabinowitz/h3-index-bit-layout?collection=@nrabinowitz/h3
 function getIndexDigit(lower, upper, res) {
   const H3_PER_DIGIT_OFFSET = 3;
@@ -114,3 +128,4 @@ const bytes = toBytes(bits, 8)
 console.log('Bytes:', Buffer.from(bytes).toString('hex'))
 const newH3Str = getH3(resolution, base, digits);
 console.log('New H3:', newH3Str)
+console.log('New Hex ID:', hexToUrl(newH3Str))

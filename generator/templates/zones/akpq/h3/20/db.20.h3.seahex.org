@@ -9,9 +9,13 @@ $TTL 5m
 				)
 
 	IN NS ns1.20.h3.seahex.org.
+	IN NS ns2.20.h3.seahex.org.
 
-ns1 IN A {{ ips.minikube8_ip }}
+ns1 IN A {{ ips.minikube7_ip }}
+ns2 IN A {{ ips.minikube8_ip }}
 
 ; Seattle
 5.2.3.20.h3.seahex.org. 3600 IN NS ns1.5.2.3.20.h3.seahex.org. 
-ns1.5.2.3.20.h3.seahex.org. 3600 IN A {{ ips.minikube8_ip }}
+5.2.3.20.h3.seahex.org. 3600 IN NS ns2.5.2.3.20.h3.seahex.org. 
+ns1.5.2.3.20.h3.seahex.org. 3600 IN A {{ ips.minikube7_ip }}
+ns2.5.2.3.20.h3.seahex.org. 3600 IN A {{ ips.minikube8_ip }}

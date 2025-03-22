@@ -1,5 +1,26 @@
 # Victoria, Vancouver, Seattle, etc.
 .:53 {
+    # Tokyo
+    dnsredir hex/23.h3.test.hex.camp {
+      to ietf-http-doh://hexcamp-ai.ai.minikube8.localnet.farm:30080/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+      spray # Use even without health check
+    }
+    # Okinawa
+    dnsredir hex/37.h3.test.hex.camp {
+      to ietf-http-doh://hexcamp-as7q.as7q.minikube8.localnet.farm:30080/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+      spray # Use even without health check
+    }
+
     # Victoria
     dnsredir hex/5.1.2.3.20.h3.vichex.ca {
       to ietf-http-doh://hexcamp-ikgrw.ikgrw.minikube8.localnet.farm:30080/dns-query

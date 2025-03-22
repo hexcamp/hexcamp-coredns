@@ -19,5 +19,16 @@ q @minikube8.localnet.farm A 2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org.
 # 2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org. 5m A 15.235.47.12
 
 q txt @minikube8.localnet.farm _dnslink.2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org.
-#_dnslink.2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org. 1m TXT "dnslink=/ipfs/QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx"
+# _dnslink.2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org. 1m TXT "dnslink=/ipfs/QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx"
+
+# PDS
+
+q 6kgvidednw3a.seahex.org
+# 6kgvidednw3a.seahex.org. 5s CNAME 6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org.
+# 6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. 5s CNAME ovh-front-nuc2.infra.hex.camp.
+# ovh-front-nuc2.infra.hex.camp. 5m A 66.70.132.47
+# 6kgvidednw3a.seahex.org. 3s CNAME 6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org.
+
+# curl https://6kgvidednw3a.seahex.org/.well-known/atproto-did; echo
+did:plc:rghjdig6qjwxgpuunyrea3b3
 

@@ -9,10 +9,14 @@ $TTL 5m
 				)
 
 	    IN NS ns1.5.2.3.20.h3.seahex.org.
+	    IN NS ns2.5.2.3.20.h3.seahex.org.
 
-ns1 IN A {{ ips.minikube8_ip }}
+ns1 IN A {{ ips.minikube7_ip }}
+ns2 IN A {{ ips.minikube8_ip }}
 
 6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
+_atproto.6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. TXT "did=did:plc:rghjdig6qjwxgpuunyrea3b3"
+
 6.6.6.6.6.6.1.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.2.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.3.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
@@ -20,7 +24,6 @@ ns1 IN A {{ ips.minikube8_ip }}
 6.6.6.6.6.6.1.6.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.2.6.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.3.6.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
-6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.1.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.2.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.3.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.

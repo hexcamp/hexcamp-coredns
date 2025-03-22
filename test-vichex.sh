@@ -31,3 +31,10 @@ q @minikube8.localnet.farm TXT _dnslink.0.5.6.2.1.6.2.5.2.5.1.2.3.20.h3.vichex.c
 #_dnslink.0.5.6.2.1.6.2.5.2.5.1.2.3.20.h3.vichex.ca. 1m TXT "dnslink=/ipfs/QmTo1A3fJ9ZsavLp4qhGiQrPz9fxyoD67gAkJntYSm8rZe"
 
 q @8.8.8.8 2kgrvkwfni7q.vichex.ca
+
+
+# Base cell 20
+
+q @http://hexcamp-akpq.akpq.minikube8.localnet.farm:30080 A ns1.20.h3.seahex.org.
+# ns1.20.h3.seahex.org. 5m A 54.238.221.51
+

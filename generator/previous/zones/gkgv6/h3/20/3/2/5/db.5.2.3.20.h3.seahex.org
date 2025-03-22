@@ -1,7 +1,7 @@
 $ORIGIN 5.2.3.20.h3.seahex.org.
 $TTL 5m
 @	3600 IN	SOA ns1.5.2.3.20.h3.seahex.org. hostmaster.seahex.org. (
-				2025032103 ; serial
+				2025032205 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -9,10 +9,14 @@ $TTL 5m
 				)
 
 	    IN NS ns1.5.2.3.20.h3.seahex.org.
+	    IN NS ns2.5.2.3.20.h3.seahex.org.
 
-ns1 IN A 34.221.220.232
+ns1 IN A 54.238.221.51
+ns2 IN A 54.202.189.81
 
 6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
+_atproto.6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. TXT "did=did:plc:rghjdig6qjwxgpuunyrea3b3"
+
 6.6.6.6.6.6.1.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.2.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.3.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
@@ -20,7 +24,6 @@ ns1 IN A 34.221.220.232
 6.6.6.6.6.6.1.6.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.2.6.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.3.6.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
-6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.1.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.2.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.3.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.

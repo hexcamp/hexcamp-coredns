@@ -1,6 +1,7 @@
 https://.:80 {
     file db.20.h3.test.hex.camp 20.h3.test.hex.camp
     file db.20.h3.vichex.ca 20.h3.vichex.ca
+    file db.20.h3.seahex.org 20.h3.seahex.org
     log
     errors
     ready

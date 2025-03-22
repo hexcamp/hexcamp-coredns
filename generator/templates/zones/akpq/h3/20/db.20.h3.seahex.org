@@ -1,0 +1,17 @@
+$ORIGIN 20.h3.seahex.org.
+$TTL 5m
+@	3600 IN	SOA ns1.20.h3.seahex.org. hostmaster.seahex.org. (
+				{{ serial }} ; serial
+				7200       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				3600       ; minimum (1 hour)
+				)
+
+	IN NS ns1.20.h3.seahex.org.
+
+ns1 IN A {{ ips.minikube8_ip }}
+
+; Seattle
+5.2.3.20.h3.seahex.org. 3600 IN NS ns1.5.2.3.20.h3.seahex.org. 
+ns1.5.2.3.20.h3.seahex.org. 3600 IN A {{ ips.minikube8_ip }}

@@ -154,7 +154,7 @@ const records = parse(input, {
   skip_empty_lines: true
 });
 
-let output = 'name,neighbourhood_hex_id,child_num,hex_id\n'
+let output = 'name,neighbourhood_hex_id,child_num,hex_id,dns_mapping\n'
 
 for (const {name, resolution, hex_id, reverse_path} of records) {
   console.log(name, resolution, hex_id, reverse_path);
@@ -175,7 +175,10 @@ for (const {name, resolution, hex_id, reverse_path} of records) {
     console.log('    Resolution:', childRes);
     const childDigits = getDigits(childH3Str, childRes);
     console.log('    Digits:', childDigits.join(', '));
-    output += `${name},${hex_id},${i},${childHexId}\n`;
+    const revDigits = [...childDigits].reverse();
+    const dnsMapping = revDigits.join('.') + '.20.h3.seahex.org.';
+    console.log('    DNS:', dnsMapping);
+    output += `${name},${hex_id},${i},${childHexId},${dnsMapping}\n`;
   }
 }
 // console.log(output)

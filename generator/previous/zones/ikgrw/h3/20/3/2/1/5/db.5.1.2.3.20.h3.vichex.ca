@@ -1,7 +1,7 @@
 $ORIGIN 5.1.2.3.20.h3.vichex.ca.
 $TTL 5m
 @	3600 IN	SOA ns1.5.1.2.3.20.h3.vichex.ca. hostmaster.vichex.ca. (
-				2025032203 ; serial
+				2025032207 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,7 +10,7 @@ $TTL 5m
 
 	  IN NS ns1.5.1.2.3.20.h3.vichex.ca.
 
-ns1 IN A 54.202.189.81
+ns1 IN A 35.92.58.58
 
 
 ; ykgrv5aexe.vichex.ca - jimpick.com - Photos - Portage Inlet Park

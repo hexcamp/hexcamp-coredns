@@ -61,6 +61,24 @@
       health_check 100000s
       spray # Use even without health check
     }
+    dnsredir hex/20.h3.vichex.ca {
+      to ietf-http-doh://hexcamp-akpq.akpq.minikube8.localnet.farm:30080/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+      spray # Use even without health check
+    }
+    dnsredir hex/20.h3.seahex.org {
+      to ietf-http-doh://hexcamp-akpq.akpq.minikube8.localnet.farm:30080/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+      spray # Use even without health check
+    }
     log
     errors
     reload

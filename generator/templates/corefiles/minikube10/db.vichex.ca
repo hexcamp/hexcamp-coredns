@@ -19,7 +19,11 @@ ns2	300 A {{ ips.minikube10_ip }}
 
 ; akpq - victoria / seattle / vancouver / california
 20.h3 300 IN NS ns1.20.h3.vichex.ca.
+{%- if ips.minikube7_ip %}
+ns1.20.h3.vichex.ca. 300 IN A {{ ips.minikube7_ip }}
+{%- endif %}
+20.h3 300 IN NS ns2.20.h3.vichex.ca.
 {%- if ips.minikube8_ip %}
-ns1.20.h3.vichex.ca. 300 IN A {{ ips.minikube8_ip }}
+ns2.20.h3.vichex.ca. 300 IN A {{ ips.minikube8_ip }}
 {%- endif %}
 

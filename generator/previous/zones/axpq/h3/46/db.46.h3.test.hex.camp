@@ -1,7 +1,7 @@
 $ORIGIN 46.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns1.46.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025031901 ; serial
+				2025032601 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,7 +10,7 @@ $TTL 5m
 
 	3600 IN NS ns1.46.h3.test.hex.camp.
 
-ns1 3600 IN A 18.184.173.241
+ns1 3600 IN A 3.79.179.222
 
 
 ; uxirkffr.test.hex.camp - jimpick.com - Welcome to Hex.Camp HackMD

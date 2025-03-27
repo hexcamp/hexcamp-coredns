@@ -23,10 +23,20 @@ ns2	300 A {{ ips.minikube10_ip }}
 ns1.23.h3.test.hex.camp. 300 IN A {{ ips.minikube7_ip }}
 {%- endif %}
 
+23.h3 300 IN NS ns2.23.h3.test.hex.camp.
+{%- if ips.minikube8_ip %}
+ns2.23.h3.test.hex.camp. 300 IN A {{ ips.minikube8_ip }}
+{%- endif %}
+
 ; as7q - okinawa
 37.h3 300 IN NS ns1.37.h3.test.hex.camp.
 {%- if ips.minikube7_ip %}
 ns1.37.h3.test.hex.camp. 300 IN A {{ ips.minikube7_ip }}
+{%- endif %}
+
+37.h3 300 IN NS ns2.37.h3.test.hex.camp.
+{%- if ips.minikube8_ip %}
+ns2.37.h3.test.hex.camp. 300 IN A {{ ips.minikube8_ip }}
 {%- endif %}
 
 ; axpq - hawaii
@@ -37,7 +47,12 @@ ns1.46.h3.test.hex.camp. 300 IN A {{ ips.minikube9_ip }}
 
 ; akpq - victoria
 20.h3 300 IN NS ns1.20.h3.test.hex.camp.
+{%- if ips.minikube7_ip %}
+ns1.20.h3.test.hex.camp. 300 IN A {{ ips.minikube7_ip }}
+{%- endif %}
+
+20.h3 300 IN NS ns2.20.h3.test.hex.camp.
 {%- if ips.minikube8_ip %}
-ns1.20.h3.test.hex.camp. 300 IN A {{ ips.minikube8_ip }}
+ns2.20.h3.test.hex.camp. 300 IN A {{ ips.minikube8_ip }}
 {%- endif %}
 

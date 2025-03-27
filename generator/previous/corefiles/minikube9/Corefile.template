@@ -1,22 +1,35 @@
 .:53 {
+    view acme_challenge {
+      expr name() matches '^_acme-challenge\\.'
+    }
+
     route53 test.hex.camp.:Z054283718N71MNTWBOIM {
         aws_access_key <key> <secret>
-        fallthrough
     }
+    route53 vichex.ca.:Z07768951ZVF1QU7K2JBT {
+        aws_access_key <key> <secret>
+    }
+    route53 seahex.org.:Z067634225NKASXQ5OWP6 {
+        aws_access_key <key> <secret>
+    }
+
+    log
+    errors
+    reload
+    debug
+    cache
+    rrl . {
+      responses-per-second 3
+    }
+    prometheus 0.0.0.0:9153
+}
+.:53 {
     hexcamp test.hex.camp
     file db.test.hex.camp test.hex.camp
 
-    route53 vichex.ca.:Z07768951ZVF1QU7K2JBT {
-        aws_access_key <key> <secret>
-        fallthrough
-    }
     hexcamp vichex.ca
     file db.vichex.ca vichex.ca
 
-    route53 seahex.org.:Z067634225NKASXQ5OWP6 {
-        aws_access_key <key> <secret>
-        fallthrough
-    }
     hexcamp seahex.org
     file db.seahex.org seahex.org
 

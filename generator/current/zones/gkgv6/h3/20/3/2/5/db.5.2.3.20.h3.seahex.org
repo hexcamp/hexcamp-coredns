@@ -1,7 +1,7 @@
 $ORIGIN 5.2.3.20.h3.seahex.org.
 $TTL 5m
 @	3600 IN	SOA ns1.5.2.3.20.h3.seahex.org. hostmaster.seahex.org. (
-				2025032209 ; serial
+				2025032606 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,9 +10,7 @@ $TTL 5m
 
 	    IN NS ns1.5.2.3.20.h3.seahex.org.
 	    IN NS ns2.5.2.3.20.h3.seahex.org.
-
-ns1 IN A 54.238.221.51
-ns2 IN A 35.92.58.58
+ns2 IN A 35.90.97.44
 
 6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 _atproto.6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. TXT "did=did:plc:rghjdig6qjwxgpuunyrea3b3"

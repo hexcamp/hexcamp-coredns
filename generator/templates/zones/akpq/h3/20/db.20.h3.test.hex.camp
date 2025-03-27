@@ -11,18 +11,30 @@ $TTL 5m
 	IN NS ns1.20.h3.test.hex.camp.
 	IN NS ns2.20.h3.test.hex.camp.
 
+{%- if ips.minikube7_ip %}
 ns1 IN A {{ ips.minikube7_ip }}
+{%- endif %}
+{%- if ips.minikube8_ip %}
 ns2 IN A {{ ips.minikube8_ip }}
+{%- endif %}
 
 ; Victoria
 5.1.2.3.20.h3.test.hex.camp. 3600 IN NS ns1.5.1.2.3.20.h3.test.hex.camp. 
 5.1.2.3.20.h3.test.hex.camp. 3600 IN NS ns2.5.1.2.3.20.h3.test.hex.camp. 
+{%- if ips.minikube7_ip %}
 ns1.5.1.2.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube7_ip }}
+{%- endif %}
+{%- if ips.minikube8_ip %}
 ns2.5.1.2.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube8_ip }}
+{%- endif %}
 
 ; Cortes Island
 0.3.3.20.h3.test.hex.camp. 3500 IN NS ns1.0.3.3.20.h3.test.hex.camp.
 0.3.3.20.h3.test.hex.camp. 3500 IN NS ns2.0.3.3.20.h3.test.hex.camp.
+{%- if ips.minikube7_ip %}
 ns1.0.3.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube7_ip }}
+{%- endif %}
+{%- if ips.minikube8_ip %}
 ns2.0.3.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube8_ip }}
+{%- endif %}
 

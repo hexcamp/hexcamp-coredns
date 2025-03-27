@@ -10,7 +10,12 @@ $TTL 5m
 
 	  IN NS ns1.5.1.2.3.20.h3.test.hex.camp.
 
-ns1 IN A {{ ips.minikube8_ip }}
+{%- if ips.minikube7_ip %}
+ns1 IN A {{ ips.minikube7_ip }}
+{%- endif %}
+{%- if ips.minikube8_ip %}
+ns2 IN A {{ ips.minikube8_ip }}
+{%- endif %}
 
 {% for site in sites %}
 ; {{ site.hex_id }}.test.hex.camp - {{ site.who }} - {{ site.comment }}

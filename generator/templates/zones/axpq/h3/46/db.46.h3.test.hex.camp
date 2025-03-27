@@ -10,7 +10,9 @@ $TTL 5m
 
 	3600 IN NS ns1.46.h3.test.hex.camp.
 
+{%- if ips.minikube9_ip %}
 ns1 3600 IN A {{ ips.minikube9_ip }}
+{%- endif %}
 
 {% for site in sites %}
 ; {{ site.hex_id }}.test.hex.camp - {{ site.who }} - {{ site.comment }}

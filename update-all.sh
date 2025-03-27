@@ -70,10 +70,10 @@ if [ -n "$IP_10" ]; then
   echo Uploading to minikube10
   timeout -v 30 ./upload-minikube10.sh
 fi
-echo Updating nonce for seahex.org
-./update-nonce-seahex.sh
-echo Updating nonce for vichex.ca
-./update-nonce-vichex.sh
+#echo Updating nonce for seahex.org
+#./update-nonce-seahex.sh
+#echo Updating nonce for vichex.ca
+#./update-nonce-vichex.sh
 
 
 echo Done.

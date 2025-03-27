@@ -29,6 +29,10 @@
     hexcamp seahex.org
     file db.seahex.org seahex.org
 
+    forward test.hex.camp /etc/resolv.conf
+    forward seahex.org /etc/resolv.conf
+    forward vichex.ca /etc/resolv.conf
+
     log
     errors
     reload

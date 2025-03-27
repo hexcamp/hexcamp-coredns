@@ -1,6 +1,6 @@
 $ORIGIN seahex.org.
 @	3600 IN	SOA ns1.seahex.org. hostmaster.seahex.org. (
-				2025032648 ; serial
+				2025032704 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -9,10 +9,11 @@ $ORIGIN seahex.org.
 @ 3600 IN NS ns1
 ns1	300 A 3.79.179.222
 @ 3600 IN NS ns2
-ns2	300 A 3.16.68.247
+ns2	300 A 18.190.217.238
 
 ; akpq - victoria / seattle / vancouver / california
 20.h3 300 IN NS ns1.20.h3.seahex.org.
+ns1.20.h3.seahex.org. 300 IN A 54.168.184.155
 20.h3 300 IN NS ns2.20.h3.seahex.org.
 ns2.20.h3.seahex.org. 300 IN A 35.90.97.44
 

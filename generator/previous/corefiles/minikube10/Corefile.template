@@ -29,6 +29,8 @@
     hexcamp seahex.org
     file db.seahex.org seahex.org
 
+    forward h3.seahex.org 1.1.1.1 8.8.8.8 9.9.9.9
+
     log
     errors
     reload

@@ -9,6 +9,7 @@ $TTL 5m
 				)
 
 	  IN NS ns1.5.1.2.3.20.h3.vichex.ca.
+	  IN NS ns2.5.1.2.3.20.h3.vichex.ca.
 
 {%- if ips.minikube7_ip %}
 ns1 IN A {{ ips.minikube7_ip }}

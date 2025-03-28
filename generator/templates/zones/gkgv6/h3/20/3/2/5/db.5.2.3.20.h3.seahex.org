@@ -1,6 +1,6 @@
 $ORIGIN 5.2.3.20.h3.seahex.org.
 $TTL 5m
-@	3600 IN	SOA ns1.5.2.3.20.h3.seahex.org. hostmaster.seahex.org. (
+@	3600 IN	SOA ns.5.2.3.20.h3.seahex.org. hostmaster.seahex.org. (
 				{{ serial }} ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
@@ -8,14 +8,14 @@ $TTL 5m
 				3600       ; minimum (1 hour)
 				)
 
-	    IN NS ns1.5.2.3.20.h3.seahex.org.
-	    IN NS ns2.5.2.3.20.h3.seahex.org.
 
 {%- if ips.minikube7_ip %}
-ns1 IN A {{ ips.minikube7_ip }}
+@ IN NS ns-minikube7.5.2.3.20.h3.seahex.org.
+ns-minikube7 IN A {{ ips.minikube7_ip }}
 {%- endif %}
 {%- if ips.minikube8_ip %}
-ns2 IN A {{ ips.minikube8_ip }}
+@ IN NS ns-minikube8.5.2.3.20.h3.seahex.org.
+ns-minikube8 IN A {{ ips.minikube8_ip }}
 {%- endif %}
 
 6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.

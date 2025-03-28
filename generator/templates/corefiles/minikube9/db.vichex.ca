@@ -1,5 +1,5 @@
 $ORIGIN vichex.ca.
-@	3600 IN	SOA ns1.vichex.ca. hostmaster.vichex.ca. (
+@	3600 IN	SOA ns.vichex.ca. hostmaster.vichex.ca. (
 				{{ serial }} ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
@@ -8,22 +8,22 @@ $ORIGIN vichex.ca.
 				)
 
 {%- if ips.minikube9_ip %}
-@ 3600 IN NS ns1
-ns1	300 A {{ ips.minikube9_ip }}
+@ 3600 IN NS ns-minikube9
+ns-minikube9	300 A {{ ips.minikube9_ip }}
 {%- endif %}
 
 {%- if ips.minikube10_ip %}
-@ 3600 IN NS ns2
-ns2	300 A {{ ips.minikube10_ip }}
+@ 3600 IN NS ns-minikube10
+ns-minikube10	300 A {{ ips.minikube10_ip }}
 {%- endif %}
 
 ; akpq - victoria / seattle / vancouver / california
-20.h3 300 IN NS ns1.20.h3.vichex.ca.
 {%- if ips.minikube7_ip %}
-ns1.20.h3.vichex.ca. 300 IN A {{ ips.minikube7_ip }}
+20.h3 300 IN NS ns-minikube7.20.h3.vichex.ca.
+ns-minikube7.20.h3.vichex.ca. 300 IN A {{ ips.minikube7_ip }}
 {%- endif %}
-20.h3 300 IN NS ns2.20.h3.vichex.ca.
 {%- if ips.minikube8_ip %}
-ns2.20.h3.vichex.ca. 300 IN A {{ ips.minikube8_ip }}
+20.h3 300 IN NS ns-minikube8.20.h3.vichex.ca.
+ns-minikube8.20.h3.vichex.ca. 300 IN A {{ ips.minikube8_ip }}
 {%- endif %}
 

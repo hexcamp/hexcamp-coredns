@@ -1,6 +1,6 @@
 $ORIGIN 5.1.2.3.20.h3.vichex.ca.
 $TTL 5m
-@	3600 IN	SOA ns1.5.1.2.3.20.h3.vichex.ca. hostmaster.vichex.ca. (
+@	3600 IN	SOA ns.5.1.2.3.20.h3.vichex.ca. hostmaster.vichex.ca. (
 				{{ serial }} ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
@@ -8,14 +8,13 @@ $TTL 5m
 				3600       ; minimum (1 hour)
 				)
 
-	  IN NS ns1.5.1.2.3.20.h3.vichex.ca.
-	  IN NS ns2.5.1.2.3.20.h3.vichex.ca.
-
 {%- if ips.minikube7_ip %}
-ns1 IN A {{ ips.minikube7_ip }}
+@ IN NS ns-minikube7.5.1.2.3.20.h3.vichex.ca.
+ns-minikube7 IN A {{ ips.minikube7_ip }}
 {%- endif %}
 {%- if ips.minikube8_ip %}
-ns2 IN A {{ ips.minikube8_ip }}
+@ IN NS ns-minikube8.5.1.2.3.20.h3.vichex.ca.
+ns-minikube8 IN A {{ ips.minikube8_ip }}
 {%- endif %}
 
 {% for site in sites %}

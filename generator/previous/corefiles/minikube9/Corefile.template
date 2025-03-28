@@ -1,37 +1,19 @@
-.:53 {
+test.hex.camp:53 {
     view acme_challenge {
       expr name() matches '^_acme-challenge\\.'
     }
-
     route53 test.hex.camp.:Z054283718N71MNTWBOIM {
-        aws_access_key <key> <secret>
+	    aws_access_key <key> <secret>
     }
-    route53 vichex.ca.:Z07768951ZVF1QU7K2JBT {
-        aws_access_key <key> <secret>
-    }
-    route53 seahex.org.:Z067634225NKASXQ5OWP6 {
-        aws_access_key <key> <secret>
-    }
-
     log
     errors
     reload
-    debug
     cache
-    rrl . {
-      responses-per-second 3
-    }
     prometheus 0.0.0.0:9153
 }
-.:53 {
+test.hex.camp:53 {
     hexcamp test.hex.camp
     file db.test.hex.camp test.hex.camp
-
-    hexcamp vichex.ca
-    file db.vichex.ca vichex.ca
-
-    hexcamp seahex.org
-    file db.seahex.org seahex.org
 
     # Hawaii
     dnsredir hex/46.h3.test.hex.camp {
@@ -44,15 +26,54 @@
       spray # Use even without health check
     }
 
-    #forward . 1.1.1.1 8.8.8.8 9.9.9.9
-
     log
     errors
     reload
-    debug
     cache
-    rrl . {
-      responses-per-second 3
+    prometheus 0.0.0.0:9153
+    debug
+}
+vichex.ca:53 {
+    view acme_challenge {
+      expr name() matches '^_acme-challenge\\.'
     }
+    route53 vichex.ca.:Z07768951ZVF1QU7K2JBT {
+      aws_access_key <key> <secret>
+    }
+    log
+    errors
+    reload
+    cache
+    prometheus 0.0.0.0:9153
+}
+vichex.ca:53 {
+    hexcamp vichex.ca
+    file db.vichex.ca vichex.ca
+    log
+    errors
+    reload
+    cache
+    prometheus 0.0.0.0:9153
+}
+seahex.org:53 {
+    view acme_challenge {
+      expr name() matches '^_acme-challenge\\.'
+    }
+    route53 seahex.org.:Z067634225NKASXQ5OWP6 {
+      aws_access_key <key> <secret>
+    }
+    log
+    errors
+    reload
+    cache
+    prometheus 0.0.0.0:9153
+}
+seahex.org:53 {
+    hexcamp seahex.org
+    file db.seahex.org seahex.org
+    log
+    errors
+    reload
+    cache
     prometheus 0.0.0.0:9153
 }

@@ -18,6 +18,15 @@ ns-minikube7 IN A {{ ips.minikube7_ip }}
 ns-minikube8 IN A {{ ips.minikube8_ip }}
 {%- endif %}
 
+; IPFS
+
+6kgvdnw3nwya,0.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc.infra.hex.camp
+6kgvhnw3nwya,0.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc.infra.hex.camp
+6kgvlnw3nwya,0.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp
+6kgvpnw3nwya,0.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp
+6kgvtnw3nwya,0.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp
+6kgvxnw3nwya,0.6.6.6.6.6.6.6.6.6.6.5.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp
+
 ; ATMosphereConf 2025
 
 ; ATProto - Jim Pick in Seattle

@@ -1,17 +1,24 @@
 $ORIGIN 5.2.3.20.h3.seahex.org.
 $TTL 5m
 @	3600 IN	SOA ns.5.2.3.20.h3.seahex.org. hostmaster.seahex.org. (
-				2025032706 ; serial
+				2025032905 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
+@ IN NS ns-minikube7.5.2.3.20.h3.seahex.org.
+ns-minikube7 IN A 18.181.177.254
 @ IN NS ns-minikube8.5.2.3.20.h3.seahex.org.
-ns-minikube8 IN A 44.244.139.121
+ns-minikube8 IN A 44.245.162.31
 
+; ATMosphereConf 2025
+
+; ATProto - Jim Pick in Seattle
+; https://bsky.app/profile/6kgvidednw3a.seahex.org
+; https://bsky-debug.app/handle?handle=6kgvidednw3a.seahex.org
 6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
-_atproto.6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. TXT "did=did:plc:rghjdig6qjwxgpuunyrea3b3"
+; _atproto.6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. TXT "did=did:plc:rghjdig6qjwxgpuunyrea3b3"
 
 6.6.6.6.6.6.1.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.2.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.

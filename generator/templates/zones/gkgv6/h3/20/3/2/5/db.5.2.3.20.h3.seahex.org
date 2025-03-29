@@ -18,8 +18,13 @@ ns-minikube7 IN A {{ ips.minikube7_ip }}
 ns-minikube8 IN A {{ ips.minikube8_ip }}
 {%- endif %}
 
+; ATMosphereConf 2025
+
+; ATProto - Jim Pick in Seattle
+; https://bsky.app/profile/6kgvidednw3a.seahex.org
+; https://bsky-debug.app/handle?handle=6kgvidednw3a.seahex.org
 6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
-_atproto.6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. TXT "did=did:plc:rghjdig6qjwxgpuunyrea3b3"
+; _atproto.6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org. TXT "did=did:plc:rghjdig6qjwxgpuunyrea3b3"
 
 6.6.6.6.6.6.1.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.2.4.4.1.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.

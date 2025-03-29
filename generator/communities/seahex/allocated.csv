@@ -1,133 +1,133 @@
-name,neighbourhood_hex_id,child_num,hex_id,dns_mapping
-University District,qkgvide7,0,6kgvidednw3a,6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvide7,1,6kgvidehnw3a,6.6.6.6.6.6.1.4.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvide7,2,6kgvidelnw3a,6.6.6.6.6.6.2.4.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvide7,3,6kgvidepnw3a,6.6.6.6.6.6.3.4.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvidg7,0,6kgvidgdnw3a,6.6.6.6.6.6.0.6.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvidg7,1,6kgvidghnw3a,6.6.6.6.6.6.1.6.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvidg7,2,6kgvidglnw3a,6.6.6.6.6.6.2.6.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvidg7,3,6kgvidgpnw3a,6.6.6.6.6.6.3.6.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvide7,0,6kgvidednw3a,6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvide7,1,6kgvidehnw3a,6.6.6.6.6.6.1.4.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvide7,2,6kgvidelnw3a,6.6.6.6.6.6.2.4.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvide7,3,6kgvidepnw3a,6.6.6.6.6.6.3.4.4.1.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvikt7,0,6kgviktdnw3a,6.6.6.6.6.6.0.3.2.5.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvikt7,1,6kgvikthnw3a,6.6.6.6.6.6.1.3.2.5.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvikt7,2,6kgviktlnw3a,6.6.6.6.6.6.2.3.2.5.0.2.5.2.3.20.h3.seahex.org.
-University District,qkgvikt7,3,6kgviktpnw3a,6.6.6.6.6.6.3.3.2.5.0.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvi5w7,0,6kgvi5wdnw3a,6.6.6.6.6.6.0.6.6.6.1.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvi5w7,1,6kgvi5whnw3a,6.6.6.6.6.6.1.6.6.6.1.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvi5w7,2,6kgvi5wlnw3a,6.6.6.6.6.6.2.6.6.6.1.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvi5w7,3,6kgvi5wpnw3a,6.6.6.6.6.6.3.6.6.6.1.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvik57,0,6kgvik5dnw3a,6.6.6.6.6.6.0.5.3.5.0.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvik57,1,6kgvik5hnw3a,6.6.6.6.6.6.1.5.3.5.0.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvik57,2,6kgvik5lnw3a,6.6.6.6.6.6.2.5.3.5.0.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvik57,3,6kgvik5pnw3a,6.6.6.6.6.6.3.5.3.5.0.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvik47,0,6kgvik4dnw3a,6.6.6.6.6.6.0.4.3.5.0.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvik47,1,6kgvik4hnw3a,6.6.6.6.6.6.1.4.3.5.0.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvik47,2,6kgvik4lnw3a,6.6.6.6.6.6.2.4.3.5.0.2.5.2.3.20.h3.seahex.org.
-Fremont,qkgvik47,3,6kgvik4pnw3a,6.6.6.6.6.6.3.4.3.5.0.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4b7,0,6kgvi4bdnw3a,6.6.6.6.6.6.0.1.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4b7,1,6kgvi4bhnw3a,6.6.6.6.6.6.1.1.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4b7,2,6kgvi4blnw3a,6.6.6.6.6.6.2.1.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4b7,3,6kgvi4bpnw3a,6.6.6.6.6.6.3.1.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4d7,0,6kgvi4ddnw3a,6.6.6.6.6.6.0.3.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4d7,1,6kgvi4dhnw3a,6.6.6.6.6.6.1.3.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4d7,2,6kgvi4dlnw3a,6.6.6.6.6.6.2.3.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4d7,3,6kgvi4dpnw3a,6.6.6.6.6.6.3.3.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4a7,0,6kgvi4adnw3a,6.6.6.6.6.6.0.0.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4a7,1,6kgvi4ahnw3a,6.6.6.6.6.6.1.0.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4a7,2,6kgvi4alnw3a,6.6.6.6.6.6.2.0.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4a7,3,6kgvi4apnw3a,6.6.6.6.6.6.3.0.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4c7,0,6kgvi4cdnw3a,6.6.6.6.6.6.0.2.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4c7,1,6kgvi4chnw3a,6.6.6.6.6.6.1.2.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4c7,2,6kgvi4clnw3a,6.6.6.6.6.6.2.2.0.6.1.2.5.2.3.20.h3.seahex.org.
-Ballard,qkgvi4c7,3,6kgvi4cpnw3a,6.6.6.6.6.6.3.2.0.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5b7,0,6kgvi5bdnw3a,6.6.6.6.6.6.0.1.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5b7,1,6kgvi5bhnw3a,6.6.6.6.6.6.1.1.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5b7,2,6kgvi5blnw3a,6.6.6.6.6.6.2.1.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5b7,3,6kgvi5bpnw3a,6.6.6.6.6.6.3.1.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5f7,0,6kgvi5fdnw3a,6.6.6.6.6.6.0.5.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5f7,1,6kgvi5fhnw3a,6.6.6.6.6.6.1.5.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5f7,2,6kgvi5flnw3a,6.6.6.6.6.6.2.5.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5f7,3,6kgvi5fpnw3a,6.6.6.6.6.6.3.5.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5a7,0,6kgvi5adnw3a,6.6.6.6.6.6.0.0.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5a7,1,6kgvi5ahnw3a,6.6.6.6.6.6.1.0.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5a7,2,6kgvi5alnw3a,6.6.6.6.6.6.2.0.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5a7,3,6kgvi5apnw3a,6.6.6.6.6.6.3.0.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5e7,0,6kgvi5ednw3a,6.6.6.6.6.6.0.4.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5e7,1,6kgvi5ehnw3a,6.6.6.6.6.6.1.4.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5e7,2,6kgvi5elnw3a,6.6.6.6.6.6.2.4.4.6.1.2.5.2.3.20.h3.seahex.org.
-Magnolia,qkgvi5e7,3,6kgvi5epnw3a,6.6.6.6.6.6.3.4.4.6.1.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgviki7,0,6kgvikidnw3a,6.6.6.6.6.6.0.0.1.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgviki7,1,6kgvikihnw3a,6.6.6.6.6.6.1.0.1.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgviki7,2,6kgvikilnw3a,6.6.6.6.6.6.2.0.1.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgviki7,3,6kgvikipnw3a,6.6.6.6.6.6.3.0.1.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgviko7,0,6kgvikodnw3a,6.6.6.6.6.6.0.6.1.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgviko7,1,6kgvikohnw3a,6.6.6.6.6.6.1.6.1.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgviko7,2,6kgvikolnw3a,6.6.6.6.6.6.2.6.1.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgviko7,3,6kgvikopnw3a,6.6.6.6.6.6.3.6.1.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgvill7,0,6kgvilldnw3a,6.6.6.6.6.6.0.3.5.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgvill7,1,6kgvillhnw3a,6.6.6.6.6.6.1.3.5.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgvill7,2,6kgvilllnw3a,6.6.6.6.6.6.2.3.5.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgvill7,3,6kgvillpnw3a,6.6.6.6.6.6.3.3.5.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgvikf7,0,6kgvikfdnw3a,6.6.6.6.6.6.0.5.0.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgvikf7,1,6kgvikfhnw3a,6.6.6.6.6.6.1.5.0.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgvikf7,2,6kgvikflnw3a,6.6.6.6.6.6.2.5.0.5.0.2.5.2.3.20.h3.seahex.org.
-Queen Anne,qkgvikf7,3,6kgvikfpnw3a,6.6.6.6.6.6.3.5.0.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilot,0,6kgviloqnw3a,6.6.6.6.6.0.4.6.5.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilot,1,6kgviloq5w3a,6.6.6.6.6.1.4.6.5.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilot,2,6kgvilornw3a,6.6.6.6.6.2.4.6.5.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilot,3,6kgvilor5w3a,6.6.6.6.6.3.4.6.5.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfh,0,6kgvilfenw3a,6.6.6.6.6.0.1.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfh,1,6kgvilfe5w3a,6.6.6.6.6.1.1.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfh,2,6kgvilffnw3a,6.6.6.6.6.2.1.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfh,3,6kgvilff5w3a,6.6.6.6.6.3.1.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfp,0,6kgvilfmnw3a,6.6.6.6.6.0.3.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfp,1,6kgvilfm5w3a,6.6.6.6.6.1.3.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfp,2,6kgvilfnnw3a,6.6.6.6.6.2.3.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfp,3,6kgvilfn5w3a,6.6.6.6.6.3.3.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfd,0,6kgvilfanw3a,6.6.6.6.6.0.0.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfd,1,6kgvilfa5w3a,6.6.6.6.6.1.0.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfd,2,6kgvilfbnw3a,6.6.6.6.6.2.0.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Belltown,skgvilfd,3,6kgvilfb5w3a,6.6.6.6.6.3.0.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilax,0,6kgvilaunw3a,6.6.6.6.6.0.5.0.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilax,1,6kgvilau5w3a,6.6.6.6.6.1.5.0.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilax,2,6kgvilavnw3a,6.6.6.6.6.2.5.0.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilax,3,6kgvilav5w3a,6.6.6.6.6.3.5.0.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilf3,0,6kgvilfynw3a,6.6.6.6.6.0.6.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilf3,1,6kgvilfy5w3a,6.6.6.6.6.1.6.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilf3,2,6kgvilfznw3a,6.6.6.6.6.2.6.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilf3,3,6kgvilfz5w3a,6.6.6.6.6.3.6.5.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvileh,0,6kgvileenw3a,6.6.6.6.6.0.1.4.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvileh,1,6kgvilee5w3a,6.6.6.6.6.1.1.4.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvileh,2,6kgvilefnw3a,6.6.6.6.6.2.1.4.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvileh,3,6kgvilef5w3a,6.6.6.6.6.3.1.4.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilep,0,6kgvilemnw3a,6.6.6.6.6.0.3.4.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilep,1,6kgvilem5w3a,6.6.6.6.6.1.3.4.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilep,2,6kgvilennw3a,6.6.6.6.6.2.3.4.4.5.0.2.5.2.3.20.h3.seahex.org.
-Downtown,skgvilep,3,6kgvilen5w3a,6.6.6.6.6.3.3.4.4.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilv7,0,6kgvilvdnw3a,6.6.6.6.6.6.0.5.6.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilv7,1,6kgvilvhnw3a,6.6.6.6.6.6.1.5.6.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilv7,2,6kgvilvlnw3a,6.6.6.6.6.6.2.5.6.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilv7,3,6kgvilvpnw3a,6.6.6.6.6.6.3.5.6.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilc7,0,6kgvilcdnw3a,6.6.6.6.6.6.0.2.4.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilc7,1,6kgvilchnw3a,6.6.6.6.6.6.1.2.4.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilc7,2,6kgvilclnw3a,6.6.6.6.6.6.2.2.4.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilc7,3,6kgvilcpnw3a,6.6.6.6.6.6.3.2.4.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilu7,0,6kgviludnw3a,6.6.6.6.6.6.0.4.6.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilu7,1,6kgviluhnw3a,6.6.6.6.6.6.1.4.6.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilu7,2,6kgvilulnw3a,6.6.6.6.6.6.2.4.6.5.0.2.5.2.3.20.h3.seahex.org.
-Capitol Hill,qkgvilu7,3,6kgvilupnw3a,6.6.6.6.6.6.3.4.6.5.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviin7,0,6kgviindnw3a,6.6.6.6.6.6.0.5.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviin7,1,6kgviinhnw3a,6.6.6.6.6.6.1.5.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviin7,2,6kgviinlnw3a,6.6.6.6.6.6.2.5.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviin7,3,6kgviinpnw3a,6.6.6.6.6.6.3.5.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviii7,0,6kgviiidnw3a,6.6.6.6.6.6.0.0.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviii7,1,6kgviiihnw3a,6.6.6.6.6.6.1.0.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviii7,2,6kgviiilnw3a,6.6.6.6.6.6.2.0.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviii7,3,6kgviiipnw3a,6.6.6.6.6.6.3.0.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviim7,0,6kgviimdnw3a,6.6.6.6.6.6.0.4.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviim7,1,6kgviimhnw3a,6.6.6.6.6.6.1.4.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviim7,2,6kgviimlnw3a,6.6.6.6.6.6.2.4.1.4.0.2.5.2.3.20.h3.seahex.org.
-Central District,qkgviim7,3,6kgviimpnw3a,6.6.6.6.6.6.3.4.1.4.0.2.5.2.3.20.h3.seahex.org.
+name,neighbourhood_hex_id,child_num,hex_id,dns_mapping,notes
+University District,qkgvide7,0,6kgvidednw3a,6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org.,Jim in Seattle
+University District,qkgvide7,1,6kgvidehnw3a,6.6.6.6.6.6.1.4.4.1.0.2.5.2.3.20.h3.seahex.org.,Handed out
+University District,qkgvide7,2,6kgvidelnw3a,6.6.6.6.6.6.2.4.4.1.0.2.5.2.3.20.h3.seahex.org.,Handed out
+University District,qkgvide7,3,6kgvidepnw3a,6.6.6.6.6.6.3.4.4.1.0.2.5.2.3.20.h3.seahex.org.,Handed out
+University District,qkgvidg7,0,6kgvidgdnw3a,6.6.6.6.6.6.0.6.4.1.0.2.5.2.3.20.h3.seahex.org.,Handed out
+University District,qkgvidg7,1,6kgvidghnw3a,6.6.6.6.6.6.1.6.4.1.0.2.5.2.3.20.h3.seahex.org.,Handed out
+University District,qkgvidg7,2,6kgvidglnw3a,6.6.6.6.6.6.2.6.4.1.0.2.5.2.3.20.h3.seahex.org.,
+University District,qkgvidg7,3,6kgvidgpnw3a,6.6.6.6.6.6.3.6.4.1.0.2.5.2.3.20.h3.seahex.org.,
+University District,qkgvide7,0,6kgvidednw3a,6.6.6.6.6.6.0.4.4.1.0.2.5.2.3.20.h3.seahex.org.,
+University District,qkgvide7,1,6kgvidehnw3a,6.6.6.6.6.6.1.4.4.1.0.2.5.2.3.20.h3.seahex.org.,
+University District,qkgvide7,2,6kgvidelnw3a,6.6.6.6.6.6.2.4.4.1.0.2.5.2.3.20.h3.seahex.org.,
+University District,qkgvide7,3,6kgvidepnw3a,6.6.6.6.6.6.3.4.4.1.0.2.5.2.3.20.h3.seahex.org.,
+University District,qkgvikt7,0,6kgviktdnw3a,6.6.6.6.6.6.0.3.2.5.0.2.5.2.3.20.h3.seahex.org.,
+University District,qkgvikt7,1,6kgvikthnw3a,6.6.6.6.6.6.1.3.2.5.0.2.5.2.3.20.h3.seahex.org.,
+University District,qkgvikt7,2,6kgviktlnw3a,6.6.6.6.6.6.2.3.2.5.0.2.5.2.3.20.h3.seahex.org.,seahex.org
+University District,qkgvikt7,3,6kgviktpnw3a,6.6.6.6.6.6.3.3.2.5.0.2.5.2.3.20.h3.seahex.org.,hex.camp
+Fremont,qkgvi5w7,0,6kgvi5wdnw3a,6.6.6.6.6.6.0.6.6.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Fremont,qkgvi5w7,1,6kgvi5whnw3a,6.6.6.6.6.6.1.6.6.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Fremont,qkgvi5w7,2,6kgvi5wlnw3a,6.6.6.6.6.6.2.6.6.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Fremont,qkgvi5w7,3,6kgvi5wpnw3a,6.6.6.6.6.6.3.6.6.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Fremont,qkgvik57,0,6kgvik5dnw3a,6.6.6.6.6.6.0.5.3.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Fremont,qkgvik57,1,6kgvik5hnw3a,6.6.6.6.6.6.1.5.3.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Fremont,qkgvik57,2,6kgvik5lnw3a,6.6.6.6.6.6.2.5.3.5.0.2.5.2.3.20.h3.seahex.org.,
+Fremont,qkgvik57,3,6kgvik5pnw3a,6.6.6.6.6.6.3.5.3.5.0.2.5.2.3.20.h3.seahex.org.,
+Fremont,qkgvik47,0,6kgvik4dnw3a,6.6.6.6.6.6.0.4.3.5.0.2.5.2.3.20.h3.seahex.org.,
+Fremont,qkgvik47,1,6kgvik4hnw3a,6.6.6.6.6.6.1.4.3.5.0.2.5.2.3.20.h3.seahex.org.,
+Fremont,qkgvik47,2,6kgvik4lnw3a,6.6.6.6.6.6.2.4.3.5.0.2.5.2.3.20.h3.seahex.org.,
+Fremont,qkgvik47,3,6kgvik4pnw3a,6.6.6.6.6.6.3.4.3.5.0.2.5.2.3.20.h3.seahex.org.,
+Ballard,qkgvi4b7,0,6kgvi4bdnw3a,6.6.6.6.6.6.0.1.0.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Ballard,qkgvi4b7,1,6kgvi4bhnw3a,6.6.6.6.6.6.1.1.0.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Ballard,qkgvi4b7,2,6kgvi4blnw3a,6.6.6.6.6.6.2.1.0.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Ballard,qkgvi4b7,3,6kgvi4bpnw3a,6.6.6.6.6.6.3.1.0.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Ballard,qkgvi4d7,0,6kgvi4ddnw3a,6.6.6.6.6.6.0.3.0.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Ballard,qkgvi4d7,1,6kgvi4dhnw3a,6.6.6.6.6.6.1.3.0.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Ballard,qkgvi4d7,2,6kgvi4dlnw3a,6.6.6.6.6.6.2.3.0.6.1.2.5.2.3.20.h3.seahex.org.,
+Ballard,qkgvi4d7,3,6kgvi4dpnw3a,6.6.6.6.6.6.3.3.0.6.1.2.5.2.3.20.h3.seahex.org.,
+Ballard,qkgvi4a7,0,6kgvi4adnw3a,6.6.6.6.6.6.0.0.0.6.1.2.5.2.3.20.h3.seahex.org.,
+Ballard,qkgvi4a7,1,6kgvi4ahnw3a,6.6.6.6.6.6.1.0.0.6.1.2.5.2.3.20.h3.seahex.org.,
+Ballard,qkgvi4a7,2,6kgvi4alnw3a,6.6.6.6.6.6.2.0.0.6.1.2.5.2.3.20.h3.seahex.org.,
+Ballard,qkgvi4a7,3,6kgvi4apnw3a,6.6.6.6.6.6.3.0.0.6.1.2.5.2.3.20.h3.seahex.org.,
+Ballard,qkgvi4c7,0,6kgvi4cdnw3a,6.6.6.6.6.6.0.2.0.6.1.2.5.2.3.20.h3.seahex.org.,
+Ballard,qkgvi4c7,1,6kgvi4chnw3a,6.6.6.6.6.6.1.2.0.6.1.2.5.2.3.20.h3.seahex.org.,
+Ballard,qkgvi4c7,2,6kgvi4clnw3a,6.6.6.6.6.6.2.2.0.6.1.2.5.2.3.20.h3.seahex.org.,
+Ballard,qkgvi4c7,3,6kgvi4cpnw3a,6.6.6.6.6.6.3.2.0.6.1.2.5.2.3.20.h3.seahex.org.,
+Magnolia,qkgvi5b7,0,6kgvi5bdnw3a,6.6.6.6.6.6.0.1.4.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Magnolia,qkgvi5b7,1,6kgvi5bhnw3a,6.6.6.6.6.6.1.1.4.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Magnolia,qkgvi5b7,2,6kgvi5blnw3a,6.6.6.6.6.6.2.1.4.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Magnolia,qkgvi5b7,3,6kgvi5bpnw3a,6.6.6.6.6.6.3.1.4.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Magnolia,qkgvi5f7,0,6kgvi5fdnw3a,6.6.6.6.6.6.0.5.4.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Magnolia,qkgvi5f7,1,6kgvi5fhnw3a,6.6.6.6.6.6.1.5.4.6.1.2.5.2.3.20.h3.seahex.org.,Handed out
+Magnolia,qkgvi5f7,2,6kgvi5flnw3a,6.6.6.6.6.6.2.5.4.6.1.2.5.2.3.20.h3.seahex.org.,
+Magnolia,qkgvi5f7,3,6kgvi5fpnw3a,6.6.6.6.6.6.3.5.4.6.1.2.5.2.3.20.h3.seahex.org.,
+Magnolia,qkgvi5a7,0,6kgvi5adnw3a,6.6.6.6.6.6.0.0.4.6.1.2.5.2.3.20.h3.seahex.org.,
+Magnolia,qkgvi5a7,1,6kgvi5ahnw3a,6.6.6.6.6.6.1.0.4.6.1.2.5.2.3.20.h3.seahex.org.,
+Magnolia,qkgvi5a7,2,6kgvi5alnw3a,6.6.6.6.6.6.2.0.4.6.1.2.5.2.3.20.h3.seahex.org.,
+Magnolia,qkgvi5a7,3,6kgvi5apnw3a,6.6.6.6.6.6.3.0.4.6.1.2.5.2.3.20.h3.seahex.org.,
+Magnolia,qkgvi5e7,0,6kgvi5ednw3a,6.6.6.6.6.6.0.4.4.6.1.2.5.2.3.20.h3.seahex.org.,
+Magnolia,qkgvi5e7,1,6kgvi5ehnw3a,6.6.6.6.6.6.1.4.4.6.1.2.5.2.3.20.h3.seahex.org.,
+Magnolia,qkgvi5e7,2,6kgvi5elnw3a,6.6.6.6.6.6.2.4.4.6.1.2.5.2.3.20.h3.seahex.org.,
+Magnolia,qkgvi5e7,3,6kgvi5epnw3a,6.6.6.6.6.6.3.4.4.6.1.2.5.2.3.20.h3.seahex.org.,
+Queen Anne,qkgviki7,0,6kgvikidnw3a,6.6.6.6.6.6.0.0.1.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Queen Anne,qkgviki7,1,6kgvikihnw3a,6.6.6.6.6.6.1.0.1.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Queen Anne,qkgviki7,2,6kgvikilnw3a,6.6.6.6.6.6.2.0.1.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Queen Anne,qkgviki7,3,6kgvikipnw3a,6.6.6.6.6.6.3.0.1.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Queen Anne,qkgviko7,0,6kgvikodnw3a,6.6.6.6.6.6.0.6.1.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Queen Anne,qkgviko7,1,6kgvikohnw3a,6.6.6.6.6.6.1.6.1.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Queen Anne,qkgviko7,2,6kgvikolnw3a,6.6.6.6.6.6.2.6.1.5.0.2.5.2.3.20.h3.seahex.org.,
+Queen Anne,qkgviko7,3,6kgvikopnw3a,6.6.6.6.6.6.3.6.1.5.0.2.5.2.3.20.h3.seahex.org.,
+Queen Anne,qkgvill7,0,6kgvilldnw3a,6.6.6.6.6.6.0.3.5.5.0.2.5.2.3.20.h3.seahex.org.,
+Queen Anne,qkgvill7,1,6kgvillhnw3a,6.6.6.6.6.6.1.3.5.5.0.2.5.2.3.20.h3.seahex.org.,
+Queen Anne,qkgvill7,2,6kgvilllnw3a,6.6.6.6.6.6.2.3.5.5.0.2.5.2.3.20.h3.seahex.org.,
+Queen Anne,qkgvill7,3,6kgvillpnw3a,6.6.6.6.6.6.3.3.5.5.0.2.5.2.3.20.h3.seahex.org.,
+Queen Anne,qkgvikf7,0,6kgvikfdnw3a,6.6.6.6.6.6.0.5.0.5.0.2.5.2.3.20.h3.seahex.org.,
+Queen Anne,qkgvikf7,1,6kgvikfhnw3a,6.6.6.6.6.6.1.5.0.5.0.2.5.2.3.20.h3.seahex.org.,
+Queen Anne,qkgvikf7,2,6kgvikflnw3a,6.6.6.6.6.6.2.5.0.5.0.2.5.2.3.20.h3.seahex.org.,
+Queen Anne,qkgvikf7,3,6kgvikfpnw3a,6.6.6.6.6.6.3.5.0.5.0.2.5.2.3.20.h3.seahex.org.,
+Belltown,skgvilot,0,6kgviloqnw3a,6.6.6.6.6.0.4.6.5.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Belltown,skgvilot,1,6kgviloq5w3a,6.6.6.6.6.1.4.6.5.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Belltown,skgvilot,2,6kgvilornw3a,6.6.6.6.6.2.4.6.5.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Belltown,skgvilot,3,6kgvilor5w3a,6.6.6.6.6.3.4.6.5.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Belltown,skgvilfh,0,6kgvilfenw3a,6.6.6.6.6.0.1.5.4.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Belltown,skgvilfh,1,6kgvilfe5w3a,6.6.6.6.6.1.1.5.4.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Belltown,skgvilfh,2,6kgvilffnw3a,6.6.6.6.6.2.1.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Belltown,skgvilfh,3,6kgvilff5w3a,6.6.6.6.6.3.1.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Belltown,skgvilfp,0,6kgvilfmnw3a,6.6.6.6.6.0.3.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Belltown,skgvilfp,1,6kgvilfm5w3a,6.6.6.6.6.1.3.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Belltown,skgvilfp,2,6kgvilfnnw3a,6.6.6.6.6.2.3.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Belltown,skgvilfp,3,6kgvilfn5w3a,6.6.6.6.6.3.3.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Belltown,skgvilfd,0,6kgvilfanw3a,6.6.6.6.6.0.0.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Belltown,skgvilfd,1,6kgvilfa5w3a,6.6.6.6.6.1.0.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Belltown,skgvilfd,2,6kgvilfbnw3a,6.6.6.6.6.2.0.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Belltown,skgvilfd,3,6kgvilfb5w3a,6.6.6.6.6.3.0.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Downtown,skgvilax,0,6kgvilaunw3a,6.6.6.6.6.0.5.0.4.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Downtown,skgvilax,1,6kgvilau5w3a,6.6.6.6.6.1.5.0.4.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Downtown,skgvilax,2,6kgvilavnw3a,6.6.6.6.6.2.5.0.4.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Downtown,skgvilax,3,6kgvilav5w3a,6.6.6.6.6.3.5.0.4.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Downtown,skgvilf3,0,6kgvilfynw3a,6.6.6.6.6.0.6.5.4.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Downtown,skgvilf3,1,6kgvilfy5w3a,6.6.6.6.6.1.6.5.4.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Downtown,skgvilf3,2,6kgvilfznw3a,6.6.6.6.6.2.6.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Downtown,skgvilf3,3,6kgvilfz5w3a,6.6.6.6.6.3.6.5.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Downtown,skgvileh,0,6kgvileenw3a,6.6.6.6.6.0.1.4.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Downtown,skgvileh,1,6kgvilee5w3a,6.6.6.6.6.1.1.4.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Downtown,skgvileh,2,6kgvilefnw3a,6.6.6.6.6.2.1.4.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Downtown,skgvileh,3,6kgvilef5w3a,6.6.6.6.6.3.1.4.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Downtown,skgvilep,0,6kgvilemnw3a,6.6.6.6.6.0.3.4.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Downtown,skgvilep,1,6kgvilem5w3a,6.6.6.6.6.1.3.4.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Downtown,skgvilep,2,6kgvilennw3a,6.6.6.6.6.2.3.4.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Downtown,skgvilep,3,6kgvilen5w3a,6.6.6.6.6.3.3.4.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Capitol Hill,qkgvilv7,0,6kgvilvdnw3a,6.6.6.6.6.6.0.5.6.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Capitol Hill,qkgvilv7,1,6kgvilvhnw3a,6.6.6.6.6.6.1.5.6.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Capitol Hill,qkgvilv7,2,6kgvilvlnw3a,6.6.6.6.6.6.2.5.6.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Capitol Hill,qkgvilv7,3,6kgvilvpnw3a,6.6.6.6.6.6.3.5.6.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Capitol Hill,qkgvilc7,0,6kgvilcdnw3a,6.6.6.6.6.6.0.2.4.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Capitol Hill,qkgvilc7,1,6kgvilchnw3a,6.6.6.6.6.6.1.2.4.5.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Capitol Hill,qkgvilc7,2,6kgvilclnw3a,6.6.6.6.6.6.2.2.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Capitol Hill,qkgvilc7,3,6kgvilcpnw3a,6.6.6.6.6.6.3.2.4.5.0.2.5.2.3.20.h3.seahex.org.,
+Capitol Hill,qkgvilu7,0,6kgviludnw3a,6.6.6.6.6.6.0.4.6.5.0.2.5.2.3.20.h3.seahex.org.,
+Capitol Hill,qkgvilu7,1,6kgviluhnw3a,6.6.6.6.6.6.1.4.6.5.0.2.5.2.3.20.h3.seahex.org.,
+Capitol Hill,qkgvilu7,2,6kgvilulnw3a,6.6.6.6.6.6.2.4.6.5.0.2.5.2.3.20.h3.seahex.org.,
+Capitol Hill,qkgvilu7,3,6kgvilupnw3a,6.6.6.6.6.6.3.4.6.5.0.2.5.2.3.20.h3.seahex.org.,
+Central District,qkgviin7,0,6kgviindnw3a,6.6.6.6.6.6.0.5.1.4.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Central District,qkgviin7,1,6kgviinhnw3a,6.6.6.6.6.6.1.5.1.4.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Central District,qkgviin7,2,6kgviinlnw3a,6.6.6.6.6.6.2.5.1.4.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Central District,qkgviin7,3,6kgviinpnw3a,6.6.6.6.6.6.3.5.1.4.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Central District,qkgviii7,0,6kgviiidnw3a,6.6.6.6.6.6.0.0.1.4.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Central District,qkgviii7,1,6kgviiihnw3a,6.6.6.6.6.6.1.0.1.4.0.2.5.2.3.20.h3.seahex.org.,Handed out
+Central District,qkgviii7,2,6kgviiilnw3a,6.6.6.6.6.6.2.0.1.4.0.2.5.2.3.20.h3.seahex.org.,
+Central District,qkgviii7,3,6kgviiipnw3a,6.6.6.6.6.6.3.0.1.4.0.2.5.2.3.20.h3.seahex.org.,
+Central District,qkgviim7,0,6kgviimdnw3a,6.6.6.6.6.6.0.4.1.4.0.2.5.2.3.20.h3.seahex.org.,
+Central District,qkgviim7,1,6kgviimhnw3a,6.6.6.6.6.6.1.4.1.4.0.2.5.2.3.20.h3.seahex.org.,
+Central District,qkgviim7,2,6kgviimlnw3a,6.6.6.6.6.6.2.4.1.4.0.2.5.2.3.20.h3.seahex.org.,
+Central District,qkgviim7,3,6kgviimpnw3a,6.6.6.6.6.6.3.4.1.4.0.2.5.2.3.20.h3.seahex.org.,

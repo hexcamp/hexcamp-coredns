@@ -1,14 +1,16 @@
 $ORIGIN 37.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.37.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025032706 ; serial
+				2025032905 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
+@ IN NS ns-minikube7.37.h3.test.hex.camp.
+ns-minikube7 IN A 18.181.177.254
 @ IN NS ns-minikube8.37.h3.test.hex.camp.
-ns-minikube8 IN A 44.244.139.121
+ns-minikube8 IN A 44.245.162.31
 
 
 ; ssrgdfv3.test.hex.camp - jimpick.com - Photos - Okinawa

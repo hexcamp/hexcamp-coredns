@@ -1,0 +1,17 @@
+{
+  "name": "hex-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jim Pick (@jimpick)",
+  "license": "MIT/Apache-2 (Permissive License Stack)",
+  "description": "",
+  "dependencies": {
+    "base32.js": "^0.1.0",
+    "csv-parse": "^5.6.0",
+    "h3-js": "^3.7.2"
+  }
+}

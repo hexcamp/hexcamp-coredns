@@ -1,6 +1,6 @@
 $ORIGIN test.hex.camp.
 @	3600 IN	SOA ns.test.hex.camp. hostmaster.test.hex.camp. (
-				2025040404 ; serial
+				2025040501 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,8 +10,8 @@ $ORIGIN test.hex.camp.
 ns-minikube9	300 A 3.121.219.164
 ns1 300 A 3.121.219.164
 @ 3600 IN NS ns-minikube10
-ns-minikube10	300 A 3.144.119.137
-ns2 300 A 3.144.119.137
+ns-minikube10	300 A 3.133.155.168
+ns2 300 A 3.133.155.168
 
 ; ai - tokyo
 23.h3 300 IN NS ns-minikube7.23.h3.test.hex.camp.

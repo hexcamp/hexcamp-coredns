@@ -1,3 +1,15 @@
+h3.test.hex.camp:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    forward . 8.8.8.8
+    log
+    errors
+    reload
+    cache
+    prometheus 0.0.0.0:9153
+    debug
+}
 test.hex.camp:53 {
     view acme_challenge {
       expr name() matches '^_acme-challenge\\.'
@@ -12,8 +24,21 @@ test.hex.camp:53 {
     prometheus 0.0.0.0:9153
 }
 test.hex.camp:53 {
+    metadata
     hexcamp test.hex.camp
     file db.test.hex.camp test.hex.camp
+    log
+    errors
+    reload
+    cache
+    prometheus 0.0.0.0:9153
+    debug
+}
+h3.vichex.ca:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    forward . 8.8.8.8
     log
     errors
     reload
@@ -35,6 +60,7 @@ vichex.ca:53 {
     prometheus 0.0.0.0:9153
 }
 vichex.ca:53 {
+    metadata
     hexcamp vichex.ca
     file db.vichex.ca vichex.ca
     log
@@ -42,6 +68,18 @@ vichex.ca:53 {
     reload
     cache
     prometheus 0.0.0.0:9153
+}
+h3.seahex.org:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    forward . 8.8.8.8
+    log
+    errors
+    reload
+    cache
+    prometheus 0.0.0.0:9153
+    debug
 }
 seahex.org:53 {
     view acme_challenge {
@@ -57,6 +95,7 @@ seahex.org:53 {
     prometheus 0.0.0.0:9153
 }
 seahex.org:53 {
+    metadata
     hexcamp seahex.org
     file db.seahex.org seahex.org
     log

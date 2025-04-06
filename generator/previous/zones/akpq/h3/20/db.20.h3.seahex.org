@@ -1,7 +1,7 @@
 $ORIGIN 20.h3.seahex.org.
 $TTL 5m
 @	3600 IN	SOA ns.20.h3.seahex.org. hostmaster.seahex.org. (
-				2025040404 ; serial
+				2025040604 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,11 +10,11 @@ $TTL 5m
 @ IN NS ns-minikube7.20.h3.seahex.org.
 ns-minikube7 IN A 13.231.108.188
 @ IN NS ns-minikube8.20.h3.seahex.org.
-ns-minikube8 IN A 34.213.210.56
+ns-minikube8 IN A 52.89.210.81
 
 ; Seattle
 5.2.3.20.h3.seahex.org. 3600 IN NS ns-minikube7.5.2.3.20.h3.seahex.org. 
 ns-minikube7.5.2.3.20.h3.seahex.org. 3600 IN A 13.231.108.188
 5.2.3.20.h3.seahex.org. 3600 IN NS ns-minikube8.5.2.3.20.h3.seahex.org. 
-ns-minikube8.5.2.3.20.h3.seahex.org. 3600 IN A 34.213.210.56
+ns-minikube8.5.2.3.20.h3.seahex.org. 3600 IN A 52.89.210.81
 

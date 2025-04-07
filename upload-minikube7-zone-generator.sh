@@ -27,7 +27,7 @@ for z in \
 	gkgv6 \
 	; do \
 		echo minikube7: $z; \
-		$TOP/rclone-sync.sh minikube7 $z .
+		$TOP/rclone-sync.sh minikube7 $z $z
 	done
 
 #rclone sync --ignore-times ai minikube7-ai:

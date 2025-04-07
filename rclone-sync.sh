@@ -37,6 +37,6 @@ rclone config create $CLUSTER-$ZONE webdav \
 	--non-interactive > /dev/null
 
 #rclone sync -v --ignore-times $DIR $CLUSTER-proxy: 
-rclone sync --ignore-times $DIR $CLUSTER-proxy: 
+rclone sync --ignore-times $DIR $CLUSTER-$ZONE: 
 
 

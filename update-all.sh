@@ -51,8 +51,11 @@ echo
 cd generator
 ./copy-current-to-prev.sh
 ./generate.sh
-cd ..
 
+exit
+
+
+cd ..
 set +e
 if [ -n "$IP_7" ]; then
   echo Uploading to minikube7

@@ -2,6 +2,8 @@
 
 set -eu
 
+cd /data/hexcamp-coredns
+
 echo "Updating zones..."
 
 echo "Last IPs:"

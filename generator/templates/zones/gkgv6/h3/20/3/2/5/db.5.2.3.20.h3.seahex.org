@@ -40,6 +40,7 @@ ns-minikube8 IN A {{ ips.minikube8_ip }}
 _dnslink.1.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. TXT "dnslink=/ipfs/QmZbACQB1wGf4sUfybBdfc1v7eJZWEwHYA3ahL9jg6vEgx"
 ;6kgvhnw3nwyq.seahex.org
 1.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. CNAME 6kgvdnw3nwya.seahex.org.
+_dnslink.1.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. TXT "dnslink=/ipfs/bafybeiabxsqjsbqegn5dd4k56i6aaxyyhabhsetnlrak325r7xgoeuvjra"
 ;6kgvlnw3nwyq.seahex.org
 1.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20.h3.seahex.org. CNAME 6kgvdnw3nwya.seahex.org.
 ;6kgvpnw3nwyq.seahex.org

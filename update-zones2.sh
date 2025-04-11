@@ -6,6 +6,9 @@ cd /data/hexcamp-coredns
 
 echo "Updating zones..."
 
+echo "git pull:"
+git pull
+
 echo "Last IPs:"
 cat generator/ips.json
 

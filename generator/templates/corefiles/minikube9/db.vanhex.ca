@@ -1,0 +1,19 @@
+$ORIGIN vanhex.ca.
+@	3600 IN	SOA ns.vanhex.ca. hostmaster.vanhex.ca. (
+				{{ serial }} ; serial
+				7200       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				300       ; minimum (5 minutes)
+				)
+
+{%- if ips.minikube9_ip %}
+@ 3600 IN NS ns-minikube9
+ns-minikube9	300 A {{ ips.minikube9_ip }}
+{%- endif %}
+
+{%- if ips.minikube10_ip %}
+@ 3600 IN NS ns-minikube10
+ns-minikube10	300 A {{ ips.minikube10_ip }}
+{%- endif %}
+

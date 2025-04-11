@@ -81,6 +81,41 @@ vichex.ca:53 {
     cache
     prometheus 0.0.0.0:9153
 }
+h3.vanhex.ca:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    forward . 8.8.8.8
+    log
+    errors
+    reload
+    cache
+    prometheus 0.0.0.0:9153
+    debug
+}
+vanhex.ca:53 {
+    view acme_challenge {
+      expr name() matches '^_acme-challenge\\.'
+    }
+    route53 vanhex.ca.:Z07897134XAN74UTWYPG {
+      aws_access_key <key> <secret>
+    }
+    log
+    errors
+    reload
+    cache
+    prometheus 0.0.0.0:9153
+}
+vanhex.ca:53 {
+    metadata
+    hexcamp vanhex.ca
+    file db.vanhex.ca vanhex.ca
+    log
+    errors
+    reload
+    cache
+    prometheus 0.0.0.0:9153
+}
 h3.seahex.org:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'

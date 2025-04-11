@@ -1,16 +1,16 @@
 $ORIGIN 5.2.3.20.h3.seahex.org.
 $TTL 5m
 @	3600 IN	SOA ns.5.2.3.20.h3.seahex.org. hostmaster.seahex.org. (
-				2025040606 ; serial
+				2025041109 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
 @ IN NS ns-minikube7.5.2.3.20.h3.seahex.org.
-ns-minikube7 IN A 13.231.108.188
+ns-minikube7 IN A 13.231.195.84
 @ IN NS ns-minikube8.5.2.3.20.h3.seahex.org.
-ns-minikube8 IN A 35.165.243.103
+ns-minikube8 IN A 35.86.86.81
 
 ; IPFS
 
@@ -34,6 +34,7 @@ ns-minikube8 IN A 35.165.243.103
 _dnslink.1.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. TXT "dnslink=/ipfs/QmZbACQB1wGf4sUfybBdfc1v7eJZWEwHYA3ahL9jg6vEgx"
 ;6kgvhnw3nwyq.seahex.org
 1.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. CNAME 6kgvdnw3nwya.seahex.org.
+_dnslink.1.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. TXT "dnslink=/ipfs/bafybeiabxsqjsbqegn5dd4k56i6aaxyyhabhsetnlrak325r7xgoeuvjra"
 ;6kgvlnw3nwyq.seahex.org
 1.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20.h3.seahex.org. CNAME 6kgvdnw3nwya.seahex.org.
 ;6kgvpnw3nwyq.seahex.org
@@ -70,6 +71,7 @@ _dnslink.1.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. TXT "dnslink=/ipfs/QmZb
 6.6.6.6.6.6.0.6.6.6.1.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.1.6.6.6.1.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.2.6.6.6.1.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
+_atproto.6.6.6.6.6.6.2.6.6.6.1.2.5.2.3.20.h3.seahex.org. TXT "did=did:plc:yr42yp632c5w54gyx5m2pu3i"
 6.6.6.6.6.6.3.6.6.6.1.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.0.5.3.5.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 6.6.6.6.6.6.1.5.3.5.0.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.

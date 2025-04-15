@@ -22,15 +22,15 @@ ns-minikube8 IN A {{ ips.minikube8_ip }}
 
 ; 6kgvdnw3nwya.seahex.org - nuc IPFS gateway
 0.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc.infra.hex.camp.
-;6kgvhnw3nwya.seahex.org - nuc
+;6kgvhnw3nwya.seahex.org - nuc IPFS Cluster API
 0.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc.infra.hex.camp.
 ;6kgvlnw3nwya.seahex.org - nuc2 IPFS gateway
 0.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
-;6kgvpnw3nwya.seahex.org - nuc2
+;6kgvpnw3nwya.seahex.org - nuc2 IPFS Cluster API
 0.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
 ;6kgvtnw3nwya.seahex.org - ryzen9 IPFS gateway
 0.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
-;6kgvxnw3nwya.seahex.org - ryzen9
+;6kgvxnw3nwya.seahex.org - ryzen9 IPFS Cluster API
 0.6.6.6.6.6.6.6.6.6.6.5.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
 
 ; Test Sites
@@ -51,8 +51,9 @@ _dnslink.1.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20.h3.seahex.org. TXT "dnslink=/ipfs/QmZb
 1.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org. CNAME 6kgvtnw3nwya.seahex.org.
 _dnslink.1.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org. TXT "dnslink=/ipfs/QmZbACQB1wGf4sUfybBdfc1v7eJZWEwHYA3ahL9jg6vEgx"
 
-;6kgvtnw3nwyq.seahex.org
-1.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org. CNAME 6kgvdnw3nwya.seahex.org.
+;6kgvtnw3nwyq.seahex.org - nuc IPFS Cluster Swarm
+1.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc.infra.hex.camp.
+
 ;6kgvxnw3nwyq.seahex.org
 1.6.6.6.6.6.6.6.6.6.6.5.5.2.3.20.h3.seahex.org. CNAME 6kgvdnw3nwya.seahex.org.
 ;6kgv3nw3nwyq.seahex.org

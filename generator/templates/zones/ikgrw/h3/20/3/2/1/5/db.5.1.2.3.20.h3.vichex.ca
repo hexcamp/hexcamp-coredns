@@ -20,7 +20,7 @@ ns-minikube8 IN A {{ ips.minikube8_ip }}
 {% for site in sites %}
 ; {{ site.hex_id }}.vichex.ca - {{ site.who }} - {{ site.comment }}
 {{ site.hex_reverse_path }}.h3.vichex.ca. IN A {{ site.target_ipfs_server }}
-_dnslink.{{ site.hex_reverse_path }}.h3.vichex.ca. 60 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
-{{ site.hex_reverse_path }}.h3.vichex.ca. 60 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+_dnslink.{{ site.hex_reverse_path }}.h3.vichex.ca. 600 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{{ site.hex_reverse_path }}.h3.vichex.ca. 600 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
 {% endfor %}
 

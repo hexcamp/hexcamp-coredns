@@ -2,7 +2,7 @@
 
 `*.*.6.6.6.*.*.*.*.*.*.*.*.*.*.*`
 
-# ATmospherConf neighbourhood demo
+# ATmosphereConf neighbourhood demo
 
 * allocated.csv
 
@@ -39,5 +39,12 @@ Regex:
 Regex:
 
 `1.6.6.6.6.6.6.6.6.6.*.2.5.2.3.20`
+
+# Hex.Camp info sites
+
+Regex:
+
+`[2-4].6.6.6.6.6.6.6.6.6.*.2.5.2.3.20`
+
 
 

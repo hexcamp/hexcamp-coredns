@@ -137,10 +137,10 @@ console.log('New Hex ID:', hexToUrl(newH3Str))
 function genSubAllocHex(res, base, digits, childNum) {
   res++;
   const newDigits = [...digits];
-  newDigits.push(childNum);
+  newDigits.push(childNum % 7);
   while (res < 15) {
     res++;
-    newDigits.push(res != 15 ? 6 : 0);
+    newDigits.push(res != 15 ? 6 : 0 + 5 * Math.floor(childNum / 7));
   }
   const newH3Str = getH3(res, base, newDigits);
   return newH3Str;
@@ -165,7 +165,7 @@ console.log('  Base Cell:', base);
 const digits = getDigits(h3Str, res);
 console.log('  Digits:', digits.join(', '));
 const children = []
-for (let i = 0; i < 6; i++) {
+for (let i = 0; i < 7 * 2; i++) {
   const childH3Str = genSubAllocHex(res, base, digits, i);
   const childHexId = hexToUrl(childH3Str);
   console.log('  Child %d: %s, %s', i, childH3Str, childHexId)

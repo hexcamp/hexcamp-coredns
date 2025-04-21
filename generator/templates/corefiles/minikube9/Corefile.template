@@ -2,11 +2,12 @@ h3.test.hex.camp:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
-    unbound
+    forward . 8.8.8.8
+    #unbound
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
     debug
 }
@@ -50,11 +51,12 @@ h3.vichex.ca:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
-    unbound
+    forward . 8.8.8.8
+    #unbound
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
     debug
 }
@@ -85,11 +87,12 @@ h3.vanhex.ca:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
-    unbound
+    forward . 8.8.8.8
+    #unbound
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
     debug
 }

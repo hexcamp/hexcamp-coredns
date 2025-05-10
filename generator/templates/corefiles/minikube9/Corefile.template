@@ -43,7 +43,7 @@ test.hex.camp:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
     debug
 }
@@ -80,7 +80,7 @@ vichex.ca:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
 }
 h3.vanhex.ca:53 {
@@ -116,7 +116,7 @@ vanhex.ca:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
 }
 h3.seahex.org:53 {
@@ -152,6 +152,6 @@ seahex.org:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
 }

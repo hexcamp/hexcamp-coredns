@@ -1,8 +1,8 @@
-child_num,hex_id,dns_mapping
-0,6kgvdnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org.
-1,6kgvhnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org.
-2,6kgvlnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20.h3.seahex.org.
-3,6kgvpnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org.
-4,6kgvtnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org.
-5,6kgvxnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.5.5.2.3.20.h3.seahex.org.
-6,6kgv3nw3nwyq,1.6.6.6.6.6.6.6.6.6.6.6.5.2.3.20.h3.seahex.org.
+child_num,hex_id,dns_mapping,notes
+0,6kgvdnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org.,"Test for ipfs on nuc"
+1,6kgvhnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org.,"For yas"
+2,6kgvlnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20.h3.seahex.org.,"Test for ipfs on nuc2"
+3,6kgvpnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org.,"Test for ipfs on ryzen9"
+4,6kgvtnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org.,"nuc IPFS Cluster Swarm"
+5,6kgvxnw3nwyq,1.6.6.6.6.6.6.6.6.6.6.5.5.2.3.20.h3.seahex.org.,"nuc2 IPFS Cluster Swarm"
+6,6kgv3nw3nwyq,1.6.6.6.6.6.6.6.6.6.6.6.5.2.3.20.h3.seahex.org.,"ryzen9 IPFS Cluster Swarm"

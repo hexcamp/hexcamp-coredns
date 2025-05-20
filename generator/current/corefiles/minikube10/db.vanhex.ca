@@ -1,13 +1,13 @@
 $ORIGIN vanhex.ca.
 @	3600 IN	SOA ns.vanhex.ca. hostmaster.vanhex.ca. (
-				2025041502 ; serial
+				2025051702 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				300       ; minimum (5 minutes)
 				)
 @ 3600 IN NS ns-minikube9
-ns-minikube9	300 A 35.159.161.7
+ns-minikube9	300 A 18.185.148.43
 @ 3600 IN NS ns-minikube10
-ns-minikube10	300 A 18.117.232.5
+ns-minikube10	300 A 3.15.237.234
 

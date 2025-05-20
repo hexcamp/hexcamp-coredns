@@ -1,20 +1,20 @@
 $ORIGIN 23.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.23.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025041302 ; serial
+				2025051704 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
 @ IN NS ns-minikube7.23.h3.test.hex.camp.
-ns-minikube7 IN A 18.183.188.172
+ns-minikube7 IN A 43.207.153.214
 @ IN NS ns-minikube8.23.h3.test.hex.camp.
-ns-minikube8 IN A 35.86.86.81
+ns-minikube8 IN A 52.25.42.255
 
 
 ; 6l22glmvqj2a.test.hex.camp - jimpick.com - Encoded Hexagon Lookup Tool
-4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp. IN A 15.235.47.12
+4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp. IN A 144.217.233.191
 _dnslink.4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmeqPJcvEJNcEPahPHGadz7Z1dGqFBxQwHdxhic1dz7x88"
 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmeqPJcvEJNcEPahPHGadz7Z1dGqFBxQwHdxhic1dz7x88"
 

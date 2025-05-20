@@ -3,10 +3,11 @@ h3.test.hex.camp:53 {
       expr metadata('hexcamp/lookup') == 'true'
     }
     forward . 8.8.8.8
+    #unbound
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
     debug
 }
@@ -42,7 +43,7 @@ test.hex.camp:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
     debug
 }
@@ -51,10 +52,11 @@ h3.vichex.ca:53 {
       expr metadata('hexcamp/lookup') == 'true'
     }
     forward . 8.8.8.8
+    #unbound
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
     debug
 }
@@ -78,7 +80,7 @@ vichex.ca:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
 }
 h3.vanhex.ca:53 {
@@ -86,10 +88,11 @@ h3.vanhex.ca:53 {
       expr metadata('hexcamp/lookup') == 'true'
     }
     forward . 8.8.8.8
+    #unbound
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
     debug
 }
@@ -113,7 +116,7 @@ vanhex.ca:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
 }
 h3.seahex.org:53 {
@@ -121,10 +124,11 @@ h3.seahex.org:53 {
       expr metadata('hexcamp/lookup') == 'true'
     }
     forward . 8.8.8.8
+    #unbound
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
     debug
 }
@@ -148,6 +152,6 @@ seahex.org:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
 }

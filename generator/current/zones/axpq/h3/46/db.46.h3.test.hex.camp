@@ -1,18 +1,13 @@
 $ORIGIN 46.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.46.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025041501 ; serial
+				2025051704 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
 	3600 IN NS ns-minikube9.46.h3.test.hex.camp.
-ns-minikube9 3600 IN A 35.159.161.7
+ns-minikube9 3600 IN A 18.185.148.43
 
-
-; uxirkffr.test.hex.camp - jimpick.com - Welcome to Hex.Camp HackMD
-3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. IN A 15.235.47.12
-_dnslink.3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmZudTAw9jM4VhVdsKbmgs9GoMJ8sGaKmVASb5PqSGD2Qh"
-3.4.5.4.2.4.2.1.2.4.46.h3.test.hex.camp. 60 IN TXT "dnslink=/ipfs/QmZudTAw9jM4VhVdsKbmgs9GoMJ8sGaKmVASb5PqSGD2Qh"
 

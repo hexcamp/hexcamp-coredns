@@ -1,31 +1,45 @@
 $ORIGIN 5.2.3.20.h3.seahex.org.
 $TTL 5m
 @	3600 IN	SOA ns.5.2.3.20.h3.seahex.org. hostmaster.seahex.org. (
-				2025041303 ; serial
+				2025051706 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
 @ IN NS ns-minikube7.5.2.3.20.h3.seahex.org.
-ns-minikube7 IN A 18.183.188.172
+ns-minikube7 IN A 43.207.153.214
 @ IN NS ns-minikube8.5.2.3.20.h3.seahex.org.
-ns-minikube8 IN A 35.86.86.81
+ns-minikube8 IN A 52.25.42.255
 
 ; IPFS
 
 ; 6kgvdnw3nwya.seahex.org - nuc IPFS gateway
 0.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc.infra.hex.camp.
-;6kgvhnw3nwya.seahex.org - nuc
+; 6kgvhnw3nwya.seahex.org - nuc IPFS Cluster API
 0.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc.infra.hex.camp.
-;6kgvlnw3nwya.seahex.org - nuc2 IPFS gateway
+; 6kgvlnw3nwya.seahex.org - nuc2 IPFS gateway
 0.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
-;6kgvpnw3nwya.seahex.org - nuc2
+; 6kgvpnw3nwya.seahex.org - nuc2 IPFS Cluster API
 0.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
-;6kgvtnw3nwya.seahex.org - ryzen9 IPFS gateway
+; 6kgvtnw3nwya.seahex.org - ryzen9 IPFS gateway
 0.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
-;6kgvxnw3nwya.seahex.org - ryzen9
+; 6kgvxnw3nwya.seahex.org - ryzen9 IPFS Cluster API
 0.6.6.6.6.6.6.6.6.6.6.5.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
+
+; 6kgvdnw3nw2q.seahex.org - nuc IPFS libp2p
+5.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc.infra.hex.camp.
+; 6kgvhnw3nw2q.seahex.org - nuc (unused)
+5.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc.infra.hex.camp.
+; 6kgvlnw3nw2q.seahex.org - nuc2 IPFS libp2p
+5.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
+; 6kgvpnw3nw2q.seahex.org - nuc2 (unused)
+5.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
+; 6kgvtnw3nw2q.seahex.org - ryzen9 IPFS libp2p
+5.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
+; 6kgvxnw3nw2q.seahex.org - ryzen9 (unused)
+5.6.6.6.6.6.6.6.6.6.6.5.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
+
 
 ; Test Sites
 
@@ -45,12 +59,14 @@ _dnslink.1.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20.h3.seahex.org. TXT "dnslink=/ipfs/QmZb
 1.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org. CNAME 6kgvtnw3nwya.seahex.org.
 _dnslink.1.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org. TXT "dnslink=/ipfs/QmZbACQB1wGf4sUfybBdfc1v7eJZWEwHYA3ahL9jg6vEgx"
 
-;6kgvtnw3nwyq.seahex.org
-1.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org. CNAME 6kgvdnw3nwya.seahex.org.
-;6kgvxnw3nwyq.seahex.org
-1.6.6.6.6.6.6.6.6.6.6.5.5.2.3.20.h3.seahex.org. CNAME 6kgvdnw3nwya.seahex.org.
-;6kgv3nw3nwyq.seahex.org
-1.6.6.6.6.6.6.6.6.6.6.6.5.2.3.20.h3.seahex.org. CNAME 6kgvdnw3nwya.seahex.org.
+;6kgvtnw3nwyq.seahex.org - nuc IPFS Cluster Swarm
+1.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc.infra.hex.camp.
+
+;6kgvxnw3nwyq.seahex.org - nuc2 IPFS Cluster Swarm
+1.6.6.6.6.6.6.6.6.6.6.5.5.2.3.20.h3.seahex.org. CNAME ovh-front-nuc2.infra.hex.camp.
+
+;6kgv3nw3nwyq.seahex.org - ryzen9 IPFS Cluster Swarm
+1.6.6.6.6.6.6.6.6.6.6.6.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
 
 ; ATMosphereConf 2025
 
@@ -194,7 +210,16 @@ _atproto.6.6.6.6.6.6.2.6.6.6.1.2.5.2.3.20.h3.seahex.org. TXT "did=did:plc:yr42yp
 
 
 ; 6kgvileuk4va.seahex.org - jimpick.com - SEAHex.org Landing Page
-2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org. IN A 15.235.47.12
-_dnslink.2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org. 60 IN TXT "dnslink=/ipfs/QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx"
-2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org. 60 IN TXT "dnslink=/ipfs/QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx"
+2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org. IN A 144.217.233.191
+
+_dnslink.2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org. 600 IN TXT "dnslink=/ipfs/QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx"
+2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org. 600 IN TXT "dnslink=/ipfs/QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx"
+
+
+; 6kgvdnw3nwza.seahex.org - jimpick.com - Welcome to Hex.Camp HackMD - nuc
+2.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. IN A 144.217.233.191
+
+_dnslink.2.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. 600 IN TXT "dnslink=/ipfs/bafybeierz532qyutonzomrxg6alfoigy7omsoxexfec2eimegw52am6fb4"
+2.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. 600 IN TXT "dnslink=/ipfs/bafybeierz532qyutonzomrxg6alfoigy7omsoxexfec2eimegw52am6fb4"
+
 

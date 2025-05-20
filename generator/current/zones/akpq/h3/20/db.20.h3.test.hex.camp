@@ -1,7 +1,7 @@
 $ORIGIN 20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025051703 ; serial
+				2025052001 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,17 +10,17 @@ $TTL 5m
 @ IN NS ns-minikube7.20.h3.test.hex.camp.
 ns-minikube7 IN A 43.207.153.214
 @ IN NS ns-minikube8.20.h3.test.hex.camp.
-ns-minikube8 IN A 52.25.42.255
+ns-minikube8 IN A 54.191.58.54
 
 ; Victoria
 5.1.2.3.20.h3.test.hex.camp. 3600 IN NS ns-minikube7.5.1.2.3.20.h3.test.hex.camp. 
 ns-minikube7.5.1.2.3.20.h3.test.hex.camp. 3600 IN A 43.207.153.214
 5.1.2.3.20.h3.test.hex.camp. 3600 IN NS ns-minikube8.5.1.2.3.20.h3.test.hex.camp. 
-ns-minikube8.5.1.2.3.20.h3.test.hex.camp. 3600 IN A 52.25.42.255
+ns-minikube8.5.1.2.3.20.h3.test.hex.camp. 3600 IN A 54.191.58.54
 
 ; Cortes Island
 0.3.3.20.h3.test.hex.camp. 3500 IN NS ns-minikube7.0.3.3.20.h3.test.hex.camp.
 ns-minikube7.0.3.3.20.h3.test.hex.camp. 3600 IN A 43.207.153.214
 0.3.3.20.h3.test.hex.camp. 3500 IN NS ns-minikube8.0.3.3.20.h3.test.hex.camp.
-ns-minikube8.0.3.3.20.h3.test.hex.camp. 3600 IN A 52.25.42.255
+ns-minikube8.0.3.3.20.h3.test.hex.camp. 3600 IN A 54.191.58.54
 

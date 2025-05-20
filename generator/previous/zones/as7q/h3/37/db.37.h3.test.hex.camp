@@ -1,7 +1,11 @@
 $ORIGIN 37.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.37.h3.test.hex.camp. hostmaster.test.hex.camp. (
+<<<<<<< Updated upstream
 				2025051704 ; serial
+=======
+				2025051902 ; serial
+>>>>>>> Stashed changes
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,7 +14,11 @@ $TTL 5m
 @ IN NS ns-minikube7.37.h3.test.hex.camp.
 ns-minikube7 IN A 43.207.153.214
 @ IN NS ns-minikube8.37.h3.test.hex.camp.
+<<<<<<< Updated upstream
 ns-minikube8 IN A 52.25.42.255
+=======
+ns-minikube8 IN A 54.191.58.54
+>>>>>>> Stashed changes
 
 
 ; ssrgdfv3.test.hex.camp - jimpick.com - Photos - Okinawa - nuc

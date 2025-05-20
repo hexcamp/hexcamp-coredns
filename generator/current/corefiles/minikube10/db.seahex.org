@@ -1,6 +1,6 @@
 $ORIGIN seahex.org.
 @	3600 IN	SOA ns.seahex.org. hostmaster.seahex.org. (
-				2025052001 ; serial
+				2025052002 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -9,7 +9,7 @@ $ORIGIN seahex.org.
 @ 3600 IN NS ns-minikube9
 ns-minikube9	300 A 3.68.220.204
 @ 3600 IN NS ns-minikube10
-ns-minikube10	300 A 3.148.176.104
+ns-minikube10	300 A 3.145.56.16
 
 _atproto 7200 IN TXT "did=did:plc:axbvrm76ppov53vttghgsw5p"
 
@@ -17,6 +17,6 @@ _atproto 7200 IN TXT "did=did:plc:axbvrm76ppov53vttghgsw5p"
 20.h3 300 IN NS ns-minikube7.20.h3.seahex.org.
 ns-minikube7.20.h3.seahex.org. 300 IN A 43.207.153.214
 20.h3 300 IN NS ns-minikube8.20.h3.seahex.org.
-ns-minikube8.20.h3.seahex.org. 300 IN A 54.191.58.54
+ns-minikube8.20.h3.seahex.org. 300 IN A 35.86.163.76
 
 

@@ -1,11 +1,7 @@
 $ORIGIN 5.1.2.3.20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.5.1.2.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-<<<<<<< Updated upstream
-				2025051706 ; serial
-=======
-				2025051904 ; serial
->>>>>>> Stashed changes
+				2025052001 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -14,11 +10,7 @@ $TTL 5m
 @ IN NS ns-minikube7.5.1.2.3.20.h3.test.hex.camp.
 ns-minikube7 IN A 43.207.153.214
 @ IN NS ns-minikube8.5.1.2.3.20.h3.test.hex.camp.
-<<<<<<< Updated upstream
-ns-minikube8 IN A 52.25.42.255
-=======
 ns-minikube8 IN A 54.191.58.54
->>>>>>> Stashed changes
 
 
 ; ykgrv5aexe.test.hex.camp - jimpick.com - Photos - Portage Inlet Park
@@ -120,8 +112,6 @@ _dnslink.1.0.3.0.0.1.5.2.4.5.2.5.1.2.3.20.h3.test.hex.camp. 600 IN TXT "dnslink=
 5.5.3.3.4.1.3.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. IN A 144.217.233.191
 _dnslink.5.5.3.3.4.1.3.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 600 IN TXT "dnslink=/ipfs/QmXsC1nixkYTZeDs1JTp2xT3Xemv3s4FuSbkf4TAB1XEA1"
 5.5.3.3.4.1.3.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 600 IN TXT "dnslink=/ipfs/QmXsC1nixkYTZeDs1JTp2xT3Xemv3s4FuSbkf4TAB1XEA1"
-<<<<<<< Updated upstream
-=======
 
 ; 6kgrvlfnfeya.test.hex.camp - jimpick.com - livevictoria.com venues - nuc
 0.6.4.4.2.2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. IN A 144.217.233.191
@@ -132,6 +122,5 @@ _dnslink.0.6.4.4.2.2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 600 IN TXT "dnslink=
 5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. IN A 144.217.233.191
 _dnslink.5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 600 IN TXT "dnslink=/ipfs/bafybeieglcxppxpfsebz5qbsqdtbirj63qcke4merobiyfchtuffgrve2e"
 5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 600 IN TXT "dnslink=/ipfs/bafybeieglcxppxpfsebz5qbsqdtbirj63qcke4merobiyfchtuffgrve2e"
->>>>>>> Stashed changes
 
 

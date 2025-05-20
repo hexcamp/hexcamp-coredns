@@ -9,7 +9,7 @@ echo "Updating zones..."
 echo "git pull:"
 git stash
 git pull
-git stash apply
+git stash apply || true
 
 echo "Last IPs:"
 cat generator/ips.json

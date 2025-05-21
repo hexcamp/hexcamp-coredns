@@ -20,8 +20,8 @@ ns-minikube8 IN A {{ ips.minikube8_ip }}
 
 {% for site in sites %}
 ; {{ site.hex_id }}.test.hex.camp - {{ site.who }} - {{ site.comment }}
-{{ site.hex_reverse_path }}.h3.test.hex.camp. IN A {{ site.target_ipfs_server }}
-_dnslink.{{ site.hex_reverse_path }}.h3.test.hex.camp. 600 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
-{{ site.hex_reverse_path }}.h3.test.hex.camp. 600 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{{ site.hex_reverse_path }}.h3.test.hex.camp. 21600 IN A {{ site.target_ipfs_server }}
+_dnslink.{{ site.hex_reverse_path }}.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{{ site.hex_reverse_path }}.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
 {% endfor %}
 

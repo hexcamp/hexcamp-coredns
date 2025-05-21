@@ -216,9 +216,9 @@ _atproto.6.6.6.6.6.6.2.6.6.6.1.2.5.2.3.20.h3.seahex.org. TXT "did=did:plc:yr42yp
 
 {% for site in sites %}
 ; {{ site.hex_id }}.seahex.org - {{ site.who }} - {{ site.comment }}
-{{ site.hex_reverse_path }}.h3.seahex.org. IN A {{ site.target_ipfs_server }}
+{{ site.hex_reverse_path }}.h3.seahex.org. 21600 IN A {{ site.target_ipfs_server }}
 {% if site.emit_dnslink == true %}
-_dnslink.{{ site.hex_reverse_path }}.h3.seahex.org. 600 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
-{{ site.hex_reverse_path }}.h3.seahex.org. 600 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+_dnslink.{{ site.hex_reverse_path }}.h3.seahex.org. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{{ site.hex_reverse_path }}.h3.seahex.org. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
 {% endif %}
 {% endfor %}

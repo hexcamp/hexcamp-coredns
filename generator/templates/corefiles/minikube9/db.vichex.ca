@@ -19,7 +19,7 @@ ns-minikube10	300 A {{ ips.minikube10_ip }}
 
 ; landing page
 @ 21600 IN A 144.217.233.191
-_dnslink.vichex.ca 300 IN TXT "dnslink=/ipfs/bafybeib4kacgkyg763pcynxi3nqoi3q3qwhx26dnjhrnptw6x5jltsb2ye"
+_dnslink 300 IN TXT "dnslink=/ipfs/bafybeib4kacgkyg763pcynxi3nqoi3q3qwhx26dnjhrnptw6x5jltsb2ye"
 
 ; bluesky
 _atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"

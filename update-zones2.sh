@@ -56,6 +56,9 @@ fi
 set -e
 echo
 
+echo Copying site data
+cp -v /sites/jim.csv generator/sites/jim.csv
+
 cd generator
 ./copy-current-to-prev.sh
 ./generate.sh

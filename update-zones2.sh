@@ -64,26 +64,22 @@ cd generator
 ./generate.sh
 cd ..
 
-echo "Jim exit6"
-exit
-
-
 set +e
 if [ -n "$IP_7" ]; then
   echo Uploading to minikube7
-  timeout -v 30 ./upload-minikube7-zone-generator.sh
+  timeout -v 30 ./upload-minikube7-zone-generator.sh || true
 fi
 if [ -n "$IP_8" ]; then
   echo Uploading to minikube8
-  timeout -v 30 ./upload-minikube8-zone-generator.sh
+  timeout -v 30 ./upload-minikube8-zone-generator.sh || true
 fi
 if [ -n "$IP_9" ]; then
   echo Uploading to minikube9
-  timeout -v 30 ./upload-minikube9-zone-generator.sh
+  timeout -v 30 ./upload-minikube9-zone-generator.sh || true
 fi
 if [ -n "$IP_10" ]; then
   echo Uploading to minikube10
-  timeout -v 30 ./upload-minikube10-zone-generator.sh
+  timeout -v 30 ./upload-minikube10-zone-generator.sh || true
 fi
 
 echo "Done."

@@ -11,6 +11,10 @@ git stash
 git pull
 git stash apply || true
 
+echo "Jim fake error"
+echo fake error 1>&2
+exit 1
+
 echo "Last IPs:"
 cat generator/ips.json
 

@@ -76,19 +76,19 @@ trap "" INT
 
 if [ -n "$IP_7" ]; then
   echo Uploading to minikube7
-  /usr/bin/timeout -v -s INT 30 ./upload-minikube7-zone-generator.sh 2>&1
+  #/usr/bin/timeout -v -s INT 30 ./upload-minikube7-zone-generator.sh 2>&1
 fi
 if [ -n "$IP_8" ]; then
   echo Uploading to minikube8
-  /usr/bin/timeout -v -s INT 30 ./upload-minikube8-zone-generator.sh 2>&1
+  #/usr/bin/timeout -v -s INT 30 ./upload-minikube8-zone-generator.sh 2>&1
 fi
 if [ -n "$IP_9" ]; then
   echo Uploading to minikube9
-  /usr/bin/timeout -v -s INT 30 ./upload-minikube9-zone-generator.sh 2>&1
+  #/usr/bin/timeout -v -s INT 30 ./upload-minikube9-zone-generator.sh 2>&1
 fi
 if [ -n "$IP_10" ]; then
   echo Uploading to minikube10
-  /usr/bin/timeout -v -s INT 30 ./upload-minikube10-zone-generator.sh 2>&1
+  #/usr/bin/timeout -v -s INT 30 ./upload-minikube10-zone-generator.sh 2>&1
 fi
 
 echo "Done."

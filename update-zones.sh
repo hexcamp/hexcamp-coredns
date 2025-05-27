@@ -69,6 +69,7 @@ cd generator
 cd ..
 
 set +e
+touch /root/.config/rclone/rclone.conf
 if [ -n "$IP_7" ]; then
   echo Uploading to minikube7
   (timeout -v 30 ./upload-minikube7-zone-generator.sh 2>&1) || true

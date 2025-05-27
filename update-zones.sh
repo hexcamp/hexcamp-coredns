@@ -69,6 +69,7 @@ cd generator
 cd ..
 
 set +e
+mkdir -p /root/.config/rclone
 touch /root/.config/rclone/rclone.conf
 if [ -n "$IP_7" ]; then
   echo Uploading to minikube7

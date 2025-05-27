@@ -11,6 +11,9 @@ git stash
 git pull
 git stash apply || true
 
+echo "Jim exit"
+exit
+
 echo "Last IPs:"
 cat generator/ips.json
 

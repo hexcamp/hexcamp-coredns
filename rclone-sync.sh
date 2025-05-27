@@ -29,7 +29,7 @@ if [ -z "$RCLONE_PASSWORD" ]; then
 	exit 1
 fi
 
-rclone config create $CLUSTER-$ZONE webdav \
+timeout -v 15 rclone config create $CLUSTER-$ZONE webdav \
 	url=https://rclone-$CLUSTER-$ZONE.infra.hex.camp:30443 \
 	vendor=other \
 	pass=$RCLONE_PASSWORD \
@@ -37,6 +37,6 @@ rclone config create $CLUSTER-$ZONE webdav \
 	--non-interactive > /dev/null
 
 #rclone sync -v --ignore-times $DIR $CLUSTER-proxy: 
-rclone sync --ignore-times $DIR $CLUSTER-$ZONE: 
+timeout -v 15 rclone sync --ignore-times $DIR $CLUSTER-$ZONE: 
 
 

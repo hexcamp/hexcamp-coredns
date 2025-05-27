@@ -28,10 +28,6 @@ IP_8=$(cat generator/ips.json | jq -r .minikube8_ip)
 IP_9=$(cat generator/ips.json | jq -r .minikube9_ip)
 IP_10=$(cat generator/ips.json | jq -r .minikube10_ip)
 
-echo "Jim exit4"
-exit
-
-
 set +e
 if [ -n "$IP_7" ]; then
   echo "minikube7: http://$IP_7:9153/metrics"
@@ -59,6 +55,9 @@ if [ -n "$IP_10" ]; then
 fi
 set -e
 echo
+
+echo "Jim exit5"
+exit
 
 echo Copying site data
 cp -v /sites/jim.csv generator/sites/jim.csv

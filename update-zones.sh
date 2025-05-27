@@ -4,7 +4,7 @@ set -eu
 
 cd /data/hexcamp-coredns
 
-trap "" SIGINT
+trap "" SIGTERM
 
 ./update-zones2.sh 2>&1
 

@@ -23,14 +23,14 @@ cat /ips/ips.json | jq > generator/ips.json
 echo "New IPs from /ips:"
 cat generator/ips.json
 
-echo "Jim exit3"
-exit
-
-
 IP_7=$(cat generator/ips.json | jq -r .minikube7_ip)
 IP_8=$(cat generator/ips.json | jq -r .minikube8_ip)
 IP_9=$(cat generator/ips.json | jq -r .minikube9_ip)
 IP_10=$(cat generator/ips.json | jq -r .minikube10_ip)
+
+echo "Jim exit4"
+exit
+
 
 set +e
 if [ -n "$IP_7" ]; then

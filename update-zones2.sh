@@ -14,13 +14,13 @@ git stash apply || true
 echo "Last IPs:"
 cat generator/ips.json
 
-if [ ! -f /tmp/cloudevent.json ]; then
-  echo Missing /tmp/cloudevent.json
+if [ ! -f /ips/ips.json ]; then
+  echo Missing /ips/ips.json
   exit 1
 fi
 
-cat /tmp/cloudevent.json | jq > generator/ips.json
-echo "New IPs from CloudEvent:"
+cat /ips/ips.json | jq > generator/ips.json
+echo "New IPs from /ips:"
 cat generator/ips.json
 
 IP_7=$(cat generator/ips.json | jq -r .minikube7_ip)

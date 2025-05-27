@@ -6,9 +6,6 @@ cd /data/hexcamp-coredns
 
 echo "Updating zones..."
 
-echo "Jim exit2"
-exit
-
 echo "git pull:"
 git stash
 git pull
@@ -25,6 +22,10 @@ fi
 cat /ips/ips.json | jq > generator/ips.json
 echo "New IPs from /ips:"
 cat generator/ips.json
+
+echo "Jim exit3"
+exit
+
 
 IP_7=$(cat generator/ips.json | jq -r .minikube7_ip)
 IP_8=$(cat generator/ips.json | jq -r .minikube8_ip)

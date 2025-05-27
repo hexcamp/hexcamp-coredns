@@ -73,19 +73,19 @@ mkdir -p /root/.config/rclone
 touch /root/.config/rclone/rclone.conf
 if [ -n "$IP_7" ]; then
   echo Uploading to minikube7
-  /usr/bin/timeout -v 30 -s 0 ./upload-minikube7-zone-generator.sh
+  /usr/bin/timeout -v 30 ./upload-minikube7-zone-generator.sh
 fi
 if [ -n "$IP_8" ]; then
   echo Uploading to minikube8
-  /usr/bin/timeout -v 30 -s 0 ./upload-minikube8-zone-generator.sh
+  /usr/bin/timeout -v 30 ./upload-minikube8-zone-generator.sh
 fi
 if [ -n "$IP_9" ]; then
   echo Uploading to minikube9
-  /usr/bin/timeout -v 30 -s 0 ./upload-minikube9-zone-generator.sh
+  /usr/bin/timeout -v 30 ./upload-minikube9-zone-generator.sh
 fi
 if [ -n "$IP_10" ]; then
   echo Uploading to minikube10
-  /usr/bin/timeout -v 30 -s 0 ./upload-minikube10-zone-generator.sh
+  /usr/bin/timeout -v 30 ./upload-minikube10-zone-generator.sh
 fi
 
 echo "Done."

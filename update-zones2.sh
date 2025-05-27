@@ -56,9 +56,6 @@ fi
 set -e
 echo
 
-echo "Jim exit5"
-exit
-
 echo Copying site data
 cp -v /sites/jim.csv generator/sites/jim.csv
 
@@ -66,6 +63,10 @@ cd generator
 ./copy-current-to-prev.sh
 ./generate.sh
 cd ..
+
+echo "Jim exit6"
+exit
+
 
 set +e
 if [ -n "$IP_7" ]; then

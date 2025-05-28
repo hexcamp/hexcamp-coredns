@@ -34,6 +34,8 @@ rclone config create $CLUSTER-$ZONE webdav \
 	vendor=other \
 	pass=$RCLONE_PASSWORD \
 	user=admin \
+  contimeout=10s \
+  timeout=15s \
 	--non-interactive > /dev/null
 
 #rclone sync -v --ignore-times $DIR $CLUSTER-proxy: 

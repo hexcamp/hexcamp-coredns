@@ -41,5 +41,5 @@ rclone config create $CLUSTER-$ZONE webdav \
 set -x
 set +e
 rclone sync --ignore-times $DIR $CLUSTER-$ZONE: 
-
+echo "Done rclone-sync.sh"
 

@@ -38,7 +38,7 @@ rclone config create $CLUSTER-$ZONE webdav \
   timeout=15s \
 	--non-interactive > /dev/null
 
-#rclone sync -v --ignore-times $DIR $CLUSTER-proxy: 
+set +e
 rclone sync --ignore-times $DIR $CLUSTER-$ZONE: 
 
 

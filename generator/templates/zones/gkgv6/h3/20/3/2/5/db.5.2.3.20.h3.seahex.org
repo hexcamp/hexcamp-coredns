@@ -46,6 +46,8 @@ ns-minikube8 IN A {{ ips.minikube8_ip }}
 ; 6kgvxnw3nw2q.seahex.org - ryzen9 (unused)
 5.6.6.6.6.6.6.6.6.6.6.5.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
 
+; 6kgv3nw3nw2q.seahex.org - hackmd-updater API
+5.6.6.6.6.6.6.6.6.6.6.6.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
 
 ; Test Sites
 

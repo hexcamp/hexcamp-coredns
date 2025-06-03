@@ -76,6 +76,11 @@ _dnslink.1.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20.h3.seahex.org. TXT "dnslink=/ipfs/QmZb
 ;6kgv3nw3nwyq.seahex.org - ryzen9 IPFS Cluster Swarm
 1.6.6.6.6.6.6.6.6.6.6.6.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
 
+; Dev Sites 
+
+;6kgvdnw3nw3a.seahex.org - ryzen9 Contour External Auth Sample - ryzen9
+6.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. CNAME ovh-front-ryzen9.infra.hex.camp.
+
 ; ATMosphereConf 2025
 
 ; ATProto - Jim Pick in Seattle

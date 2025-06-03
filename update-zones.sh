@@ -74,19 +74,19 @@ touch /root/.config/rclone/rclone.conf
 
 if [ -n "$IP_7" ]; then
   echo Uploading to minikube7
-  ./upload-minikube7-zone-generator.sh
+  timeout -v 30 ./upload-minikube7-zone-generator.sh
 fi
 if [ -n "$IP_8" ]; then
   echo Uploading to minikube8
-  ./upload-minikube8-zone-generator.sh
+  timeout -v 30 ./upload-minikube8-zone-generator.sh
 fi
 if [ -n "$IP_9" ]; then
   echo Uploading to minikube9
-  ./upload-minikube9-zone-generator.sh
+  timeout -v 30 ./upload-minikube9-zone-generator.sh
 fi
 if [ -n "$IP_10" ]; then
   echo Uploading to minikube10
-  ./upload-minikube10-zone-generator.sh
+  timeout -v 30 ./upload-minikube10-zone-generator.sh
 fi
 
 echo "Done."

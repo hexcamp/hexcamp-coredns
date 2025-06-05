@@ -17,6 +17,11 @@ ns-minikube9	300 A {{ ips.minikube9_ip }}
 ns-minikube10	300 A {{ ips.minikube10_ip }}
 {%- endif %}
 
+; landing page
+@ 21600 IN A 144.217.233.191
+_dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.0.1.5.2.3.20.h3.seahex.org.
+
+; bluesky
 _atproto 7200 IN TXT "did=did:plc:axbvrm76ppov53vttghgsw5p"
 
 ; akpq - victoria / seattle / vancouver / california

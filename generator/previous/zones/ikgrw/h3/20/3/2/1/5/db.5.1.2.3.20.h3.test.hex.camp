@@ -1,16 +1,16 @@
 $ORIGIN 5.1.2.3.20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.5.1.2.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025052603 ; serial
+				2025060508 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
 @ IN NS ns-minikube7.5.1.2.3.20.h3.test.hex.camp.
-ns-minikube7 IN A 43.207.145.24
+ns-minikube7 IN A 18.182.64.139
 @ IN NS ns-minikube8.5.1.2.3.20.h3.test.hex.camp.
-ns-minikube8 IN A 34.215.163.174
+ns-minikube8 IN A 54.212.228.219
 
 
 ; ykgrv5aexe.test.hex.camp - jimpick.com - Photos - Portage Inlet Park
@@ -120,17 +120,22 @@ _dnslink.0.6.4.4.2.2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=
 
 ; 6kgrvlbslccq.test.hex.camp - jimpick.com - vichex.ca Welcome HackMD - nuc
 5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
-_dnslink.5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeihgobkruvucmmdgsnk2mzdomsevnqvlaw34jhnvvvmspuhae3l63m"
-5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeihgobkruvucmmdgsnk2mzdomsevnqvlaw34jhnvvvmspuhae3l63m"
+_dnslink.5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeifvrkzsrrfybkui3z3zh6e4tovtlrmw6wzptdkxceleb267eoiszi"
+5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeifvrkzsrrfybkui3z3zh6e4tovtlrmw6wzptdkxceleb267eoiszi"
 
 ; 6kgrvqaaaaaa.test.hex.camp - jimpick.com - vichex.ca Landing page - nuc
 0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
-_dnslink.0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeib4kacgkyg763pcynxi3nqoi3q3qwhx26dnjhrnptw6x5jltsb2ye"
-0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeib4kacgkyg763pcynxi3nqoi3q3qwhx26dnjhrnptw6x5jltsb2ye"
+_dnslink.0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeihn5loatvi47mp2tlgs3g4x7un5f6g3kiefeseruqjpulglp4noli"
+0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeihn5loatvi47mp2tlgs3g4x7un5f6g3kiefeseruqjpulglp4noli"
 
 ; 6kgrwaaaaaaa.test.hex.camp - jimpick.com - Wikipedia - Victoria - nuc
 0.0.0.0.0.0.0.0.0.0.4.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
 _dnslink.0.0.0.0.0.0.0.0.0.0.4.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmZfkreTGE6oXFExqvPzvSYJwcsEPNvCr32fq7y1fPC3LW"
 0.0.0.0.0.0.0.0.0.0.4.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmZfkreTGE6oXFExqvPzvSYJwcsEPNvCr32fq7y1fPC3LW"
+
+; 6kgrvqaaaaaq.test.hex.camp - jimpick.com - Victoria Arts Map - nuc
+1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeid4nlaxqw6m3z7rggxp3b647t4ja52ffr7y4rfsgqsf3ob7vrhwci"
+1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeid4nlaxqw6m3z7rggxp3b647t4ja52ffr7y4rfsgqsf3ob7vrhwci"
 
 

@@ -87,8 +87,8 @@ h3.vanhex.ca:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
-    forward . 8.8.8.8
-    #unbound
+    #forward . 8.8.8.8
+    unbound
     log
     errors
     reload
@@ -123,8 +123,8 @@ h3.seahex.org:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
-    forward . 8.8.8.8
-    #unbound
+    #forward . 8.8.8.8
+    unbound
     log
     errors
     reload

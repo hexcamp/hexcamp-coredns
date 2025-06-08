@@ -21,7 +21,7 @@ test.hex.camp:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
 }
 test.hex.camp:53 {
@@ -70,7 +70,7 @@ vichex.ca:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
 }
 vichex.ca:53 {
@@ -106,7 +106,7 @@ vanhex.ca:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
 }
 vanhex.ca:53 {
@@ -142,7 +142,7 @@ seahex.org:53 {
     log
     errors
     reload
-    cache
+    #cache
     prometheus 0.0.0.0:9153
 }
 seahex.org:53 {

@@ -1,6 +1,6 @@
 $ORIGIN vanhex.ca.
 @	3600 IN	SOA ns.vanhex.ca. hostmaster.vanhex.ca. (
-				2025060802 ; serial
+				2025060803 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -12,8 +12,8 @@ ns-minikube9	300 A 3.76.251.81
 ns-minikube10	300 A 3.148.105.255
 
 ; landing page
-;@ 21600 IN A 144.217.233.191
-;_dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.vanhex.ca.
+@ 21600 IN A 144.217.233.191
+_dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.3.4.6.3.3.20.h3.vanhex.ca.
 
 ; bluesky
 ;_atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"

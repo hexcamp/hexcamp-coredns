@@ -51,6 +51,16 @@
       health_check 100000s
       spray # Use even without health check
     }
+    # Vancouver
+    dnsredir hex/3.4.6.3.3.20.h3.vanhex.ca {
+      to ietf-http-doh://hexcamp-vanhex.vanhex.minikube7.localnet.farm:30080/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+      spray # Use even without health check
+    }
     # Full zone
     dnsredir hex/20.h3.test.hex.camp {
       to ietf-http-doh://hexcamp-akpq.akpq.minikube7.localnet.farm:30080/dns-query
@@ -71,6 +81,15 @@
       spray # Use even without health check
     }
     dnsredir hex/20.h3.seahex.org {
+      to ietf-http-doh://hexcamp-akpq.akpq.minikube7.localnet.farm:30080/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+      spray # Use even without health check
+    }
+    dnsredir hex/20.h3.vanhex.org {
       to ietf-http-doh://hexcamp-akpq.akpq.minikube7.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s

@@ -1,0 +1,30 @@
+$ORIGIN 20.h3.vanhex.ca.
+$TTL 5m
+@	3600 IN	SOA ns.20.h3.vanhex.ca. hostmaster.vanhex.ca. (
+				{{ serial }} ; serial
+				7200       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				3600       ; minimum (1 hour)
+				)
+
+
+{%- if ips.minikube7_ip %}
+@ IN NS ns-minikube7.20.h3.vanhex.ca.
+ns-minikube7 IN A {{ ips.minikube7_ip }}
+{%- endif %}
+{%- if ips.minikube8_ip %}
+@ IN NS ns-minikube8.20.h3.vanhex.ca.
+ns-minikube8 IN A {{ ips.minikube8_ip }}
+{%- endif %}
+
+; Vancouver
+{%- if ips.minikube7_ip %}
+3.4.6.3.3.20.h3.vanhex.ca. 3600 IN NS ns-minikube7.3.4.6.3.3.20.h3.vanhex.ca. 
+ns-minikube7.3.4.6.3.3.20.h3.vanhex.ca. 3600 IN A {{ ips.minikube7_ip }}
+{%- endif %}
+{%- if ips.minikube8_ip %}
+3.4.6.3.3.20.h3.vanhex.ca. 3600 IN NS ns-minikube8.3.4.6.3.3.20.h3.vanhex.ca. 
+ns-minikube8.3.4.6.3.3.20.h3.vanhex.ca. 3600 IN A {{ ips.minikube8_ip }}
+{%- endif %}
+

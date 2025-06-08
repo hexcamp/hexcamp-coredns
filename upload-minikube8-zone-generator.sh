@@ -30,6 +30,16 @@ for z in \
 		$TOP/rclone-sync.sh minikube8 $z $z
 	done
 
+  cd ../bundles
+
+for b in \
+	vanhex \
+	; do \
+		echo minikube8: $b; \
+		$TOP/rclone-sync.sh minikube7 $b $b/zones
+	done
+
+
 #rclone sync --ignore-times ai minikube8-ai:
 #rclone sync --ignore-times as7q minikube8-as7q:
 #rclone sync --ignore-times akpq minikube8-akpq:

@@ -36,7 +36,7 @@ for b in \
 	vanhex \
 	; do \
 		echo minikube8: $b; \
-		$TOP/rclone-sync.sh minikube7 $b $b/zones
+		$TOP/rclone-sync.sh minikube8 $b $b/zones
 	done
 
 

@@ -7,6 +7,7 @@ cd /data/hexcamp-coredns
 echo "Updating zones..."
 
 echo "git pull:"
+git stash clear
 git stash
 git pull
 git stash apply || true

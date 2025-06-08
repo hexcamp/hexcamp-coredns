@@ -25,6 +25,9 @@ gen_new_file() {
   }
 EOT
   REGION=$(echo $DIRNAME | sed -n -E 's,^.*zones/([^/]+)/.*,\1,p')
+  if [ -z "$REGION" ]; then
+    REGION=$(echo $BASENAME | sed -n -E 's,^([^/]+)\.zone$,\1,p')
+  fi
   #echo Region: $REGION
   cat tmp/sites-jim.json | jq "[.[] | select(.region == \"$REGION\")]" > tmp/region-sites.json
   jq -n \

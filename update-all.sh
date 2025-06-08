@@ -55,24 +55,24 @@ cd generator
 exit
 
 
-cd ..
-set +e
-if [ -n "$IP_7" ]; then
-  echo Uploading to minikube7
-  timeout -v 30 ./upload-minikube7.sh
-fi
-if [ -n "$IP_8" ]; then
-  echo Uploading to minikube8
-  timeout -v 30 ./upload-minikube8.sh
-fi
-if [ -n "$IP_9" ]; then
-  echo Uploading to minikube9
-  timeout -v 30 ./upload-minikube9.sh
-fi
-if [ -n "$IP_10" ]; then
-  echo Uploading to minikube10
-  timeout -v 30 ./upload-minikube10.sh
-fi
+#cd ..
+#set +e
+#if [ -n "$IP_7" ]; then
+#  echo Uploading to minikube7
+#  timeout -v 30 ./upload-minikube7.sh
+#fi
+#if [ -n "$IP_8" ]; then
+#  echo Uploading to minikube8
+#  timeout -v 30 ./upload-minikube8.sh
+#fi
+#if [ -n "$IP_9" ]; then
+#  echo Uploading to minikube9
+#  timeout -v 30 ./upload-minikube9.sh
+#fi
+#if [ -n "$IP_10" ]; then
+#  echo Uploading to minikube10
+#  timeout -v 30 ./upload-minikube10.sh
+#fi
 #echo Updating nonce for seahex.org
 #./update-nonce-seahex.sh
 #echo Updating nonce for vichex.ca

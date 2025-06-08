@@ -9,16 +9,16 @@ $TTL 5m
                                 )
 
 {%- if ips.minikube7_ip %}
-@ IN NS ns-minikube7.3.4.6.3.3.20.h3.vichex.ca.
+@ IN NS ns-minikube7.3.4.6.3.3.20.h3.vanhex.ca.
 ns-minikube7 IN A {{ ips.minikube7_ip }}
 {%- endif %}
 {%- if ips.minikube8_ip %}
-@ IN NS ns-minikube8.3.4.6.3.3.20.h3.vichex.ca.
+@ IN NS ns-minikube8.3.4.6.3.3.20.h3.vanhex.ca.
 ns-minikube8 IN A {{ ips.minikube8_ip }}
 {%- endif %}
 
 {% for site in sites %}
-; {{ site.hex_id }}.vichex.ca - {{ site.who }} - {{ site.comment }}
+; {{ site.hex_id }}.vanhex.ca - {{ site.who }} - {{ site.comment }}
 {{ site.hex_reverse_path }}.h3.vanhex.ca. IN 21600 A {{ site.target_ipfs_server }}
 _dnslink.{{ site.hex_reverse_path }}.h3.vanhex.ca. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
 {{ site.hex_reverse_path }}.h3.vanhex.ca. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"

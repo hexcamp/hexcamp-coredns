@@ -18,6 +18,7 @@ cat Corefile.template | \
   sed "s,<secret>,\"$JIMPICK_DNS_READONLY_SECRET_ACCESS_KEY\","  \
   > Corefile
 
+echo minikube10: proxy
 $TOP/rclone-sync.sh minikube10 proxy .
 
 #rclone sync --ignore-times . minikube10-proxy:

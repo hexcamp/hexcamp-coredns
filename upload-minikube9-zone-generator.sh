@@ -19,6 +19,7 @@ cat Corefile.template | \
   > Corefile
 
 #rclone sync --ignore-times . minikube9-proxy:
+echo minikube9: proxy
 $TOP/rclone-sync.sh minikube9 proxy .
 
 cd ../../zones

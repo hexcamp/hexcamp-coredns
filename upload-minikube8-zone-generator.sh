@@ -14,6 +14,7 @@ TOP=$(pwd)
 cd generator/current/corefiles/minikube8
 
 #rclone sync --ignore-times . minikube8-proxy:
+echo minikube8: proxy
 $TOP/rclone-sync.sh minikube8 proxy .
 
 cd ../../zones

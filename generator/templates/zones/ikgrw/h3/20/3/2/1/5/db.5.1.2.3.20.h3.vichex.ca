@@ -17,6 +17,11 @@ ns-minikube7 IN A {{ ips.minikube7_ip }}
 ns-minikube8 IN A {{ ips.minikube8_ip }}
 {%- endif %}
 
+0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.vichex.ca
+
+; 6kgrvqaeaaaa.vichex.ca - Stract Search Backend - Community Associations
+0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.vichex.ca. CNAME ovh-front-ryzen9.infra.hex.camp.
+
 {% for site in sites %}
 ; {{ site.hex_id }}.vichex.ca - {{ site.who }} - {{ site.comment }}
 {{ site.hex_reverse_path }}.h3.vichex.ca. IN 21600 A {{ site.target_ipfs_server }}

@@ -89,7 +89,7 @@
       health_check 100000s
       spray # Use even without health check
     }
-    dnsredir hex/20.h3.vanhex.org {
+    dnsredir hex/20.h3.vanhex.ca {
       to ietf-http-doh://hexcamp-akpq.akpq.minikube7.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s

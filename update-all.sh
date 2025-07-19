@@ -19,6 +19,7 @@ IP_7=$(cat generator/ips.json | jq -r .minikube7_ip)
 IP_8=$(cat generator/ips.json | jq -r .minikube8_ip)
 IP_9=$(cat generator/ips.json | jq -r .minikube9_ip)
 IP_10=$(cat generator/ips.json | jq -r .minikube10_ip)
+IP_11=$(cat generator/ips.json | jq -r .minikube11_ip)
 
 set +e
 if [ -n "$IP_7" ]; then
@@ -43,6 +44,12 @@ if [ -n "$IP_10" ]; then
   echo "minikube10: http://$IP_10:9153/metrics"
   echo -n "            "
   timeout -v 5 curl -s http://$IP_10:9153/metrics | grep ^coredns_build_info
+  echo
+fi
+if [ -n "$IP_11" ]; then
+  echo "minikube11: http://$IP_11:9153/metrics"
+  echo -n "            "
+  timeout -v 5 curl -s http://$IP_11:9153/metrics | grep ^coredns_build_info
   echo
 fi
 set -e

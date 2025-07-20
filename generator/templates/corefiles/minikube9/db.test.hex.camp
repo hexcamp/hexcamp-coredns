@@ -19,6 +19,12 @@ ns-minikube10	300 A {{ ips.minikube10_ip }}
 ns2	300 A {{ ips.minikube10_ip }}
 {%- endif %}
 
+{%- if ips.minikube11_ip %}
+@ 3600 IN NS ns-minikube11
+ns-minikube11	300 A {{ ips.minikube11_ip }}
+ns3	300 A {{ ips.minikube11_ip }}
+{%- endif %}
+
 ; ai - tokyo
 {%- if ips.minikube7_ip %}
 23.h3 300 IN NS ns-minikube8.23.h3.test.hex.camp.

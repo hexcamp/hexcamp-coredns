@@ -21,5 +21,27 @@ cat Corefile.template | \
 echo minikube11: proxy
 $TOP/rclone-sync.sh minikube11 proxy .
 
-#rclone sync --ignore-times . minikube11-proxy:
+cd ../../zones
+
+for z in \
+	ai \
+	as7q \
+	akpq \
+	ikgrw \
+	gkgy6 \
+	gkgv6 \
+	; do \
+		echo minikube11: $z; \
+		$TOP/rclone-sync.sh minikube11 $z $z
+	done
+
+cd ../bundles
+
+for b in \
+	vanhex \
+	; do \
+		echo minikube11: $b; \
+		$TOP/rclone-sync.sh minikube11 $b $b/zones
+	done
+
 

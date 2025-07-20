@@ -1,6 +1,6 @@
 $ORIGIN vichex.ca.
 @	3600 IN	SOA ns.vichex.ca. hostmaster.vichex.ca. (
-				2025071905 ; serial
+				2025072001 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -20,7 +20,7 @@ _atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"
 
 ; akpq - victoria / seattle / vancouver / california
 20.h3 300 IN NS ns-minikube7.20.h3.vichex.ca.
-ns-minikube7.20.h3.vichex.ca. 300 IN A 43.207.87.7
+ns-minikube7.20.h3.vichex.ca. 300 IN A 52.195.213.115
 20.h3 300 IN NS ns-minikube8.20.h3.vichex.ca.
 ns-minikube8.20.h3.vichex.ca. 300 IN A 35.88.227.197
 

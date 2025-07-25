@@ -1,38 +1,41 @@
 $ORIGIN test.hex.camp.
 @	3600 IN	SOA ns.test.hex.camp. hostmaster.test.hex.camp. (
-				2025072001 ; serial
+				2025072501 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				300       ; minimum (5 minutes)
 				)
 @ 3600 IN NS ns-minikube9
-ns-minikube9	300 A 3.126.83.1
-ns1	300 A 3.126.83.1
+ns-minikube9	300 A 3.126.209.114
+ns1	300 A 3.126.209.114
 @ 3600 IN NS ns-minikube10
 ns-minikube10	300 A 3.141.32.243
 ns2	300 A 3.141.32.243
+@ 3600 IN NS ns-minikube11
+ns-minikube11	300 A 13.37.216.91
+ns3	300 A 13.37.216.91
 
 ; ai - tokyo
 23.h3 300 IN NS ns-minikube8.23.h3.test.hex.camp.
-ns-minikube7.23.h3.test.hex.camp. 300 IN A 52.195.213.115
+ns-minikube7.23.h3.test.hex.camp. 300 IN A 43.207.199.65
 23.h3 300 IN NS ns-minikube8.23.h3.test.hex.camp.
-ns-minikube8.23.h3.test.hex.camp. 300 IN A 35.88.227.197
+ns-minikube8.23.h3.test.hex.camp. 300 IN A 44.251.143.253
 
 ; as7q - okinawa
 37.h3 300 IN NS ns-minikube7.37.h3.test.hex.camp.
-ns-minikube7.37.h3.test.hex.camp. 300 IN A 52.195.213.115
+ns-minikube7.37.h3.test.hex.camp. 300 IN A 43.207.199.65
 37.h3 300 IN NS ns-minikube8.37.h3.test.hex.camp.
-ns-minikube8.37.h3.test.hex.camp. 300 IN A 35.88.227.197
+ns-minikube8.37.h3.test.hex.camp. 300 IN A 44.251.143.253
 
 ; axpq - hawaii
 46.h3 300 IN NS ns-minikube9.46.h3.test.hex.camp.
-ns-minikube9.46.h3.test.hex.camp. 300 IN A 3.126.83.1
+ns-minikube9.46.h3.test.hex.camp. 300 IN A 3.126.209.114
 
 ; akpq - victoria, seattle
 20.h3 300 IN NS ns-minikube7.20.h3.test.hex.camp.
-ns-minikube7.20.h3.test.hex.camp. 300 IN A 52.195.213.115
+ns-minikube7.20.h3.test.hex.camp. 300 IN A 43.207.199.65
 20.h3 300 IN NS ns-minikube8.20.h3.test.hex.camp.
-ns-minikube8.20.h3.test.hex.camp. 300 IN A 35.88.227.197
+ns-minikube8.20.h3.test.hex.camp. 300 IN A 44.251.143.253
 
 _jimtest 300 IN CNAME 4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23.h3.test.hex.camp.

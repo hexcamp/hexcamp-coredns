@@ -1,16 +1,16 @@
 $ORIGIN 5.1.2.3.20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.5.1.2.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025072001 ; serial
+				2025072501 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
 @ IN NS ns-minikube7.5.1.2.3.20.h3.test.hex.camp.
-ns-minikube7 IN A 52.195.213.115
+ns-minikube7 IN A 43.207.199.65
 @ IN NS ns-minikube8.5.1.2.3.20.h3.test.hex.camp.
-ns-minikube8 IN A 35.88.227.197
+ns-minikube8 IN A 44.251.143.253
 
 
 ; ykgrv5aexe.test.hex.camp - jimpick.com - Photos - Portage Inlet Park
@@ -20,8 +20,8 @@ _dnslink.4.3.1.1.0.4.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/
 
 ; 2kgrv5ga2i.test.hex.camp - jimpick.com - Victoria Photos Collection
 3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
-_dnslink.3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmUP68Q2ZbAFgftCZ9NFZ6Z1PuB7vvh5WdWC5HBAD3rvio"
-3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmUP68Q2ZbAFgftCZ9NFZ6Z1PuB7vvh5WdWC5HBAD3rvio"
+_dnslink.3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeifyzlp7u27poci4iijiqi3esyephy57e4x4b4nawztjdu2mp6wwsu"
+3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeifyzlp7u27poci4iijiqi3esyephy57e4x4b4nawztjdu2mp6wwsu"
 
 ; wkgrugwxj4.test.hex.camp - jimpick.com - Photos - Highrock Cairn Park
 4.6.5.6.2.3.0.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
@@ -120,8 +120,8 @@ _dnslink.0.6.4.4.2.2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=
 
 ; 6kgrvlbslccq.test.hex.camp - jimpick.com - vichex.ca Welcome HackMD - nuc
 5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
-_dnslink.5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeifvrkzsrrfybkui3z3zh6e4tovtlrmw6wzptdkxceleb267eoiszi"
-5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeifvrkzsrrfybkui3z3zh6e4tovtlrmw6wzptdkxceleb267eoiszi"
+_dnslink.5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeianz35jxc4hse4m4t3m2fu5x2ldf54uzrbibrvsfsg6kbwgz2l4ka"
+5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeianz35jxc4hse4m4t3m2fu5x2ldf54uzrbibrvsfsg6kbwgz2l4ka"
 
 ; 6kgrvqaaaaaa.test.hex.camp - jimpick.com - vichex.ca Landing page - nuc
 0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
@@ -135,7 +135,197 @@ _dnslink.0.0.0.0.0.0.0.0.0.0.4.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=
 
 ; 6kgrvqaaaaaq.test.hex.camp - jimpick.com - Victoria Arts Map - nuc
 1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
-_dnslink.1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeid4nlaxqw6m3z7rggxp3b647t4ja52ffr7y4rfsgqsf3ob7vrhwci"
-1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeid4nlaxqw6m3z7rggxp3b647t4ja52ffr7y4rfsgqsf3ob7vrhwci"
+_dnslink.1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeibjloqol54pvt5iazdn75qjepowutekidi6yaehmkog4u33t2wwjm"
+1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeibjloqol54pvt5iazdn75qjepowutekidi6yaehmkog4u33t2wwjm"
+
+; 6kgrwqaaaaaa.test.hex.camp - jimpick.com - VicHex OpenStreetMap tiles - nuc
+0.0.0.0.0.0.0.0.0.0.5.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.0.0.0.0.5.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmddEWtpvHHsuKPWmxqQ85v2otuJLJrhdYRkvZJPNrgfq7"
+0.0.0.0.0.0.0.0.0.0.5.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmddEWtpvHHsuKPWmxqQ85v2otuJLJrhdYRkvZJPNrgfq7"
+
+; 6kgruaaaaaaa.test.hex.camp - jimpick.com - Placeholder - nuc
+0.0.0.0.0.0.0.0.0.0.0.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.0.0.0.0.0.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+0.0.0.0.0.0.0.0.0.0.0.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+
+; 6kgrv4qeaaaa.test.hex.camp - jimpick.com - Royal Oak Common Crawl Common Crawl - nuc
+0.0.0.0.0.0.1.0.2.6.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.2.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmVFtdEGgVh5QjuGY2MLJjfm43TQAimf7T3R6Zdd7p68qC"
+0.0.0.0.0.0.1.0.2.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmVFtdEGgVh5QjuGY2MLJjfm43TQAimf7T3R6Zdd7p68qC"
+
+; 6kgrvlaeaaaa.test.hex.camp - jimpick.com - North Park Common Crawl Common Crawl - nuc
+0.0.0.0.0.0.1.0.4.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmaQen19edpbCkNJAHnNL3jU4GzLnqduVFRpuKNtnRDtgz"
+0.0.0.0.0.0.1.0.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmaQen19edpbCkNJAHnNL3jU4GzLnqduVFRpuKNtnRDtgz"
+
+; 6kgrvlieaaaa.test.hex.camp - jimpick.com - Vic West Common Crawl - nuc
+0.0.0.0.0.0.1.0.5.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.5.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmTLnrkLA9YRPMEVBu4EQUHiwQmpBZur12Nqfv8hDWxFmN"
+0.0.0.0.0.0.1.0.5.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmTLnrkLA9YRPMEVBu4EQUHiwQmpBZur12Nqfv8hDWxFmN"
+
+; 6kgrvlqeaaaa.test.hex.camp - jimpick.com - North Jubilee Common Crawl - nuc
+0.0.0.0.0.0.1.0.6.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.6.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWd8ZzXG6qJkJk9dyQ5Xj5ojwyJAUF6T2YQpp42PnSjTW"
+0.0.0.0.0.0.1.0.6.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWd8ZzXG6qJkJk9dyQ5Xj5ojwyJAUF6T2YQpp42PnSjTW"
+
+; 6kgrvqseaaaa.test.hex.camp - jimpick.com - Prospect Lake Common Crawl - nuc
+0.0.0.0.0.0.1.2.2.0.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.2.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmQcZ6ZbQ85zRoi9tMkctsBGLA3dMtaTfqzPLFBAjetrN8"
+0.0.0.0.0.0.1.2.2.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmQcZ6ZbQ85zRoi9tMkctsBGLA3dMtaTfqzPLFBAjetrN8"
+
+; 6kgrv4seaaaa.test.hex.camp - jimpick.com - Broadmead Common Crawl - nuc
+0.0.0.0.0.0.1.2.2.6.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.2.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmPCwH3GTWgxy1PZMK8x4ZyvCb3Tyje7yYtQV3kVKrKH14"
+0.0.0.0.0.0.1.2.2.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmPCwH3GTWgxy1PZMK8x4ZyvCb3Tyje7yYtQV3kVKrKH14"
+
+; 6kgrue2eaaaa.test.hex.camp - jimpick.com - James Bay Common Crawl - nuc
+0.0.0.0.0.0.1.2.3.2.0.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.3.2.0.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmfAiJUp6wKWLPNTUcJFAkZc4fbaHFoRMXhunodZZ7nsnV"
+0.0.0.0.0.0.1.2.3.2.0.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmfAiJUp6wKWLPNTUcJFAkZc4fbaHFoRMXhunodZZ7nsnV"
+
+; 6kgrvdceaaaa.test.hex.camp - jimpick.com - Gordon Head Common Crawl - nuc
+0.0.0.0.0.0.1.2.4.1.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.4.1.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWS97iq3vhqERMmExnskShLD5Snz3ZMkz7V8yZocXBCjU"
+0.0.0.0.0.0.1.2.4.1.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWS97iq3vhqERMmExnskShLD5Snz3ZMkz7V8yZocXBCjU"
+
+; 6kgrvlceaaaa.test.hex.camp - jimpick.com - Fernwood NRG Common Crawl - nuc
+0.0.0.0.0.0.1.2.4.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWmv5DtkyqvkM6kCLQBxT9Mrrd6maCPzRqmYEMTQiM7Fp"
+0.0.0.0.0.0.1.2.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWmv5DtkyqvkM6kCLQBxT9Mrrd6maCPzRqmYEMTQiM7Fp"
+
+; 6kgrv5seaaaa.test.hex.camp - jimpick.com - North Quadra Common Crawl - nuc
+0.0.0.0.0.0.1.2.6.6.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.6.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNeWZp1GTWfcoHmGJdNkr27FEc68HsBHeMWDc14ExKpHA"
+0.0.0.0.0.0.1.2.6.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNeWZp1GTWfcoHmGJdNkr27FEc68HsBHeMWDc14ExKpHA"
+
+; 6kgrvkleaaaa.test.hex.camp - jimpick.com - Mount View Colquitz Common Crawl - nuc
+0.0.0.0.0.0.1.3.1.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.3.1.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmTCd4U7dDuNhXovwTGRvrBZEqnWGQ3aPGTDYmkYtWVDfb"
+0.0.0.0.0.0.1.3.1.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmTCd4U7dDuNhXovwTGRvrBZEqnWGQ3aPGTDYmkYtWVDfb"
+
+; 6kgrueteaaaa.test.hex.camp - jimpick.com - Fairfield Gonzalez Common Crawl - nuc
+0.0.0.0.0.0.1.3.2.2.0.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.3.2.2.0.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/Qmadm8C3zbJoMN1aBYuo2FhP3GjxtMtwsCMkMtV26M9MSc"
+0.0.0.0.0.0.1.3.2.2.0.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/Qmadm8C3zbJoMN1aBYuo2FhP3GjxtMtwsCMkMtV26M9MSc"
+
+; 6kgrv4teaaaa.test.hex.camp - jimpick.com - Falaise Common Crawl - nuc
+0.0.0.0.0.0.1.3.2.6.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.3.2.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmSBcqqB4ANKF3PG1fkmXqSNtHgjmYxHJ27D1LY4NMiKZg"
+0.0.0.0.0.0.1.3.2.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmSBcqqB4ANKF3PG1fkmXqSNtHgjmYxHJ27D1LY4NMiKZg"
+
+; 6kgrvlleaaaa.test.hex.camp - jimpick.com - Burnside Gorge Common Crawl - nuc
+0.0.0.0.0.0.1.3.5.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.3.5.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmUNNUvTnt7qYq3zdw3Yttiv6ftNyHxLs6sNPoxf3WfohY"
+0.0.0.0.0.0.1.3.5.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmUNNUvTnt7qYq3zdw3Yttiv6ftNyHxLs6sNPoxf3WfohY"
+
+; 6kgrvkeeaaaa.test.hex.camp - jimpick.com - Quadra Village Common Crawl - nuc
+0.0.0.0.0.0.1.4.0.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.4.0.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmYSbpoetm9Ykr4SWrtzkaZMtN1GNqMsDKUARyMLzxkNbb"
+0.0.0.0.0.0.1.4.0.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmYSbpoetm9Ykr4SWrtzkaZMtN1GNqMsDKUARyMLzxkNbb"
+
+; 6kgrvk4eaaaa.test.hex.camp - jimpick.com - Quadra Cedar Hill Common Crawl - nuc
+0.0.0.0.0.0.1.4.3.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.4.3.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmcNscQv7xbWSg5nRkQepjZzQxXGYGK6yteYRhRgpVKFbc"
+0.0.0.0.0.0.1.4.3.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmcNscQv7xbWSg5nRkQepjZzQxXGYGK6yteYRhRgpVKFbc"
+
+; 6kgrvvueaaaa.test.hex.camp - jimpick.com - Cordova Bay Common Crawl - nuc
+0.0.0.0.0.0.1.4.6.2.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.4.6.2.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmTxb15zFpTf2mRDknkxkxkbxL9F4R4tTJ6wjCgZBuSndb"
+0.0.0.0.0.0.1.4.6.2.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmTxb15zFpTf2mRDknkxkxkbxL9F4R4tTJ6wjCgZBuSndb"
+
+; 6kgrvlueaaaa.test.hex.camp - jimpick.com - South Jubilee Common Crawl - nuc
+0.0.0.0.0.0.1.4.6.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.4.6.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmW1QAPiN8h3zJi4PQzbANwxyd9cmWCGstWHpXEAtYUZSQ"
+0.0.0.0.0.0.1.4.6.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmW1QAPiN8h3zJi4PQzbANwxyd9cmWCGstWHpXEAtYUZSQ"
+
+; 6kgrvafeaaaa.test.hex.camp - jimpick.com - Cadboro Bay Common Crawl - nuc
+0.0.0.0.0.0.1.5.0.0.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.0.0.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWtaPGY2pxRhog8GHTfarYFKJu3LLvazPVGPDb4VmEvYT"
+0.0.0.0.0.0.1.5.0.0.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWtaPGY2pxRhog8GHTfarYFKJu3LLvazPVGPDb4VmEvYT"
+
+; 6kgrvineaaaa.test.hex.camp - jimpick.com - Rockland Common Crawl - nuc
+0.0.0.0.0.0.1.5.1.4.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.1.4.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWyJ3dUQsV13CG5Jj1hnd6DKfqF1SLhERoQGNGXG76Tdo"
+0.0.0.0.0.0.1.5.1.4.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWyJ3dUQsV13CG5Jj1hnd6DKfqF1SLhERoQGNGXG76Tdo"
+
+; 6kgrvkneaaaa.test.hex.camp - jimpick.com - Gorge Tillicum Common Crawl - nuc
+0.0.0.0.0.0.1.5.1.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.1.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNdjur4nhW1dZ65qNsTbj3mfPtq2Genphx1D86VgktCiy"
+0.0.0.0.0.0.1.5.1.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNdjur4nhW1dZ65qNsTbj3mfPtq2Genphx1D86VgktCiy"
+
+; 6kgrvi5eaaaa.test.hex.camp - jimpick.com - Camosun Common Crawl - nuc
+0.0.0.0.0.0.1.5.3.4.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.3.4.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmSPFz9afqw2AccSBL1fYuFG1TeaAUTwdCTXQMRp8HkahS"
+0.0.0.0.0.0.1.5.3.4.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmSPFz9afqw2AccSBL1fYuFG1TeaAUTwdCTXQMRp8HkahS"
+
+; 6kgrvlfeaaaa.test.hex.camp - jimpick.com - Downtown Residents Common Crawl - nuc
+0.0.0.0.0.0.1.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmZAforrXssyPs2876y4vZSQHJfFGPVJd4RhKbHj3KZdFL"
+0.0.0.0.0.0.1.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmZAforrXssyPs2876y4vZSQHJfFGPVJd4RhKbHj3KZdFL"
+
+; 6kgrvlveaaaa.test.hex.camp - jimpick.com - Fernwood Community and Arts Common Crawl - nuc
+0.0.0.0.0.0.1.5.6.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.6.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/Qmea7xnRYWDmYcujD7BroruEhwtDgvJGY6eDsAB76oWvQQ"
+0.0.0.0.0.0.1.5.6.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/Qmea7xnRYWDmYcujD7BroruEhwtDgvJGY6eDsAB76oWvQQ"
+
+; 6kgrv5veaaaa.test.hex.camp - jimpick.com - Carey Area Common Crawl - nuc
+0.0.0.0.0.0.1.5.6.6.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.6.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWo6sggM9vbnh778qeo5ib4Hd5PZVmtUDBxrvq17p6UhQ"
+0.0.0.0.0.0.1.5.6.6.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmWo6sggM9vbnh778qeo5ib4Hd5PZVmtUDBxrvq17p6UhQ"
+
+; 6kgrvkgeaaaa.test.hex.camp - jimpick.com - Oaklands Common Crawl - nuc
+0.0.0.0.0.0.1.6.0.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.6.0.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmZG2tGdpg5ihHdMCRdCag7UXfiS2L5uyPmUaRuuWXvPdu"
+0.0.0.0.0.0.1.6.0.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmZG2tGdpg5ihHdMCRdCag7UXfiS2L5uyPmUaRuuWXvPdu"
+
+; 6kgrvkweaaaa.test.hex.camp - jimpick.com - Mount Tolmie Common Crawl - nuc
+0.0.0.0.0.0.1.6.2.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.6.2.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmQPXpq3g4FQRmQhs8FsqS6YjUjeCWTfjXd31zV7oQ98mR"
+0.0.0.0.0.0.1.6.2.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmQPXpq3g4FQRmQhs8FsqS6YjUjeCWTfjXd31zV7oQ98mR"
+
+; 6kgrvdoeaaaa.test.hex.camp - jimpick.com - Blenkinsop Valley Common Crawl - nuc
+0.0.0.0.0.0.1.6.5.1.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.6.5.1.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmTMbcCp2j53nn6FBjvmWht6pnBob9YpRmM7tp2u78QZe9"
+0.0.0.0.0.0.1.6.5.1.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmTMbcCp2j53nn6FBjvmWht6pnBob9YpRmM7tp2u78QZe9"
+
+; 6kgruaaeaaaa.test.hex.camp - jimpick.com - Map of Common Crawl Archives - nuc
+0.0.0.0.0.0.1.0.0.0.0.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.0.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmW661UUCggSDmqjjGLhRrcXWE2R9mzoSnH8WMPucmAmZD"
+0.0.0.0.0.0.1.0.0.0.0.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmW661UUCggSDmqjjGLhRrcXWE2R9mzoSnH8WMPucmAmZD"
+
+; 6kgruqaeaaaa.test.hex.camp - jimpick.com - Search Experiment HackMD - nuc
+0.0.0.0.0.0.1.0.0.0.1.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.1.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeieoddknb7fztutuf6izjuyohapbn4l4k54l7yihe3rfpakjswus5y"
+0.0.0.0.0.0.1.0.0.0.1.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeieoddknb7fztutuf6izjuyohapbn4l4k54l7yihe3rfpakjswus5y"
+
+; 6kgrvaaeaaaa.test.hex.camp - jimpick.com - Stract Build Data - nuc
+0.0.0.0.0.0.1.0.0.0.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmZncDgbyB17vhh6fR4PmvSGyETExcrdDuymcXo8JT1FYT"
+0.0.0.0.0.0.1.0.0.0.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmZncDgbyB17vhh6fR4PmvSGyETExcrdDuymcXo8JT1FYT"
+
+; 6kgrvqaeaaaa.test.hex.camp - jimpick.com - Stract Search Backend - Community Associations - nuc
+0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+
+; 6kgrwaaeaaaa.test.hex.camp - jimpick.com - Stract Frontend - Community Associations - nuc
+0.0.0.0.0.0.1.0.0.0.4.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.4.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+0.0.0.0.0.0.1.0.0.0.4.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+
+; 6kgrwqaeaaaa.test.hex.camp - jimpick.com - Stract Index Data - Community Associations - nuc
+0.0.0.0.0.0.1.0.0.0.5.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.5.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmQ5Qb9PSyDRDupjmkLS5Eib6LnUmmVqb2WVPzX6g1DCmM"
+0.0.0.0.0.0.1.0.0.0.5.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmQ5Qb9PSyDRDupjmkLS5Eib6LnUmmVqb2WVPzX6g1DCmM"
+
+; 6kgrunw3nwza.test.hex.camp - jimpick.com - Hex.Camp Dev Blog - nuc
+2.6.6.6.6.6.6.6.6.6.0.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.2.6.6.6.6.6.6.6.6.6.0.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeigjhtvqqx7wz4qxo2xg34hs4pkoyoj6xak5tauao4zvbcsqzj2fva"
+2.6.6.6.6.6.6.6.6.6.0.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeigjhtvqqx7wz4qxo2xg34hs4pkoyoj6xak5tauao4zvbcsqzj2fva"
+
+; 6kgru5w3nwza.test.hex.camp - jimpick.com - Hex.Camp Dev Portal - nuc
+2.6.6.6.6.6.6.6.6.6.1.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
+_dnslink.2.6.6.6.6.6.6.6.6.6.1.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+2.6.6.6.6.6.6.6.6.6.1.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
 
 

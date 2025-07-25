@@ -1,0 +1,51 @@
+$ORIGIN test.hex.camp.
+@	3600 IN	SOA ns.test.hex.camp. hostmaster.test.hex.camp. (
+				{{ serial }} ; serial
+				7200       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				300       ; minimum (5 minutes)
+				)
+
+{%- if ips.minikube9_ip %}
+@ 3600 IN NS ns-minikube9
+ns-minikube9	300 A {{ ips.minikube9_ip }}
+ns1	300 A {{ ips.minikube9_ip }}
+{%- endif %}
+
+{%- if ips.minikube10_ip %}
+@ 3600 IN NS ns-minikube10
+ns-minikube10	300 A {{ ips.minikube10_ip }}
+ns2	300 A {{ ips.minikube10_ip }}
+{%- endif %}
+
+{%- if ips.minikube11_ip %}
+@ 3600 IN NS ns-minikube11
+ns-minikube11	300 A {{ ips.minikube11_ip }}
+ns3	300 A {{ ips.minikube11_ip }}
+{%- endif %}
+
+; ai - tokyo
+{%- if ips.minikube11_ip %}
+23.h3 300 IN NS ns-minikube11.23.h3.test.hex.camp.
+ns-minikube11.23.h3.test.hex.camp. 300 IN A {{ ips.minikube11_ip }}
+{%- endif %}
+
+; as7q - okinawa
+{%- if ips.minikube11_ip %}
+37.h3 300 IN NS ns-minikube11.37.h3.test.hex.camp.
+ns-minikube11.37.h3.test.hex.camp. 300 IN A {{ ips.minikube11_ip }}
+{%- endif %}
+
+; axpq - hawaii
+{%- if ips.minikube9_ip %}
+46.h3 300 IN NS ns-minikube9.46.h3.test.hex.camp.
+ns-minikube9.46.h3.test.hex.camp. 300 IN A {{ ips.minikube9_ip }}
+{%- endif %}
+
+; akpq - victoria, seattle
+{%- if ips.minikube11_ip %}
+20.h3 300 IN NS ns-minikube11.20.h3.test.hex.camp.
+ns-minikube11.20.h3.test.hex.camp. 300 IN A {{ ips.minikube11_ip }}
+{%- endif %}
+

@@ -1,15 +1,21 @@
 $ORIGIN seahex.org.
 @	3600 IN	SOA ns.seahex.org. hostmaster.seahex.org. (
-				2025072501 ; serial
+				{{ serial }} ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				300       ; minimum (5 minutes)
 				)
+
+{%- if ips.minikube9_ip %}
 @ 3600 IN NS ns-minikube9
-ns-minikube9	300 A 3.126.209.114
+ns-minikube9	300 A {{ ips.minikube9_ip }}
+{%- endif %}
+
+{%- if ips.minikube10_ip %}
 @ 3600 IN NS ns-minikube10
-ns-minikube10	300 A 3.141.32.243
+ns-minikube10	300 A {{ ips.minikube10_ip }}
+{%- endif %}
 
 ; landing page
 @ 21600 IN A 144.217.233.191
@@ -19,9 +25,13 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.0.0.5.2.3.20.h3.seahex.org.
 _atproto 7200 IN TXT "did=did:plc:axbvrm76ppov53vttghgsw5p"
 
 ; akpq - victoria / seattle / vancouver / california
+{%- if ips.minikube7_ip %}
 20.h3 300 IN NS ns-minikube7.20.h3.seahex.org.
-ns-minikube7.20.h3.seahex.org. 300 IN A 43.207.199.65
+ns-minikube7.20.h3.seahex.org. 300 IN A {{ ips.minikube7_ip }}
+{%- endif %}
+{%- if ips.minikube8_ip %}
 20.h3 300 IN NS ns-minikube8.20.h3.seahex.org.
-ns-minikube8.20.h3.seahex.org. 300 IN A 44.251.143.253
+ns-minikube8.20.h3.seahex.org. 300 IN A {{ ips.minikube8_ip }}
+{%- endif %}
 
 

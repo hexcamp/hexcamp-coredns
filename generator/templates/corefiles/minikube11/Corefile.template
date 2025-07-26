@@ -31,7 +31,7 @@ test.hex.camp:53 {
 
     # Victoria
     dnsredir hex/5.1.2.3.20.h3.test.hex.camp {
-      to ietf-http-doh://hexcamp-ikgrw.ikgrw.minikube11.localnet.farm:30080/dns-query
+      to ietf-http-doh://hexcamp-ikgrw.default.minikube11.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1
@@ -42,7 +42,7 @@ test.hex.camp:53 {
 
     # Cortes Island
     dnsredir hex/0.3.3.20.h3.test.hex.camp {
-      to ietf-http-doh://hexcamp-gkgy6.gkgy6.minikube11.localnet.farm:30080/dns-query
+      to ietf-http-doh://hexcamp-gkgy6.default.minikube11.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1
@@ -53,7 +53,7 @@ test.hex.camp:53 {
 
     # Full base cell
     dnsredir hex/20.h3.test.hex.camp {
-      to ietf-http-doh://hexcamp-akpq.akpq.minikube11.localnet.farm:30080/dns-query
+      to ietf-http-doh://hexcamp-akpq.default.minikube11.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1
@@ -64,7 +64,7 @@ test.hex.camp:53 {
     
     # Hawaii
     dnsredir hex/46.h3.test.hex.camp {
-      to ietf-http-doh://hexcamp-axpq.axpq.minikube9.localnet.farm:30080/dns-query
+      to ietf-http-doh://hexcamp-axpq.default.minikube9.localnet.farm:30080/dns-query
       path_reload 3s
       url_reload 15s
       max_fails 1

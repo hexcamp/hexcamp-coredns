@@ -28,6 +28,40 @@ test.hex.camp:53 {
     metadata
     hexcamp test.hex.camp
     file db.test.hex.camp test.hex.camp
+
+    # Victoria
+    dnsredir hex/5.1.2.3.20.h3.test.hex.camp {
+      to ietf-http-doh://hexcamp-ikgrw.ikgrw.minikube11.localnet.farm:30080/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+      spray # Use even without health check
+    }
+
+    # Full base cell
+    dnsredir hex/20.h3.test.hex.camp {
+      to ietf-http-doh://hexcamp-akpq.akpq.minikube11.localnet.farm:30080/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+      spray # Use even without health check
+    }
+    
+    # Hawaii
+    dnsredir hex/46.h3.test.hex.camp {
+      to ietf-http-doh://hexcamp-axpq.axpq.minikube9.localnet.farm:30080/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+      spray # Use even without health check
+    }
+
     log
     errors
     reload

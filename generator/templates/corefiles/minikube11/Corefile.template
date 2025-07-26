@@ -2,6 +2,7 @@ h3.test.hex.camp:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
+    file /bundles/ikgrw/h3/20/3/2/1/5/db.5.1.2.3.20.h3.test.hex.camp 5.1.2.3.20.h3.test.hex.camp
     #forward . 8.8.8.8
     unbound
     log

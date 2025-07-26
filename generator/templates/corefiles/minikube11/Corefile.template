@@ -40,6 +40,17 @@ test.hex.camp:53 {
       spray # Use even without health check
     }
 
+    # Cortes Island
+    dnsredir hex/0.3.3.20.h3.test.hex.camp {
+      to ietf-http-doh://hexcamp-gkgy6.gkgy6.minikube11.localnet.farm:30080/dns-query
+      path_reload 3s
+      url_reload 15s
+      max_fails 1
+      expire 1s
+      health_check 100000s
+      spray # Use even without health check
+    }
+
     # Full base cell
     dnsredir hex/20.h3.test.hex.camp {
       to ietf-http-doh://hexcamp-akpq.akpq.minikube11.localnet.farm:30080/dns-query

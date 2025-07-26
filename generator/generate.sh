@@ -82,7 +82,7 @@ if [ -n "$TEST" ]; then
   exit
 fi
 
-for f in $(find templates -type f \! -name '*.swp' | sed 's,templates/,,' | grep -v 'corefiles/db\.'); do
+for f in $(find templates -type f -or -type l \! -name '*.swp' | sed 's,templates/,,' | grep -v 'corefiles/db\.'); do
   #echo $f
   gen_new_file $f
   diff -u previous/$f current/$f || true

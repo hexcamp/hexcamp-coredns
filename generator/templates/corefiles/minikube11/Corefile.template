@@ -1,16 +1,16 @@
-#h3.test.hex.camp:53 {
-#    view cname_lookup {
-#      expr metadata('hexcamp/lookup') == 'true'
-#    }
-#    #forward . 8.8.8.8
-#    unbound
-#    log
-#    errors
-#    reload
-#    #cache
-#    prometheus 0.0.0.0:9153
-#    debug
-#}
+h3.test.hex.camp:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    #forward . 8.8.8.8
+    unbound
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+    debug
+}
 test.hex.camp:53 {
     view acme_challenge {
       expr name() matches '^_acme-challenge\\.'

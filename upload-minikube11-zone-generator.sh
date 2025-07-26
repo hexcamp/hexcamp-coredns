@@ -27,6 +27,7 @@ for z in \
 	ai \
 	as7q \
 	akpq \
+	axpq \
 	ikgrw \
 	gkgy6 \
 	gkgv6 \

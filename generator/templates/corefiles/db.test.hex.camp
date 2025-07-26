@@ -10,7 +10,7 @@ $ORIGIN test.hex.camp.
 {%- if ips.minikube11_ip %}
 @ 3600 IN NS ns-minikube11
 ns-minikube11	300 A {{ ips.minikube11_ip }}
-ns1	300 A {{ ips.minikube11_ip }}
+ns3	300 A {{ ips.minikube11_ip }}
 {%- endif %}
 
 ; ai - tokyo

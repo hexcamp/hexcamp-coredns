@@ -5,6 +5,7 @@ h3.test.hex.camp:53 {
     file /bundles/ikgrw/h3/20/3/2/1/5/db.5.1.2.3.20.h3.test.hex.camp 5.1.2.3.20.h3.test.hex.camp
     file /bundles/gkgy6/h3/20/3/3/0/db.0.3.3.20.h3.test.hex.camp 0.3.3.20.h3.test.hex.camp
     file /bundles/akpq/h3/20/db.20.h3.test.hex.camp 20.h3.test.hex.camp
+    file /bundles/axpq/h3/46/db.46.h3.test.hex.camp 46.h3.test.hex.camp
     #forward . 8.8.8.8
     unbound
     log
@@ -69,15 +70,16 @@ test.hex.camp:53 {
     file /bundles/akpq/h3/20/db.20.h3.test.hex.camp 20.h3.test.hex.camp
     
     # Hawaii
-    dnsredir hex/46.h3.test.hex.camp {
-      to ietf-http-doh://hexcamp-axpq.default.minikube9.localnet.farm:30080/dns-query
-      path_reload 3s
-      url_reload 15s
-      max_fails 1
-      expire 1s
-      health_check 100000s
-      spray # Use even without health check
-    }
+    #dnsredir hex/46.h3.test.hex.camp {
+    #  to ietf-http-doh://hexcamp-axpq.default.minikube9.localnet.farm:30080/dns-query
+    #  path_reload 3s
+    #  url_reload 15s
+    #  max_fails 1
+    #  expire 1s
+    #  health_check 100000s
+    #  spray # Use even without health check
+    #}
+    file /bundles/axpq/h3/46/db.46.h3.test.hex.camp 46.h3.test.hex.camp
 
     log
     errors

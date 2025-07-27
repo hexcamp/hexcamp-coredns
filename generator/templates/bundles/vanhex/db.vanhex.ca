@@ -19,9 +19,9 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.3.4.6.3.3.20.h3.vanhex.ca.
 ; bluesky
 ;_atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"
 
-; akpq - victoria / seattle / vancouver / california
+; kkg6q
 {%- if ips.minikube11_ip %}
-20.h3 300 IN NS ns-minikube11.20.h3.vanhex.ca.
+3.4.6.3.3.20.h3.vanhex.ca.  IN NS ns-minikube11.3.4.6.3.3.20.h3.vanhex.ca.
 ns-minikube11.20.h3.vanhex.ca. 300 IN A {{ ips.minikube11_ip }}
 {%- endif %}
 

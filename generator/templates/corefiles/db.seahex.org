@@ -19,10 +19,9 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.0.0.5.2.3.20.h3.seahex.org.
 ; bluesky
 _atproto 7200 IN TXT "did=did:plc:axbvrm76ppov53vttghgsw5p"
 
-; akpq - victoria / seattle / vancouver / california
 {%- if ips.minikube11_ip %}
-20.h3 300 IN NS ns-minikube11.20.h3.seahex.org.
-ns-minikube11.20.h3.seahex.org. 300 IN A {{ ips.minikube11_ip }}
+5.2.3.20.h3.seahex.org. 300 IN NS ns-minikube11.5.2.3.20.h3.seahex.org.
+ns-minikube11.5.2.3.20.h3.seahex.org. 300 IN A {{ ips.minikube11_ip }}
 {%- endif %}
 
 

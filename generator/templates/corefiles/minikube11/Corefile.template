@@ -4,7 +4,7 @@ h3.test.hex.camp:53 {
     }
     file /bundles/ikgrw/h3/20/3/2/1/5/db.5.1.2.3.20.h3.test.hex.camp 5.1.2.3.20.h3.test.hex.camp
     file /bundles/gkgy6/h3/20/3/3/0/db.0.3.3.20.h3.test.hex.camp 0.3.3.20.h3.test.hex.camp
-    file /bundles/akpq/h3/20/db.20.h3.test.hex.camp 20.h3.test.hex.camp
+    #file /bundles/akpq/h3/20/db.20.h3.test.hex.camp 20.h3.test.hex.camp
     file /bundles/ai/h3/23/db.23.h3.test.hex.camp 23.h3.test.hex.camp
     file /bundles/as7q/h3/37/db.37.h3.test.hex.camp 37.h3.test.hex.camp
     file /bundles/axpq/h3/46/db.46.h3.test.hex.camp 46.h3.test.hex.camp
@@ -42,7 +42,7 @@ test.hex.camp:53 {
     file /bundles/gkgy6/h3/20/3/3/0/db.0.3.3.20.h3.test.hex.camp 0.3.3.20.h3.test.hex.camp
 
     # Base cell 20
-    file /bundles/akpq/h3/20/db.20.h3.test.hex.camp 20.h3.test.hex.camp
+    #file /bundles/akpq/h3/20/db.20.h3.test.hex.camp 20.h3.test.hex.camp
     
     # Hawaii
     file /bundles/axpq/h3/46/db.46.h3.test.hex.camp 46.h3.test.hex.camp
@@ -66,7 +66,7 @@ h3.vichex.ca:53 {
     }
 
     # Base cell 20
-    file /bundles/akpq/h3/20/db.20.h3.vichex.ca 20.h3.vichex.ca
+    #file /bundles/akpq/h3/20/db.20.h3.vichex.ca 20.h3.vichex.ca
 
     # Victoria
     file /bundles/ikgrw/h3/20/3/2/1/5/db.5.1.2.3.20.h3.vichex.ca 5.1.2.3.20.h3.vichex.ca
@@ -99,7 +99,7 @@ vichex.ca:53 {
     file db.vichex.ca vichex.ca
 
     # Base cell 20
-    file /bundles/akpq/h3/20/db.20.h3.vichex.ca 20.h3.vichex.ca
+    #file /bundles/akpq/h3/20/db.20.h3.vichex.ca 20.h3.vichex.ca
     
     # Victoria
     file /bundles/ikgrw/h3/20/3/2/1/5/db.5.1.2.3.20.h3.vichex.ca 5.1.2.3.20.h3.vichex.ca

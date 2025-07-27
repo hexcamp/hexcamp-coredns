@@ -9,14 +9,9 @@ $TTL 5m
 				)
 
 
-{%- if ips.minikube7_ip %}
-@ IN NS ns-minikube7.23.h3.test.hex.camp.
-ns-minikube7 IN A {{ ips.minikube7_ip }}
-{%- endif %}
-
-{%- if ips.minikube8_ip %}
-@ IN NS ns-minikube8.23.h3.test.hex.camp.
-ns-minikube8 IN A {{ ips.minikube8_ip }}
+{%- if ips.minikube11_ip %}
+@ IN NS ns-minikube11.23.h3.test.hex.camp.
+ns-minikube11 IN A {{ ips.minikube11_ip }}
 {%- endif %}
 
 {% for site in sites %}

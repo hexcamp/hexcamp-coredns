@@ -5,6 +5,8 @@ h3.test.hex.camp:53 {
     file /bundles/ikgrw/h3/20/3/2/1/5/db.5.1.2.3.20.h3.test.hex.camp 5.1.2.3.20.h3.test.hex.camp
     file /bundles/gkgy6/h3/20/3/3/0/db.0.3.3.20.h3.test.hex.camp 0.3.3.20.h3.test.hex.camp
     file /bundles/akpq/h3/20/db.20.h3.test.hex.camp 20.h3.test.hex.camp
+    file /bundles/ai/h3/23/db.23.h3.test.hex.camp 23.h3.test.hex.camp
+    file /bundles/as7q/h3/37/db.37.h3.test.hex.camp 37.h3.test.hex.camp
     file /bundles/axpq/h3/46/db.46.h3.test.hex.camp 46.h3.test.hex.camp
     #forward . 8.8.8.8
     unbound
@@ -80,6 +82,30 @@ test.hex.camp:53 {
     #  spray # Use even without health check
     #}
     file /bundles/axpq/h3/46/db.46.h3.test.hex.camp 46.h3.test.hex.camp
+
+    # Tokyo
+    #dnsredir hex/23.h3.test.hex.camp {
+    #  to ietf-http-doh://hexcamp-ai.ai.minikube7.localnet.farm:30080/dns-query
+    #  path_reload 3s
+    #  url_reload 15s
+    #  max_fails 1
+    #  expire 1s
+    #  health_check 100000s
+    #  spray # Use even without health check
+    #}
+    file /bundles/ai/h3/23/db.23.h3.test.hex.camp 23.h3.test.hex.camp
+
+    # Okinawa
+    #dnsredir hex/37.h3.test.hex.camp {
+    #  to ietf-http-doh://hexcamp-as7q.as7q.minikube7.localnet.farm:30080/dns-query
+    #  path_reload 3s
+    #  url_reload 15s
+    #  max_fails 1
+    #  expire 1s
+    #  health_check 100000s
+    #  spray # Use even without health check
+    #}
+    file /bundles/as7q/h3/37/db.37.h3.test.hex.camp 37.h3.test.hex.camp
 
     log
     errors

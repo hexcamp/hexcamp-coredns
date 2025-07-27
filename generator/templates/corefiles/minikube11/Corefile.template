@@ -150,6 +150,10 @@ h3.seahex.org:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
+
+    # Seattle
+    file /bundles/gkgv6/h3/20/3/2/5/db.5.2.3.20.h3.seahex.org 5.2.3.20.h3.seahex.org
+
     #forward . 8.8.8.8
     unbound
     log
@@ -176,6 +180,10 @@ seahex.org:53 {
     metadata
     hexcamp seahex.org
     file db.seahex.org seahex.org
+
+    # Seattle
+    file /bundles/gkgv6/h3/20/3/2/5/db.5.2.3.20.h3.seahex.org 5.2.3.20.h3.seahex.org
+
     log
     errors
     reload

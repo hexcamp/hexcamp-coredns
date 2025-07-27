@@ -9,13 +9,9 @@ $TTL 5m
 				)
 
 
-{%- if ips.minikube7_ip %}
-@ IN NS ns-minikube7.5.2.3.20.h3.seahex.org.
-ns-minikube7 IN A {{ ips.minikube7_ip }}
-{%- endif %}
-{%- if ips.minikube8_ip %}
-@ IN NS ns-minikube8.5.2.3.20.h3.seahex.org.
-ns-minikube8 IN A {{ ips.minikube8_ip }}
+{%- if ips.minikube11_ip %}
+@ IN NS ns-minikube11.5.2.3.20.h3.seahex.org.
+ns-minikube11 IN A {{ ips.minikube11_ip }}
 {%- endif %}
 
 ; IPFS

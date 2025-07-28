@@ -15,25 +15,25 @@ cd generator
 ./update-ips-from-tofu.sh
 cd ..
 
-IP_7=$(cat generator/ips.json | jq -r .minikube7_ip)
-IP_8=$(cat generator/ips.json | jq -r .minikube8_ip)
+#IP_7=$(cat generator/ips.json | jq -r .minikube7_ip)
+#IP_8=$(cat generator/ips.json | jq -r .minikube8_ip)
 IP_9=$(cat generator/ips.json | jq -r .minikube9_ip)
 IP_10=$(cat generator/ips.json | jq -r .minikube10_ip)
 IP_11=$(cat generator/ips.json | jq -r .minikube11_ip)
 
 set +e
-if [ -n "$IP_7" ]; then
-  echo "minikube7: http://$IP_7:9153/metrics"
-  echo -n "           "
-  timeout -v 5 curl -s http://$IP_7:9153/metrics | grep ^coredns_build_info
-  echo
-fi
-if [ -n "$IP_8" ]; then
-  echo "minikube8: http://$IP_8:9153/metrics"
-  echo -n "           "
-  timeout -v 5 curl -s http://$IP_8:9153/metrics | grep ^coredns_build_info
-  echo
-fi
+#if [ -n "$IP_7" ]; then
+#  echo "minikube7: http://$IP_7:9153/metrics"
+#  echo -n "           "
+#  timeout -v 5 curl -s http://$IP_7:9153/metrics | grep ^coredns_build_info
+#  echo
+#fi
+#if [ -n "$IP_8" ]; then
+#  echo "minikube8: http://$IP_8:9153/metrics"
+#  echo -n "           "
+#  timeout -v 5 curl -s http://$IP_8:9153/metrics | grep ^coredns_build_info
+#  echo
+#fi
 if [ -n "$IP_9" ]; then
   echo "minikube9: http://$IP_9:9153/metrics"
   echo -n "           "

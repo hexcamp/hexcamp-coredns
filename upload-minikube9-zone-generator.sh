@@ -26,11 +26,11 @@ cd ../../zones
 
 #rclone sync --ignore-times axpq minikube9-axpq:
 
-for z in \
-	axpq \
-	; do \
-		echo minikube9: $z; \
-		$TOP/rclone-sync.sh minikube9 $z $z
-	done
+#for z in \
+#	axpq \
+#	; do \
+#		echo minikube9: $z; \
+#		$TOP/rclone-sync.sh minikube9 $z $z
+#	done
 
 

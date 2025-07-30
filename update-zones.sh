@@ -90,15 +90,15 @@ touch /root/.config/rclone/rclone.conf
 #fi
 if [ -n "$IP_9" ]; then
   echo Uploading to minikube9
-  timeout -v 45 ./upload-minikube9-zone-generator.sh
+  timeout -v 90 ./upload-minikube9-zone-generator.sh
 fi
 if [ -n "$IP_10" ]; then
   echo Uploading to minikube10
-  timeout -v 45 ./upload-minikube10-zone-generator.sh
+  timeout -v 90 ./upload-minikube10-zone-generator.sh
 fi
 if [ -n "$IP_11" ]; then
   echo Uploading to minikube11
-  timeout -v 45 ./upload-minikube11-zone-generator.sh
+  timeout -v 90 ./upload-minikube11-zone-generator.sh
 fi
 wait
 

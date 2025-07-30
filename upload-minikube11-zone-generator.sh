@@ -40,6 +40,7 @@ cd ../bundles
 
 for b in \
 	vanhex \
+  peerhex-americas \
 	; do \
 		echo minikube11: $b; \
 		$TOP/rclone-sync.sh minikube11 $b $b/zones

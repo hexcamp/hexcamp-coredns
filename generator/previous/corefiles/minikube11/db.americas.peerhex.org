@@ -1,6 +1,6 @@
-$ORIGIN vanhex.ca.
-@	3600 IN	SOA ns.vanhex.ca. hostmaster.vanhex.ca. (
-				2025072902 ; serial
+$ORIGIN americas.peerhex.org.
+@	3600 IN	SOA ns.americas.peerhex.org. hostmaster.americas.peerhex.org. (
+				2025072903 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -11,12 +11,12 @@ ns-minikube11	300 A 13.37.216.91
 
 ; landing page
 @ 21600 IN A 144.217.233.191
-_dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.3.4.6.3.3.20.h3.vanhex.ca.
+_dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.3.4.6.3.3.20.h3.americas.peerhex.org.
 
 ; bluesky
 ;_atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"
 
 ; kkg6q
-3.4.6.3.3.20.h3.vanhex.ca.  IN NS ns-minikube11.3.4.6.3.3.20.h3.vanhex.ca.
-ns-minikube11.3.4.6.3.3.20.h3.vanhex.ca. 300 IN A 13.37.216.91
+3.4.6.3.3.20.h3.americas.peerhex.org.  IN NS ns-minikube11.3.4.6.3.3.20.h3.americas.peerhex.org.
+ns-minikube11.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A 13.37.216.91
 

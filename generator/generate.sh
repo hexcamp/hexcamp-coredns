@@ -12,10 +12,12 @@ gen_new_file() {
   BASENAME=$(basename $1)
   echo Generating: current/$DIRNAME/$BASENAME
   mkdir -p current/$DIRNAME
-  SERIAL=$(cat previous/$DIRNAME/$BASENAME | sed -n -E 's,^[[:space:]]+([[:digit:]]+).*; serial,\1,p')
-  if [ -z "$SERIAL" ]; then
-    cp templates/$DIRNAME/$BASENAME current/$DIRNAME/$BASENAME
-    return
+  if [ -f previous/$DIRNAME/$BASENAME ]; then
+    SERIAL=$(cat previous/$DIRNAME/$BASENAME | sed -n -E 's,^[[:space:]]+([[:digit:]]+).*; serial,\1,p')
+    if [ -z "$SERIAL" ]; then
+      cp templates/$DIRNAME/$BASENAME current/$DIRNAME/$BASENAME
+      return
+    fi
   fi
   cat << EOT > tmp/jq-cmd.txt
   {
@@ -35,8 +37,13 @@ EOT
     --slurpfile ips ips.json \
     -f tmp/jq-cmd.txt > tmp/data.json
   minijinja-cli templates/$DIRNAME/$BASENAME tmp/data.json > current/$DIRNAME/$BASENAME
-  PREVSUM=$(cat previous/$DIRNAME/$BASENAME | sha512sum)
-  CURSUM=$(cat current/$DIRNAME/$BASENAME | sha512sum)
+  if [ -f previous/$DIRNAME/$BASENAME -a -f current/$DIRNAME/$BASENAME ]; then
+    PREVSUM=$(cat previous/$DIRNAME/$BASENAME | sha512sum)
+    CURSUM=$(cat current/$DIRNAME/$BASENAME | sha512sum)
+  else
+    PREVSUM=0
+    CURRSUM=1
+  fi
   if [ "$PREVSUM" != "$CURSUM" ]; then
     DATE=$(date +"%Y%m%d")
     if (echo $SERIAL | grep "^$DATE") > /dev/null; then

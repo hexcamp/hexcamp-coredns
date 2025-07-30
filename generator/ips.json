@@ -1,6 +1,5 @@
 {
   "minikube10_ip": "3.141.32.243",
-  "minikube7_ip": "\u001b[33m╷\u001b[0m\u001b[0m\n\u001b[33m│\u001b[0m \u001b[0m\u001b[1m\u001b[33mWarning: \u001b[0m\u001b[0m\u001b[1mNo outputs found\u001b[0m\n\u001b[33m│\u001b[0m \u001b[0m\n\u001b[33m│\u001b[0m \u001b[0m\u001b[0mThe state file either has no outputs defined, or all the defined outputs are empty. Please define an output in your configuration with the `output` keyword and\n\u001b[33m│\u001b[0m \u001b[0mrun `tofu refresh` for it to become available. If you are using interpolation, please verify the interpolated value is not empty. You can use the `tofu console`\n\u001b[33m│\u001b[0m \u001b[0mcommand to assist.\n\u001b[33m╵\u001b[0m\u001b[0m",
-  "minikube8_ip": "\u001b[33m╷\u001b[0m\u001b[0m\n\u001b[33m│\u001b[0m \u001b[0m\u001b[1m\u001b[33mWarning: \u001b[0m\u001b[0m\u001b[1mNo outputs found\u001b[0m\n\u001b[33m│\u001b[0m \u001b[0m\n\u001b[33m│\u001b[0m \u001b[0m\u001b[0mThe state file either has no outputs defined, or all the defined outputs are empty. Please define an output in your configuration with the `output` keyword and\n\u001b[33m│\u001b[0m \u001b[0mrun `tofu refresh` for it to become available. If you are using interpolation, please verify the interpolated value is not empty. You can use the `tofu console`\n\u001b[33m│\u001b[0m \u001b[0mcommand to assist.\n\u001b[33m╵\u001b[0m\u001b[0m",
-  "minikube9_ip": "3.121.188.120"
+  "minikube11_ip": "13.37.216.91",
+  "minikube9_ip": "3.71.205.223"
 }

@@ -1,11 +1,13 @@
 $ORIGIN vichex.ca.
 @	3600 IN	SOA ns.vichex.ca. hostmaster.vichex.ca. (
-				2025072901 ; serial
+				2025073001 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				300       ; minimum (5 minutes)
 				)
+@ 3600 IN NS ns-minikube11
+ns-minikube11	300 A 13.37.216.91
 
 ; landing page
 @ 21600 IN A 144.217.233.191
@@ -13,4 +15,6 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.vichex.ca.
 
 ; bluesky
 _atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"
+5.1.2.3.20.h3.vichex.ca. 300 IN NS ns-minikube11.5.1.2.3.20.h3.vichex.ca.
+ns-minikube11.5.1.2.3.20.h3.vichex.ca. 300 IN A 13.37.216.91
 

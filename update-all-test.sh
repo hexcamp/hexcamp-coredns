@@ -12,6 +12,7 @@ echo "sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 #sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
 
 cd generator
+cp -f ../../hexcamp-coredns-sites/jim.csv sites/jim.csv
 ./update-ips-from-tofu.sh
 cd ..
 

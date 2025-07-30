@@ -1,6 +1,6 @@
 $ORIGIN americas.peerhex.org.
 @	3600 IN	SOA ns.americas.peerhex.org. hostmaster.americas.peerhex.org. (
-				{{ serial }} ; serial
+				2025072902 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)

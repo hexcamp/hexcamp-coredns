@@ -1,12 +1,14 @@
 $ORIGIN 5.1.2.3.20.h3.vichex.ca.
 $TTL 5m
 @	3600 IN	SOA ns.5.1.2.3.20.h3.vichex.ca. hostmaster.vichex.ca. (
-				2025072901 ; serial
+				2025072903 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
+@ IN NS ns-minikube11.5.1.2.3.20.h3.vichex.ca.
+ns-minikube11 IN A 13.37.216.91
 
 ; 6kgrvqaeaaaa.vichex.ca - Stract Search Backend - Community Associations
 0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.vichex.ca. CNAME ovh-front-ryzen9.infra.hex.camp.
@@ -15,6 +17,11 @@ $TTL 5m
 0.0.0.0.0.0.1.0.0.0.4.5.1.2.3.20.h3.vichex.ca. CNAME ovh-front-ryzen9.infra.hex.camp.
 
 
+; 6kgrvnw3nwza.vichex.ca - jimpick.com - Hex.Camp Landing Page
+2.6.6.6.6.6.6.6.6.6.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.2.6.6.6.6.6.6.6.6.6.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeiann4i55sgujxossexf2nyu3wrqglafboszmwvknspnuwmqkg57ta"
+2.6.6.6.6.6.6.6.6.6.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeiann4i55sgujxossexf2nyu3wrqglafboszmwvknspnuwmqkg57ta"
+
 ; ykgrv5aexe.vichex.ca - jimpick.com - Photos - Portage Inlet Park
 4.3.1.1.0.4.6.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
 _dnslink.4.3.1.1.0.4.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmQ1n9vLxVKAFvKs93vy9rbWsJwA2cfBws6aUio3rRWA3E"
@@ -22,8 +29,8 @@ _dnslink.4.3.1.1.0.4.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmQ1
 
 ; 2kgrv5ga2i.vichex.ca - jimpick.com - Victoria Photos Collection
 3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
-_dnslink.3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmUP68Q2ZbAFgftCZ9NFZ6Z1PuB7vvh5WdWC5HBAD3rvio"
-3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmUP68Q2ZbAFgftCZ9NFZ6Z1PuB7vvh5WdWC5HBAD3rvio"
+_dnslink.3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeifyzlp7u27poci4iijiqi3esyephy57e4x4b4nawztjdu2mp6wwsu"
+3.1.5.1.0.6.4.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeifyzlp7u27poci4iijiqi3esyephy57e4x4b4nawztjdu2mp6wwsu"
 
 ; wkgrugwxj4.vichex.ca - jimpick.com - Photos - Highrock Cairn Park
 4.6.5.6.2.3.0.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
@@ -122,8 +129,8 @@ _dnslink.0.6.4.4.2.2.3.5.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipf
 
 ; 6kgrvlbslccq.vichex.ca - jimpick.com - vichex.ca Welcome HackMD - nuc
 5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
-_dnslink.5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeifvrkzsrrfybkui3z3zh6e4tovtlrmw6wzptdkxceleb267eoiszi"
-5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeifvrkzsrrfybkui3z3zh6e4tovtlrmw6wzptdkxceleb267eoiszi"
+_dnslink.5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeianz35jxc4hse4m4t3m2fu5x2ldf54uzrbibrvsfsg6kbwgz2l4ka"
+5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeianz35jxc4hse4m4t3m2fu5x2ldf54uzrbibrvsfsg6kbwgz2l4ka"
 
 ; 6kgrvqaaaaaa.vichex.ca - jimpick.com - vichex.ca Landing page - nuc
 0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
@@ -137,7 +144,197 @@ _dnslink.0.0.0.0.0.0.0.0.0.0.4.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipf
 
 ; 6kgrvqaaaaaq.vichex.ca - jimpick.com - Victoria Arts Map - nuc
 1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
-_dnslink.1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeid4nlaxqw6m3z7rggxp3b647t4ja52ffr7y4rfsgqsf3ob7vrhwci"
-1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeid4nlaxqw6m3z7rggxp3b647t4ja52ffr7y4rfsgqsf3ob7vrhwci"
+_dnslink.1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeibjloqol54pvt5iazdn75qjepowutekidi6yaehmkog4u33t2wwjm"
+1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeibjloqol54pvt5iazdn75qjepowutekidi6yaehmkog4u33t2wwjm"
+
+; 6kgrwqaaaaaa.vichex.ca - jimpick.com - VicHex OpenStreetMap tiles - nuc
+0.0.0.0.0.0.0.0.0.0.5.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.0.0.0.0.5.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmddEWtpvHHsuKPWmxqQ85v2otuJLJrhdYRkvZJPNrgfq7"
+0.0.0.0.0.0.0.0.0.0.5.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmddEWtpvHHsuKPWmxqQ85v2otuJLJrhdYRkvZJPNrgfq7"
+
+; 6kgruaaaaaaa.vichex.ca - jimpick.com - Placeholder - nuc
+0.0.0.0.0.0.0.0.0.0.0.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.0.0.0.0.0.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+0.0.0.0.0.0.0.0.0.0.0.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+
+; 6kgrv4qeaaaa.vichex.ca - jimpick.com - Royal Oak Common Crawl Common Crawl - nuc
+0.0.0.0.0.0.1.0.2.6.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.2.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmVFtdEGgVh5QjuGY2MLJjfm43TQAimf7T3R6Zdd7p68qC"
+0.0.0.0.0.0.1.0.2.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmVFtdEGgVh5QjuGY2MLJjfm43TQAimf7T3R6Zdd7p68qC"
+
+; 6kgrvlaeaaaa.vichex.ca - jimpick.com - North Park Common Crawl Common Crawl - nuc
+0.0.0.0.0.0.1.0.4.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmaQen19edpbCkNJAHnNL3jU4GzLnqduVFRpuKNtnRDtgz"
+0.0.0.0.0.0.1.0.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmaQen19edpbCkNJAHnNL3jU4GzLnqduVFRpuKNtnRDtgz"
+
+; 6kgrvlieaaaa.vichex.ca - jimpick.com - Vic West Common Crawl - nuc
+0.0.0.0.0.0.1.0.5.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.5.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmTLnrkLA9YRPMEVBu4EQUHiwQmpBZur12Nqfv8hDWxFmN"
+0.0.0.0.0.0.1.0.5.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmTLnrkLA9YRPMEVBu4EQUHiwQmpBZur12Nqfv8hDWxFmN"
+
+; 6kgrvlqeaaaa.vichex.ca - jimpick.com - North Jubilee Common Crawl - nuc
+0.0.0.0.0.0.1.0.6.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.6.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWd8ZzXG6qJkJk9dyQ5Xj5ojwyJAUF6T2YQpp42PnSjTW"
+0.0.0.0.0.0.1.0.6.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWd8ZzXG6qJkJk9dyQ5Xj5ojwyJAUF6T2YQpp42PnSjTW"
+
+; 6kgrvqseaaaa.vichex.ca - jimpick.com - Prospect Lake Common Crawl - nuc
+0.0.0.0.0.0.1.2.2.0.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.2.0.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmQcZ6ZbQ85zRoi9tMkctsBGLA3dMtaTfqzPLFBAjetrN8"
+0.0.0.0.0.0.1.2.2.0.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmQcZ6ZbQ85zRoi9tMkctsBGLA3dMtaTfqzPLFBAjetrN8"
+
+; 6kgrv4seaaaa.vichex.ca - jimpick.com - Broadmead Common Crawl - nuc
+0.0.0.0.0.0.1.2.2.6.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.2.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmPCwH3GTWgxy1PZMK8x4ZyvCb3Tyje7yYtQV3kVKrKH14"
+0.0.0.0.0.0.1.2.2.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmPCwH3GTWgxy1PZMK8x4ZyvCb3Tyje7yYtQV3kVKrKH14"
+
+; 6kgrue2eaaaa.vichex.ca - jimpick.com - James Bay Common Crawl - nuc
+0.0.0.0.0.0.1.2.3.2.0.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.3.2.0.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmfAiJUp6wKWLPNTUcJFAkZc4fbaHFoRMXhunodZZ7nsnV"
+0.0.0.0.0.0.1.2.3.2.0.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmfAiJUp6wKWLPNTUcJFAkZc4fbaHFoRMXhunodZZ7nsnV"
+
+; 6kgrvdceaaaa.vichex.ca - jimpick.com - Gordon Head Common Crawl - nuc
+0.0.0.0.0.0.1.2.4.1.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.4.1.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWS97iq3vhqERMmExnskShLD5Snz3ZMkz7V8yZocXBCjU"
+0.0.0.0.0.0.1.2.4.1.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWS97iq3vhqERMmExnskShLD5Snz3ZMkz7V8yZocXBCjU"
+
+; 6kgrvlceaaaa.vichex.ca - jimpick.com - Fernwood NRG Common Crawl - nuc
+0.0.0.0.0.0.1.2.4.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWmv5DtkyqvkM6kCLQBxT9Mrrd6maCPzRqmYEMTQiM7Fp"
+0.0.0.0.0.0.1.2.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWmv5DtkyqvkM6kCLQBxT9Mrrd6maCPzRqmYEMTQiM7Fp"
+
+; 6kgrv5seaaaa.vichex.ca - jimpick.com - North Quadra Common Crawl - nuc
+0.0.0.0.0.0.1.2.6.6.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.2.6.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmNeWZp1GTWfcoHmGJdNkr27FEc68HsBHeMWDc14ExKpHA"
+0.0.0.0.0.0.1.2.6.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmNeWZp1GTWfcoHmGJdNkr27FEc68HsBHeMWDc14ExKpHA"
+
+; 6kgrvkleaaaa.vichex.ca - jimpick.com - Mount View Colquitz Common Crawl - nuc
+0.0.0.0.0.0.1.3.1.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.3.1.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmTCd4U7dDuNhXovwTGRvrBZEqnWGQ3aPGTDYmkYtWVDfb"
+0.0.0.0.0.0.1.3.1.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmTCd4U7dDuNhXovwTGRvrBZEqnWGQ3aPGTDYmkYtWVDfb"
+
+; 6kgrueteaaaa.vichex.ca - jimpick.com - Fairfield Gonzalez Common Crawl - nuc
+0.0.0.0.0.0.1.3.2.2.0.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.3.2.2.0.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/Qmadm8C3zbJoMN1aBYuo2FhP3GjxtMtwsCMkMtV26M9MSc"
+0.0.0.0.0.0.1.3.2.2.0.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/Qmadm8C3zbJoMN1aBYuo2FhP3GjxtMtwsCMkMtV26M9MSc"
+
+; 6kgrv4teaaaa.vichex.ca - jimpick.com - Falaise Common Crawl - nuc
+0.0.0.0.0.0.1.3.2.6.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.3.2.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmSBcqqB4ANKF3PG1fkmXqSNtHgjmYxHJ27D1LY4NMiKZg"
+0.0.0.0.0.0.1.3.2.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmSBcqqB4ANKF3PG1fkmXqSNtHgjmYxHJ27D1LY4NMiKZg"
+
+; 6kgrvlleaaaa.vichex.ca - jimpick.com - Burnside Gorge Common Crawl - nuc
+0.0.0.0.0.0.1.3.5.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.3.5.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmUNNUvTnt7qYq3zdw3Yttiv6ftNyHxLs6sNPoxf3WfohY"
+0.0.0.0.0.0.1.3.5.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmUNNUvTnt7qYq3zdw3Yttiv6ftNyHxLs6sNPoxf3WfohY"
+
+; 6kgrvkeeaaaa.vichex.ca - jimpick.com - Quadra Village Common Crawl - nuc
+0.0.0.0.0.0.1.4.0.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.4.0.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmYSbpoetm9Ykr4SWrtzkaZMtN1GNqMsDKUARyMLzxkNbb"
+0.0.0.0.0.0.1.4.0.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmYSbpoetm9Ykr4SWrtzkaZMtN1GNqMsDKUARyMLzxkNbb"
+
+; 6kgrvk4eaaaa.vichex.ca - jimpick.com - Quadra Cedar Hill Common Crawl - nuc
+0.0.0.0.0.0.1.4.3.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.4.3.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmcNscQv7xbWSg5nRkQepjZzQxXGYGK6yteYRhRgpVKFbc"
+0.0.0.0.0.0.1.4.3.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmcNscQv7xbWSg5nRkQepjZzQxXGYGK6yteYRhRgpVKFbc"
+
+; 6kgrvvueaaaa.vichex.ca - jimpick.com - Cordova Bay Common Crawl - nuc
+0.0.0.0.0.0.1.4.6.2.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.4.6.2.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmTxb15zFpTf2mRDknkxkxkbxL9F4R4tTJ6wjCgZBuSndb"
+0.0.0.0.0.0.1.4.6.2.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmTxb15zFpTf2mRDknkxkxkbxL9F4R4tTJ6wjCgZBuSndb"
+
+; 6kgrvlueaaaa.vichex.ca - jimpick.com - South Jubilee Common Crawl - nuc
+0.0.0.0.0.0.1.4.6.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.4.6.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmW1QAPiN8h3zJi4PQzbANwxyd9cmWCGstWHpXEAtYUZSQ"
+0.0.0.0.0.0.1.4.6.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmW1QAPiN8h3zJi4PQzbANwxyd9cmWCGstWHpXEAtYUZSQ"
+
+; 6kgrvafeaaaa.vichex.ca - jimpick.com - Cadboro Bay Common Crawl - nuc
+0.0.0.0.0.0.1.5.0.0.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.0.0.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWtaPGY2pxRhog8GHTfarYFKJu3LLvazPVGPDb4VmEvYT"
+0.0.0.0.0.0.1.5.0.0.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWtaPGY2pxRhog8GHTfarYFKJu3LLvazPVGPDb4VmEvYT"
+
+; 6kgrvineaaaa.vichex.ca - jimpick.com - Rockland Common Crawl - nuc
+0.0.0.0.0.0.1.5.1.4.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.1.4.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWyJ3dUQsV13CG5Jj1hnd6DKfqF1SLhERoQGNGXG76Tdo"
+0.0.0.0.0.0.1.5.1.4.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWyJ3dUQsV13CG5Jj1hnd6DKfqF1SLhERoQGNGXG76Tdo"
+
+; 6kgrvkneaaaa.vichex.ca - jimpick.com - Gorge Tillicum Common Crawl - nuc
+0.0.0.0.0.0.1.5.1.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.1.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmNdjur4nhW1dZ65qNsTbj3mfPtq2Genphx1D86VgktCiy"
+0.0.0.0.0.0.1.5.1.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmNdjur4nhW1dZ65qNsTbj3mfPtq2Genphx1D86VgktCiy"
+
+; 6kgrvi5eaaaa.vichex.ca - jimpick.com - Camosun Common Crawl - nuc
+0.0.0.0.0.0.1.5.3.4.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.3.4.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmSPFz9afqw2AccSBL1fYuFG1TeaAUTwdCTXQMRp8HkahS"
+0.0.0.0.0.0.1.5.3.4.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmSPFz9afqw2AccSBL1fYuFG1TeaAUTwdCTXQMRp8HkahS"
+
+; 6kgrvlfeaaaa.vichex.ca - jimpick.com - Downtown Residents Common Crawl - nuc
+0.0.0.0.0.0.1.5.4.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmZAforrXssyPs2876y4vZSQHJfFGPVJd4RhKbHj3KZdFL"
+0.0.0.0.0.0.1.5.4.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmZAforrXssyPs2876y4vZSQHJfFGPVJd4RhKbHj3KZdFL"
+
+; 6kgrvlveaaaa.vichex.ca - jimpick.com - Fernwood Community and Arts Common Crawl - nuc
+0.0.0.0.0.0.1.5.6.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.6.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/Qmea7xnRYWDmYcujD7BroruEhwtDgvJGY6eDsAB76oWvQQ"
+0.0.0.0.0.0.1.5.6.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/Qmea7xnRYWDmYcujD7BroruEhwtDgvJGY6eDsAB76oWvQQ"
+
+; 6kgrv5veaaaa.vichex.ca - jimpick.com - Carey Area Common Crawl - nuc
+0.0.0.0.0.0.1.5.6.6.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.5.6.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWo6sggM9vbnh778qeo5ib4Hd5PZVmtUDBxrvq17p6UhQ"
+0.0.0.0.0.0.1.5.6.6.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmWo6sggM9vbnh778qeo5ib4Hd5PZVmtUDBxrvq17p6UhQ"
+
+; 6kgrvkgeaaaa.vichex.ca - jimpick.com - Oaklands Common Crawl - nuc
+0.0.0.0.0.0.1.6.0.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.6.0.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmZG2tGdpg5ihHdMCRdCag7UXfiS2L5uyPmUaRuuWXvPdu"
+0.0.0.0.0.0.1.6.0.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmZG2tGdpg5ihHdMCRdCag7UXfiS2L5uyPmUaRuuWXvPdu"
+
+; 6kgrvkweaaaa.vichex.ca - jimpick.com - Mount Tolmie Common Crawl - nuc
+0.0.0.0.0.0.1.6.2.5.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.6.2.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmQPXpq3g4FQRmQhs8FsqS6YjUjeCWTfjXd31zV7oQ98mR"
+0.0.0.0.0.0.1.6.2.5.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmQPXpq3g4FQRmQhs8FsqS6YjUjeCWTfjXd31zV7oQ98mR"
+
+; 6kgrvdoeaaaa.vichex.ca - jimpick.com - Blenkinsop Valley Common Crawl - nuc
+0.0.0.0.0.0.1.6.5.1.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.6.5.1.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmTMbcCp2j53nn6FBjvmWht6pnBob9YpRmM7tp2u78QZe9"
+0.0.0.0.0.0.1.6.5.1.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmTMbcCp2j53nn6FBjvmWht6pnBob9YpRmM7tp2u78QZe9"
+
+; 6kgruaaeaaaa.vichex.ca - jimpick.com - Map of Common Crawl Archives - nuc
+0.0.0.0.0.0.1.0.0.0.0.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.0.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmW661UUCggSDmqjjGLhRrcXWE2R9mzoSnH8WMPucmAmZD"
+0.0.0.0.0.0.1.0.0.0.0.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmW661UUCggSDmqjjGLhRrcXWE2R9mzoSnH8WMPucmAmZD"
+
+; 6kgruqaeaaaa.vichex.ca - jimpick.com - Search Experiment HackMD - nuc
+0.0.0.0.0.0.1.0.0.0.1.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.1.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeieoddknb7fztutuf6izjuyohapbn4l4k54l7yihe3rfpakjswus5y"
+0.0.0.0.0.0.1.0.0.0.1.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeieoddknb7fztutuf6izjuyohapbn4l4k54l7yihe3rfpakjswus5y"
+
+; 6kgrvaaeaaaa.vichex.ca - jimpick.com - Stract Build Data - nuc
+0.0.0.0.0.0.1.0.0.0.2.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmZncDgbyB17vhh6fR4PmvSGyETExcrdDuymcXo8JT1FYT"
+0.0.0.0.0.0.1.0.0.0.2.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmZncDgbyB17vhh6fR4PmvSGyETExcrdDuymcXo8JT1FYT"
+
+; 6kgrvqaeaaaa.vichex.ca - jimpick.com - Stract Search Backend - Community Associations - nuc
+0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+
+; 6kgrwaaeaaaa.vichex.ca - jimpick.com - Stract Frontend - Community Associations - nuc
+0.0.0.0.0.0.1.0.0.0.4.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.4.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+0.0.0.0.0.0.1.0.0.0.4.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF"
+
+; 6kgrwqaeaaaa.vichex.ca - jimpick.com - Stract Index Data - Community Associations - nuc
+0.0.0.0.0.0.1.0.0.0.5.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.1.0.0.0.5.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmQ5Qb9PSyDRDupjmkLS5Eib6LnUmmVqb2WVPzX6g1DCmM"
+0.0.0.0.0.0.1.0.0.0.5.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/QmQ5Qb9PSyDRDupjmkLS5Eib6LnUmmVqb2WVPzX6g1DCmM"
+
+; 6kgrunw3nwza.vichex.ca - jimpick.com - Hex.Camp Dev Blog - nuc
+2.6.6.6.6.6.6.6.6.6.0.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.2.6.6.6.6.6.6.6.6.6.0.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeigjhtvqqx7wz4qxo2xg34hs4pkoyoj6xak5tauao4zvbcsqzj2fva"
+2.6.6.6.6.6.6.6.6.6.0.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeigjhtvqqx7wz4qxo2xg34hs4pkoyoj6xak5tauao4zvbcsqzj2fva"
+
+; 6kgru5w3nwza.vichex.ca - jimpick.com - Hex.Camp Dev Portal - nuc
+2.6.6.6.6.6.6.6.6.6.1.5.1.2.3.20.h3.vichex.ca. IN 21600 A 144.217.233.191
+_dnslink.2.6.6.6.6.6.6.6.6.6.1.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeiaosrdadcbrdfluevtegdelrf6qvw3ie3ssnh35weej7z2ocejgjy"
+2.6.6.6.6.6.6.6.6.6.1.5.1.2.3.20.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/bafybeiaosrdadcbrdfluevtegdelrf6qvw3ie3ssnh35weej7z2ocejgjy"
 
 

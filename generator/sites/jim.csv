@@ -1,9 +1,9 @@
 who,region,hex_id,hex_reverse_path,emit_dnslink,dnslink_cid,target_ipfs_server,comment
 jimpick.com,as7q,ssrgdfv3,6.5.6.2.6.0.6.4.0.37,true,Qmegz7qn6ZCHTTu5RfJmjocGSsfRJ3KVg8ubH4GzFPop7G,144.217.233.191,Photos - Okinawa - nuc
 jimpick.com,ai,6l22glmvqj2a,4.6.1.1.0.3.5.4.5.5.4.1.2.3.5.23,true,QmeqPJcvEJNcEPahPHGadz7Z1dGqFBxQwHdxhic1dz7x88,144.217.233.191,Encoded Hexagon Lookup Tool
-jimpick.com,gkgy6,skgyeut3,6.3.2.2.1.1.0.3.3.20,true,bafybeiann4i55sgujxossexf2nyu3wrqglafboszmwvknspnuwmqkg57ta,144.217.233.191,Hex.Camp Landing Page
+jimpick.com,ikgrw,6kgrvnw3nwza,2.6.6.6.6.6.6.6.6.6.2.5.1.2.3.20,true,bafybeiann4i55sgujxossexf2nyu3wrqglafboszmwvknspnuwmqkg57ta,144.217.233.191,Hex.Camp Landing Page
 jimpick.com,ikgrw,ykgrv5aexe,4.3.1.1.0.4.6.3.5.1.2.3.20,true,QmQ1n9vLxVKAFvKs93vy9rbWsJwA2cfBws6aUio3rRWA3E,144.217.233.191,Photos - Portage Inlet Park
-jimpick.com,ikgrw,2kgrv5ga2i,3.1.5.1.0.6.4.6.3.5.1.2.3.20,true,QmUP68Q2ZbAFgftCZ9NFZ6Z1PuB7vvh5WdWC5HBAD3rvio,144.217.233.191,Victoria Photos Collection
+jimpick.com,ikgrw,2kgrv5ga2i,3.1.5.1.0.6.4.6.3.5.1.2.3.20,true,bafybeifyzlp7u27poci4iijiqi3esyephy57e4x4b4nawztjdu2mp6wwsu,144.217.233.191,Victoria Photos Collection
 jimpick.com,ikgrw,wkgrugwxj4,4.6.5.6.2.3.0.5.1.2.3.20,true,QmeCfGmca9dGnH5nhPehvq3MZq1L2m5J9VtEsqYxqc5832,144.217.233.191,Photos - Highrock Cairn Park
 jimpick.com,ikgrw,2kgrue625c7q,2.4.6.5.6.6.3.2.0.5.1.2.3.20,true,QmSZQAsgTYGTXTJunEXeEg51qqqrdnfCafi3XQdv5XyVMM,144.217.233.191,Photos - Dallas Road
 jimpick.com,ikgrw,2kgrug2zvv7q,5.6.2.3.6.2.3.3.0.5.1.2.3.20,true,QmTKxPoTCpivKPb9bVp44ZaAbmyk2d1dDJELAxekTQx6vc,144.217.233.191,Photos - Craigflower Manor
@@ -20,12 +20,12 @@ jimpick.com,ikgrw,ykgrug2ukm,1.5.0.5.2.3.3.0.5.1.2.3.20,true,QmeDXbYUpn3kyu9JZ1w
 jimpick.com,ikgrw,ykgruhtnu4,3.2.3.3.3.6.3.0.5.1.2.3.20,true,QmdnXgnnFa8ZdyBnbsmUq6VqGSnBHhCjp1ej48jNKdGiqd,144.217.233.191,Demos - WebRTC Helia Stamen
 jimpick.com,ikgrw,ykgruhtnuu,2.2.3.3.3.6.3.0.5.1.2.3.20,true,QmZHeUEKaeR5uvcYUy2HiaonSYNmRq3mJPqz6GXS6eHW4B,144.217.233.191,Demos - WebRTC Helia Collector
 jimpick.com,gkgv6,6kgvileuk4va,2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20,true,QmcNzxrQE16gRzziiUNEwiYyFpwMwUVNbu2UDkEciQZdtx,144.217.233.191,SEAHex.org Landing Page
-jimpick.com,gkgv6,6kgvdnw3nwza,2.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20,true,bafybeiehdj5iiae7xe6j4uwyrc64xrhl4tdwjeshjjgqfkayydabmw5a7q,144.217.233.191,Welcome to Hex.Camp HackMD - nuc
+jimpick.com,gkgv6,6kgvdnw3nwza,2.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20,true,bafybeigx3hwdvpnuixu65nv7jxdcqaxn2uxlawqsdyljpo54qmc2tpapkm,144.217.233.191,Welcome to Hex.Camp HackMD - nuc
 jimpick.com,ikgrw,6kgrvlfqjiuq,1.5.0.5.4.0.4.5.4.5.2.5.1.2.3.20,true,QmRfx6bsYHrHch6PWYXmzAPWPbVTRxo7GTjUsPsBSJx1DE,144.217.233.191,Empress Test Site - nuc
 jimpick.com,ikgrw,6kgrvlcuqdaq,1.0.3.0.0.1.5.2.4.5.2.5.1.2.3.20,true,QmbMnYA8uhGL9um8z4WFGXZKsictuRbc3jd9wL1NJj3fap,144.217.233.191,Compost Education Centre - nuc
 jimpick.com,ikgrw,6kgrvlbmy3wq,5.5.3.3.4.1.3.1.4.5.2.5.1.2.3.20,true,QmXsC1nixkYTZeDs1JTp2xT3Xemv3s4FuSbkf4TAB1XEA1,144.217.233.191,Fifty Fifty - nuc
 jimpick.com,ikgrw,6kgrvlfnfeya,0.6.4.4.2.2.3.5.4.5.2.5.1.2.3.20,true,QmNz4ch8y4ZQVfFftCoVHxwiwJ6dnizntK1FhW1EhuuJiU,144.217.233.191,livevictoria.com venues - nuc
-jimpick.com,ikgrw,6kgrvlbslccq,5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20,true,bafybeifvrkzsrrfybkui3z3zh6e4tovtlrmw6wzptdkxceleb267eoiszi,144.217.233.191,vichex.ca Welcome HackMD - nuc
+jimpick.com,ikgrw,6kgrvlbslccq,5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20,true,bafybeianz35jxc4hse4m4t3m2fu5x2ldf54uzrbibrvsfsg6kbwgz2l4ka,144.217.233.191,vichex.ca Welcome HackMD - nuc
 jimpick.com,gkgv6,6kgvdnw3nw2q,5.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20,true,bafybeibnupqmqcn3gjchrnjzt5hyybojbmbo3kyslhdi7arooveaz2efwy,144.217.233.191,Welcome to Hex.Camp HackMD - SW Gateway - nuc
 jimpick.com,gkgv6,6kgvhnw3nw2q,5.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20,true,QmSJVZRN33c1KjG2BVyEKBYkPHgFu22ScYVMBRyxkdaun5,144.217.233.191,cross-domain-experiment/iframe-with-service-worker
 jimpick.com,gkgv6,6kgvlnw3nw2q,5.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20,true,QmXKeoLkFodiYNQKHhx4rG6qZEC6AhS3eceDYgE6QQEWQK,144.217.233.191,cross-domain-experiment/hex-1
@@ -33,8 +33,49 @@ jimpick.com,gkgv6,6kgvpnw3nw2q,5.6.6.6.6.6.6.6.6.6.6.3.5.2.3.20,true,Qmf2rwyEfvA
 jimpick.com,ikgrw,6kgrvqaaaaaa,0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20,true,bafybeihn5loatvi47mp2tlgs3g4x7un5f6g3kiefeseruqjpulglp4noli,144.217.233.191,vichex.ca Landing page - nuc
 jimpick.com,ikgrw,6kgrwaaaaaaa,0.0.0.0.0.0.0.0.0.0.4.5.1.2.3.20,true,QmZfkreTGE6oXFExqvPzvSYJwcsEPNvCr32fq7y1fPC3LW,144.217.233.191,Wikipedia - Victoria - nuc
 jimpick.com,gkgv6,6kgvtnw3nw2q,5.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20,true,QmQJm6o72T94Sru4YCTstpR98nJa5w3QATj6zzWT8t21qc,144.217.233.191,Wikipedia - Seattle - nuc
-jimpick.com,ikgrw,6kgrvqaaaaaq,1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20,true,bafybeid4nlaxqw6m3z7rggxp3b647t4ja52ffr7y4rfsgqsf3ob7vrhwci,144.217.233.191,Victoria Arts Map - nuc
-jimpick.com,gkgv6,6kgvhnw3nw3a,6.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20,true,bafybeiexebmwt3asxns3e2pf3gs6tfq27twyekxdrshpotrrgxug3kvgga,144.217.233.191,HackMD Publishing Test Page - nuc
+jimpick.com,ikgrw,6kgrvqaaaaaq,1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20,true,bafybeibjloqol54pvt5iazdn75qjepowutekidi6yaehmkog4u33t2wwjm,144.217.233.191,Victoria Arts Map - nuc
+jimpick.com,gkgv6,6kgvhnw3nw3a,6.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20,true,bafybeibzwyoff7n7q3ytcvtex7vnjmzkbwve5ikydsn4us3kk2dd7iv5vu,144.217.233.191,HackMD Publishing Test Page - nuc
 jimpick.com,gkgv6,6kgvaaaaaaaa,0.0.0.0.0.0.0.0.0.0.0.0.5.2.3.20,true,bafybeib4e3n4bqeq2mevikle2heg3qyyon7mnz3wcj32oh6nzwyp47pmg4,144.217.233.191,SeaHex Landing Page - nuc
 jimpick.com,gkgv6,6kgveaaaaaaa,0.0.0.0.0.0.0.0.0.0.0.1.5.2.3.20,true,bafybeiavfs6tg3wd5ozrspk4cofmafh5qmax3xci4o2aj3wmfa7kz4rvna,144.217.233.191,SeaHex Welcome Page - nuc
-jimpick.com,kkg6q,6kg6rqaaaaaa,0.0.0.0.0.0.0.0.0.0.3.4.6.3.3.20,true,QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF,144.217.233.191,VanHex Landing Page - nuc
+jimpick.com,kkg6q,6kg6rqaaaaaa,0.0.0.0.0.0.0.0.0.0.3.4.6.3.3.20,true,bafybeifyxetk52ndqkpogrmnqfnltemqgxxmjuywxnq2rf6e5k4btdqhaq,144.217.233.191,VanHex Landing Page - nuc
+jimpick.com,kkg6q,6kg6rsaaaaaa,0.0.0.0.0.0.0.0.0.1.3.4.6.3.3.20,true,bafybeicmjrwjfqapcrfqw26tvf4s55qsi5khplqe6cbfbmyfyqsf6tswja,144.217.233.191,VanHex Welcome Page - nuc
+jimpick.com,kkg6q,6kg6ruaaaaaa,0.0.0.0.0.0.0.0.0.2.3.4.6.3.3.20,true,QmNUZxz6BAbrLr4baAoDe5Qy7gDrSkEHKzwixehn31fi61,144.217.233.191,Wikipedia - Vancouver - nuc
+jimpick.com,ikgrw,6kgrwqaaaaaa,0.0.0.0.0.0.0.0.0.0.5.5.1.2.3.20,true,QmddEWtpvHHsuKPWmxqQ85v2otuJLJrhdYRkvZJPNrgfq7,144.217.233.191,VicHex OpenStreetMap tiles - nuc
+jimpick.com,ikgrw,6kgruaaaaaaa,0.0.0.0.0.0.0.0.0.0.0.5.1.2.3.20,true,QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF,144.217.233.191,Placeholder - nuc
+jimpick.com,ikgrw,6kgrv4qeaaaa,0.0.0.0.0.0.1.0.2.6.3.5.1.2.3.20,true,QmVFtdEGgVh5QjuGY2MLJjfm43TQAimf7T3R6Zdd7p68qC,144.217.233.191,Royal Oak Common Crawl Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvlaeaaaa,0.0.0.0.0.0.1.0.4.5.2.5.1.2.3.20,true,QmaQen19edpbCkNJAHnNL3jU4GzLnqduVFRpuKNtnRDtgz,144.217.233.191,North Park Common Crawl Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvlieaaaa,0.0.0.0.0.0.1.0.5.5.2.5.1.2.3.20,true,QmTLnrkLA9YRPMEVBu4EQUHiwQmpBZur12Nqfv8hDWxFmN,144.217.233.191,Vic West Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvlqeaaaa,0.0.0.0.0.0.1.0.6.5.2.5.1.2.3.20,true,QmWd8ZzXG6qJkJk9dyQ5Xj5ojwyJAUF6T2YQpp42PnSjTW,144.217.233.191,North Jubilee Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvqseaaaa,0.0.0.0.0.0.1.2.2.0.3.5.1.2.3.20,true,QmQcZ6ZbQ85zRoi9tMkctsBGLA3dMtaTfqzPLFBAjetrN8,144.217.233.191,Prospect Lake Common Crawl - nuc
+jimpick.com,ikgrw,6kgrv4seaaaa,0.0.0.0.0.0.1.2.2.6.3.5.1.2.3.20,true,QmPCwH3GTWgxy1PZMK8x4ZyvCb3Tyje7yYtQV3kVKrKH14,144.217.233.191,Broadmead Common Crawl - nuc
+jimpick.com,ikgrw,6kgrue2eaaaa,0.0.0.0.0.0.1.2.3.2.0.5.1.2.3.20,true,QmfAiJUp6wKWLPNTUcJFAkZc4fbaHFoRMXhunodZZ7nsnV,144.217.233.191,James Bay Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvdceaaaa,0.0.0.0.0.0.1.2.4.1.2.5.1.2.3.20,true,QmWS97iq3vhqERMmExnskShLD5Snz3ZMkz7V8yZocXBCjU,144.217.233.191,Gordon Head Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvlceaaaa,0.0.0.0.0.0.1.2.4.5.2.5.1.2.3.20,true,QmWmv5DtkyqvkM6kCLQBxT9Mrrd6maCPzRqmYEMTQiM7Fp,144.217.233.191,Fernwood NRG Common Crawl - nuc
+jimpick.com,ikgrw,6kgrv5seaaaa,0.0.0.0.0.0.1.2.6.6.3.5.1.2.3.20,true,QmNeWZp1GTWfcoHmGJdNkr27FEc68HsBHeMWDc14ExKpHA,144.217.233.191,North Quadra Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvkleaaaa,0.0.0.0.0.0.1.3.1.5.2.5.1.2.3.20,true,QmTCd4U7dDuNhXovwTGRvrBZEqnWGQ3aPGTDYmkYtWVDfb,144.217.233.191,Mount View Colquitz Common Crawl - nuc
+jimpick.com,ikgrw,6kgrueteaaaa,0.0.0.0.0.0.1.3.2.2.0.5.1.2.3.20,true,Qmadm8C3zbJoMN1aBYuo2FhP3GjxtMtwsCMkMtV26M9MSc,144.217.233.191,Fairfield Gonzalez Common Crawl - nuc
+jimpick.com,ikgrw,6kgrv4teaaaa,0.0.0.0.0.0.1.3.2.6.3.5.1.2.3.20,true,QmSBcqqB4ANKF3PG1fkmXqSNtHgjmYxHJ27D1LY4NMiKZg,144.217.233.191,Falaise Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvlleaaaa,0.0.0.0.0.0.1.3.5.5.2.5.1.2.3.20,true,QmUNNUvTnt7qYq3zdw3Yttiv6ftNyHxLs6sNPoxf3WfohY,144.217.233.191,Burnside Gorge Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvkeeaaaa,0.0.0.0.0.0.1.4.0.5.2.5.1.2.3.20,true,QmYSbpoetm9Ykr4SWrtzkaZMtN1GNqMsDKUARyMLzxkNbb,144.217.233.191,Quadra Village Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvk4eaaaa,0.0.0.0.0.0.1.4.3.5.2.5.1.2.3.20,true,QmcNscQv7xbWSg5nRkQepjZzQxXGYGK6yteYRhRgpVKFbc,144.217.233.191,Quadra Cedar Hill Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvvueaaaa,0.0.0.0.0.0.1.4.6.2.3.5.1.2.3.20,true,QmTxb15zFpTf2mRDknkxkxkbxL9F4R4tTJ6wjCgZBuSndb,144.217.233.191,Cordova Bay Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvlueaaaa,0.0.0.0.0.0.1.4.6.5.2.5.1.2.3.20,true,QmW1QAPiN8h3zJi4PQzbANwxyd9cmWCGstWHpXEAtYUZSQ,144.217.233.191,South Jubilee Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvafeaaaa,0.0.0.0.0.0.1.5.0.0.2.5.1.2.3.20,true,QmWtaPGY2pxRhog8GHTfarYFKJu3LLvazPVGPDb4VmEvYT,144.217.233.191,Cadboro Bay Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvineaaaa,0.0.0.0.0.0.1.5.1.4.2.5.1.2.3.20,true,QmWyJ3dUQsV13CG5Jj1hnd6DKfqF1SLhERoQGNGXG76Tdo,144.217.233.191,Rockland Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvkneaaaa,0.0.0.0.0.0.1.5.1.5.2.5.1.2.3.20,true,QmNdjur4nhW1dZ65qNsTbj3mfPtq2Genphx1D86VgktCiy,144.217.233.191,Gorge Tillicum Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvi5eaaaa,0.0.0.0.0.0.1.5.3.4.2.5.1.2.3.20,true,QmSPFz9afqw2AccSBL1fYuFG1TeaAUTwdCTXQMRp8HkahS,144.217.233.191,Camosun Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvlfeaaaa,0.0.0.0.0.0.1.5.4.5.2.5.1.2.3.20,true,QmZAforrXssyPs2876y4vZSQHJfFGPVJd4RhKbHj3KZdFL,144.217.233.191,Downtown Residents Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvlveaaaa,0.0.0.0.0.0.1.5.6.5.2.5.1.2.3.20,true,Qmea7xnRYWDmYcujD7BroruEhwtDgvJGY6eDsAB76oWvQQ,144.217.233.191,Fernwood Community and Arts Common Crawl - nuc
+jimpick.com,ikgrw,6kgrv5veaaaa,0.0.0.0.0.0.1.5.6.6.3.5.1.2.3.20,true,QmWo6sggM9vbnh778qeo5ib4Hd5PZVmtUDBxrvq17p6UhQ,144.217.233.191,Carey Area Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvkgeaaaa,0.0.0.0.0.0.1.6.0.5.2.5.1.2.3.20,true,QmZG2tGdpg5ihHdMCRdCag7UXfiS2L5uyPmUaRuuWXvPdu,144.217.233.191,Oaklands Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvkweaaaa,0.0.0.0.0.0.1.6.2.5.2.5.1.2.3.20,true,QmQPXpq3g4FQRmQhs8FsqS6YjUjeCWTfjXd31zV7oQ98mR,144.217.233.191,Mount Tolmie Common Crawl - nuc
+jimpick.com,ikgrw,6kgrvdoeaaaa,0.0.0.0.0.0.1.6.5.1.2.5.1.2.3.20,true,QmTMbcCp2j53nn6FBjvmWht6pnBob9YpRmM7tp2u78QZe9,144.217.233.191,Blenkinsop Valley Common Crawl - nuc
+jimpick.com,ikgrw,6kgruaaeaaaa,0.0.0.0.0.0.1.0.0.0.0.5.1.2.3.20,true,QmW661UUCggSDmqjjGLhRrcXWE2R9mzoSnH8WMPucmAmZD,144.217.233.191,Map of Common Crawl Archives - nuc
+jimpick.com,ikgrw,6kgruqaeaaaa,0.0.0.0.0.0.1.0.0.0.1.5.1.2.3.20,true,bafybeieoddknb7fztutuf6izjuyohapbn4l4k54l7yihe3rfpakjswus5y,144.217.233.191,Search Experiment HackMD - nuc
+jimpick.com,ikgrw,6kgrvaaeaaaa,0.0.0.0.0.0.1.0.0.0.2.5.1.2.3.20,true,QmZncDgbyB17vhh6fR4PmvSGyETExcrdDuymcXo8JT1FYT,144.217.233.191,Stract Build Data - nuc
+jimpick.com,ikgrw,6kgrvqaeaaaa,0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20,true,QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF,144.217.233.191,Stract Search Backend - Community Associations - nuc
+jimpick.com,ikgrw,6kgrwaaeaaaa,0.0.0.0.0.0.1.0.0.0.4.5.1.2.3.20,true,QmNsc4qEG3MiH9ZUnYnBt79m1XGtrJJ6tARsmg5uFiornF,144.217.233.191,Stract Frontend - Community Associations - nuc
+jimpick.com,ikgrw,6kgrwqaeaaaa,0.0.0.0.0.0.1.0.0.0.5.5.1.2.3.20,true,QmQ5Qb9PSyDRDupjmkLS5Eib6LnUmmVqb2WVPzX6g1DCmM,144.217.233.191,Stract Index Data - Community Associations - nuc
+jimpick.com,ikgrw,6kgrunw3nwza,2.6.6.6.6.6.6.6.6.6.0.5.1.2.3.20,true,bafybeigjhtvqqx7wz4qxo2xg34hs4pkoyoj6xak5tauao4zvbcsqzj2fva,144.217.233.191,Hex.Camp Dev Blog - nuc
+jimpick.com,ikgrw,6kgru5w3nwza,2.6.6.6.6.6.6.6.6.6.1.5.1.2.3.20,true,bafybeiaosrdadcbrdfluevtegdelrf6qvw3ie3ssnh35weej7z2ocejgjy,144.217.233.191,Hex.Camp Dev Portal - nuc
+jimpick.com,gkgv6,6kgvlnw3nw3a,6.6.6.6.6.6.6.6.6.6.6.2.5.2.3.20,true,QmfPGjCKwF7HjdcsufM8G2jMDHQ9hPtbrgFBpwvUX6nkBz,144.217.233.191,Static Grafana Dashboard Test - nuc

@@ -1,5 +1,13 @@
 https://.:80 {
     file kkg6q.zone 3.4.6.3.3.20.h3.americas.peerhex.org
+    file aj7q.zone 19.h3.americas.peerhex.org
+    file akpq.zone 20.h3.americas.peerhex.org
+    file ak7q.zone 21.h3.americas.peerhex.org
+    file aspq.zone 36.h3.americas.peerhex.org
+    file az7q.zone 51.h3.americas.peerhex.org
+    file ba.zone 71.h3.americas.peerhex.org
+    file bkpq.zone 84.h3.americas.peerhex.org
+    file bq7q.zone 87.h3.americas.peerhex.org
     log
     errors
     ready

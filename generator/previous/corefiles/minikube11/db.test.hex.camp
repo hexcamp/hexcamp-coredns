@@ -1,14 +1,14 @@
 $ORIGIN test.hex.camp.
 @	3600 IN	SOA ns.test.hex.camp. hostmaster.test.hex.camp. (
-				2025073002 ; serial
+				2025080301 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				300       ; minimum (5 minutes)
 				)
 @ 3600 IN NS ns-minikube9
-ns-minikube9	300 A 35.159.18.46
-ns1	300 A 35.159.18.46
+ns-minikube9	300 A 3.66.223.242
+ns1	300 A 3.66.223.242
 @ 3600 IN NS ns-minikube10
 ns-minikube10	300 A 3.141.32.243
 ns2	300 A 3.141.32.243

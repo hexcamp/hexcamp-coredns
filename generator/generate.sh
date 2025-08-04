@@ -18,6 +18,9 @@ gen_new_file() {
       cp templates/$DIRNAME/$BASENAME current/$DIRNAME/$BASENAME
       return
     fi
+  else
+    DATE=$(date +"%Y%m%d")
+    SERIAL="${DATE}01"
   fi
   cat << EOT > tmp/jq-cmd.txt
   {

@@ -205,7 +205,7 @@ h3.americas.peerhex.org:53 {
     file /bundles/peerhex-americas/az7q.zone 51.h3.americas.peerhex.org
     file /bundles/peerhex-americas/ba.zone 71.h3.americas.peerhex.org
     file /bundles/peerhex-americas/bkpq.zone 84.h3.americas.peerhex.org
-    file /bundles/peerhex-americas/bq7q.zone 87.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/bq7q.zone 97.h3.americas.peerhex.org
 
     #forward . 8.8.8.8
     unbound
@@ -241,7 +241,7 @@ americas.peerhex.org:53 {
     file /bundles/peerhex-americas/az7q.zone 51.h3.americas.peerhex.org
     file /bundles/peerhex-americas/ba.zone 71.h3.americas.peerhex.org
     file /bundles/peerhex-americas/bkpq.zone 84.h3.americas.peerhex.org
-    file /bundles/peerhex-americas/bq7q.zone 87.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/bq7q.zone 97.h3.americas.peerhex.org
     log
     errors
     reload

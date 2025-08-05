@@ -198,6 +198,14 @@ h3.americas.peerhex.org:53 {
       expr metadata('hexcamp/lookup') == 'true'
     }
     file /bundles/peerhex-americas/kkg6q.zone 3.4.6.3.3.20.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/aj7q.zone 19.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/akpq.zone 20.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/ak7q.zone 21.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/aspq.zone 36.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/az7q.zone 51.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/ba.zone 71.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/bkpq.zone 84.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/bq7q.zone 87.h3.americas.peerhex.org
 
     #forward . 8.8.8.8
     unbound
@@ -226,6 +234,14 @@ americas.peerhex.org:53 {
     hexcamp americas.peerhex.org
     file db.americas.peerhex.org americas.peerhex.org
     file /bundles/peerhex-americas/kkg6q.zone 3.4.6.3.3.20.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/aj7q.zone 19.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/akpq.zone 20.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/ak7q.zone 21.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/aspq.zone 36.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/az7q.zone 51.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/ba.zone 71.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/bkpq.zone 84.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/bq7q.zone 87.h3.americas.peerhex.org
     log
     errors
     reload

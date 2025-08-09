@@ -248,8 +248,6 @@ americas.peerhex.org:53 {
     #cache
     prometheus 0.0.0.0:9153
 }
-
-
 h3.islandhex.ca:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'

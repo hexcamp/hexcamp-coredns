@@ -40,6 +40,7 @@ cd ../bundles
 
 for b in \
 	vanhex \
+	islandhex \
   peerhex-americas \
 	; do \
 		echo minikube11: $b; \

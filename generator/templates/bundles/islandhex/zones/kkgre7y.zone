@@ -1,0 +1,21 @@
+$ORIGIN 1.1.1.2.3.20.h3.islandhex.ca.
+$TTL 5m
+@       3600 IN SOA ns.1.1.1.2.3.20.h3.islandhex.ca. hostmaster.islandhex.ca. (
+                                {{ serial }} ; serial
+                                7200       ; refresh (2 hours)
+                                3600       ; retry (1 hour)
+                                1209600    ; expire (2 weeks)
+                                3600       ; minimum (1 hour)
+                                )
+
+{%- if ips.minikube11_ip %}
+@ IN NS ns-minikube11.1.1.1.2.3.20.h3.islandhex.ca.
+ns-minikube11 IN A {{ ips.minikube11_ip }}
+{%- endif %}
+
+{% for site in sites %}
+; {{ site.hex_id }}.islandhex.ca - {{ site.who }} - {{ site.comment }}
+{{ site.hex_reverse_path }}.h3.islandhex.ca. IN 21600 A {{ site.target_ipfs_server }}
+_dnslink.{{ site.hex_reverse_path }}.h3.islandhex.ca. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{{ site.hex_reverse_path }}.h3.islandhex.ca. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{% endfor %}

@@ -248,3 +248,44 @@ americas.peerhex.org:53 {
     #cache
     prometheus 0.0.0.0:9153
 }
+h3.islandhex.ca:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    file /bundles/islandhex/kkg4lpy.zone 6.2.4.3.3.20.h3.islandhex.ca
+    file /bundles/islandhex/kkgre7y.zone 1.1.1.2.3.20.h3.islandhex.ca
+
+    #forward . 8.8.8.8
+    unbound
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+    debug
+}
+islandhex.ca:53 {
+    view acme_challenge {
+      expr name() matches '^_acme-challenge\\.'
+    }
+    route53 islandhex.ca.:Z087029021WV3D5EV3NCB {
+      aws_access_key <key> <secret>
+    }
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}
+islandhex.ca:53 {
+    metadata
+    hexcamp islandhex.ca
+    file db.islandhex.ca islandhex.ca
+    file /bundles/islandhex/kkg4lpy.zone 6.2.4.3.3.20.h3.islandhex.ca
+    file /bundles/islandhex/kkgre7y.zone 1.1.1.2.3.20.h3.islandhex.ca
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}

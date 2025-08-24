@@ -11,26 +11,42 @@ fi
 
 TOP=$(pwd)
 
-cd generator/current/corefiles/minikube9
+MINIKUBE=minikube9
+
+cd generator/current/corefiles/$MINIKUBE
 
 cat Corefile.template | \
   sed "s,<key>,\"$JIMPICK_DNS_READONLY_ACCESS_KEY_ID\"," | \
   sed "s,<secret>,\"$JIMPICK_DNS_READONLY_SECRET_ACCESS_KEY\","  \
   > Corefile
 
-#rclone sync --ignore-times . minikube9-proxy:
-echo minikube9: proxy
-$TOP/rclone-sync.sh minikube9 proxy .
+echo $MINIKUBE: proxy
+$TOP/rclone-sync.sh $MINIKUBE proxy .
 
 cd ../../zones
 
-#rclone sync --ignore-times axpq minikube9-axpq:
+for z in \
+	ai \
+	as7q \
+	akpq \
+	axpq \
+	ikgrw \
+	gkgy6 \
+	gkgv6 \
+	; do \
+		echo $MINIKUBE: $z; \
+		$TOP/rclone-sync.sh $MINIKUBE $z $z
+	done
 
-#for z in \
-#	axpq \
-#	; do \
-#		echo minikube9: $z; \
-#		$TOP/rclone-sync.sh minikube9 $z $z
-#	done
+cd ../bundles
+
+for b in \
+	vanhex \
+	islandhex \
+  peerhex-americas \
+	; do \
+		echo $MINIKUBE: $b; \
+		$TOP/rclone-sync.sh $MINIKUBE $b $b/zones
+	done
 
 

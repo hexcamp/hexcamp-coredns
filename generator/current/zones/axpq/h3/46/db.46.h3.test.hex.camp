@@ -1,13 +1,13 @@
 $ORIGIN 46.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.46.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025080901 ; serial
+				2025082401 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
 	3600 IN NS ns-minikube9.46.h3.test.hex.camp.
-ns-minikube9 3600 IN A 3.73.116.168
+ns-minikube9 3600 IN A 18.185.120.59
 
 

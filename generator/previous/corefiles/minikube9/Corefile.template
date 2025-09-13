@@ -2,6 +2,12 @@ h3.test.hex.camp:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
+    file /bundles/ikgrw/h3/20/3/2/1/5/db.5.1.2.3.20.h3.test.hex.camp 5.1.2.3.20.h3.test.hex.camp
+    file /bundles/gkgy6/h3/20/3/3/0/db.0.3.3.20.h3.test.hex.camp 0.3.3.20.h3.test.hex.camp
+    file /bundles/akpq/h3/20/db.20.h3.test.hex.camp 20.h3.test.hex.camp
+    file /bundles/ai/h3/23/db.23.h3.test.hex.camp 23.h3.test.hex.camp
+    file /bundles/as7q/h3/37/db.37.h3.test.hex.camp 37.h3.test.hex.camp
+    file /bundles/axpq/h3/46/db.46.h3.test.hex.camp 46.h3.test.hex.camp
     #forward . 8.8.8.8
     unbound
     log
@@ -29,16 +35,23 @@ test.hex.camp:53 {
     hexcamp test.hex.camp
     file db.test.hex.camp test.hex.camp
 
+    # Victoria
+    file /bundles/ikgrw/h3/20/3/2/1/5/db.5.1.2.3.20.h3.test.hex.camp 5.1.2.3.20.h3.test.hex.camp
+
+    # Cortes Island
+    file /bundles/gkgy6/h3/20/3/3/0/db.0.3.3.20.h3.test.hex.camp 0.3.3.20.h3.test.hex.camp
+
+    # Base cell 20
+    file /bundles/akpq/h3/20/db.20.h3.test.hex.camp 20.h3.test.hex.camp
+    
     # Hawaii
-    dnsredir hex/46.h3.test.hex.camp {
-      to ietf-http-doh://hexcamp-axpq.axpq.minikube9.localnet.farm:30080/dns-query
-      path_reload 3s
-      url_reload 15s
-      max_fails 1
-      expire 1s
-      health_check 100000s
-      spray # Use even without health check
-    }
+    file /bundles/axpq/h3/46/db.46.h3.test.hex.camp 46.h3.test.hex.camp
+
+    # Tokyo
+    file /bundles/ai/h3/23/db.23.h3.test.hex.camp 23.h3.test.hex.camp
+
+    # Okinawa
+    file /bundles/as7q/h3/37/db.37.h3.test.hex.camp 37.h3.test.hex.camp
 
     log
     errors
@@ -51,6 +64,13 @@ h3.vichex.ca:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
+
+    # Base cell 20
+    #file /bundles/akpq/h3/20/db.20.h3.vichex.ca 20.h3.vichex.ca
+
+    # Victoria
+    file /bundles/ikgrw/h3/20/3/2/1/5/db.5.1.2.3.20.h3.vichex.ca 5.1.2.3.20.h3.vichex.ca
+
     #forward . 8.8.8.8
     unbound
     log
@@ -77,6 +97,13 @@ vichex.ca:53 {
     metadata
     hexcamp vichex.ca
     file db.vichex.ca vichex.ca
+
+    # Base cell 20
+    #file /bundles/akpq/h3/20/db.20.h3.vichex.ca 20.h3.vichex.ca
+    
+    # Victoria
+    file /bundles/ikgrw/h3/20/3/2/1/5/db.5.1.2.3.20.h3.vichex.ca 5.1.2.3.20.h3.vichex.ca
+
     log
     errors
     reload
@@ -87,6 +114,8 @@ h3.vanhex.ca:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
+    file /bundles/vanhex/kkg6q.zone 3.4.6.3.3.20.h3.vanhex.ca
+
     #forward . 8.8.8.8
     unbound
     log
@@ -113,6 +142,7 @@ vanhex.ca:53 {
     metadata
     hexcamp vanhex.ca
     file db.vanhex.ca vanhex.ca
+    file /bundles/vanhex/kkg6q.zone 3.4.6.3.3.20.h3.vanhex.ca
     log
     errors
     reload
@@ -123,6 +153,10 @@ h3.seahex.org:53 {
     view cname_lookup {
       expr metadata('hexcamp/lookup') == 'true'
     }
+
+    # Seattle
+    file /bundles/gkgv6/h3/20/3/2/5/db.5.2.3.20.h3.seahex.org 5.2.3.20.h3.seahex.org
+
     #forward . 8.8.8.8
     unbound
     log
@@ -149,6 +183,106 @@ seahex.org:53 {
     metadata
     hexcamp seahex.org
     file db.seahex.org seahex.org
+
+    # Seattle
+    file /bundles/gkgv6/h3/20/3/2/5/db.5.2.3.20.h3.seahex.org 5.2.3.20.h3.seahex.org
+
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}
+h3.americas.peerhex.org:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    file /bundles/peerhex-americas/kkg6q.zone 3.4.6.3.3.20.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/aj7q.zone 19.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/akpq.zone 20.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/ak7q.zone 21.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/aspq.zone 36.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/az7q.zone 51.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/ba.zone 71.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/bkpq.zone 84.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/bq7q.zone 97.h3.americas.peerhex.org
+
+    #forward . 8.8.8.8
+    unbound
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+    debug
+}
+americas.peerhex.org:53 {
+    view acme_challenge {
+      expr name() matches '^_acme-challenge\\.'
+    }
+    route53 americas.peerhex.org.:Z05086842CFMOCO1C8AAU {
+      aws_access_key <key> <secret>
+    }
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}
+americas.peerhex.org:53 {
+    metadata
+    hexcamp americas.peerhex.org
+    file db.americas.peerhex.org americas.peerhex.org
+    file /bundles/peerhex-americas/kkg6q.zone 3.4.6.3.3.20.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/aj7q.zone 19.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/akpq.zone 20.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/ak7q.zone 21.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/aspq.zone 36.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/az7q.zone 51.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/ba.zone 71.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/bkpq.zone 84.h3.americas.peerhex.org
+    file /bundles/peerhex-americas/bq7q.zone 97.h3.americas.peerhex.org
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}
+h3.islandhex.ca:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    file /bundles/islandhex/kkg4lpy.zone 6.2.4.3.3.20.h3.islandhex.ca
+    file /bundles/islandhex/kkgre7y.zone 1.1.1.2.3.20.h3.islandhex.ca
+
+    #forward . 8.8.8.8
+    unbound
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+    debug
+}
+islandhex.ca:53 {
+    view acme_challenge {
+      expr name() matches '^_acme-challenge\\.'
+    }
+    route53 islandhex.ca.:Z087029021WV3D5EV3NCB {
+      aws_access_key <key> <secret>
+    }
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}
+islandhex.ca:53 {
+    metadata
+    hexcamp islandhex.ca
+    file db.islandhex.ca islandhex.ca
+    file /bundles/islandhex/kkg4lpy.zone 6.2.4.3.3.20.h3.islandhex.ca
+    file /bundles/islandhex/kkgre7y.zone 1.1.1.2.3.20.h3.islandhex.ca
     log
     errors
     reload

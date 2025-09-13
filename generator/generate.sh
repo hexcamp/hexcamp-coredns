@@ -39,6 +39,10 @@ EOT
     --slurpfile sites tmp/region-sites.json \
     --slurpfile ips ips.json \
     -f tmp/jq-cmd.txt > tmp/data.json
+  echo ">>" minijinja-cli templates/$DIRNAME/$BASENAME
+  echo "Data:"
+  cat tmp/data.json
+  echo "---"
   minijinja-cli templates/$DIRNAME/$BASENAME tmp/data.json > current/$DIRNAME/$BASENAME
   if [ -f previous/$DIRNAME/$BASENAME -a -f current/$DIRNAME/$BASENAME ]; then
     PREVSUM=$(cat previous/$DIRNAME/$BASENAME | sha512sum)

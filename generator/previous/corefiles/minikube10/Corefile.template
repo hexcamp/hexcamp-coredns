@@ -143,3 +143,75 @@ seahex.org:53 {
     #cache
     prometheus 0.0.0.0:9153
 }
+h3.americas.peerhex.org:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    #forward . 8.8.8.8
+    unbound
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+    debug
+}
+americas.peerhex.org:53 {
+    view acme_challenge {
+      expr name() matches '^_acme-challenge\\.'
+    }
+    route53 americas.peerhex.org.:Z05086842CFMOCO1C8AAU {
+      aws_access_key <key> <secret>
+    }
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}
+americas.peerhex.org:53 {
+    metadata
+    hexcamp americas.peerhex.org
+    file db.americas.peerhex.org americas.peerhex.org
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}
+h3.islandhex.ca:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    #forward . 8.8.8.8
+    unbound
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+    debug
+}
+islandhex.ca:53 {
+    view acme_challenge {
+      expr name() matches '^_acme-challenge\\.'
+    }
+    route53 islandhex.ca.:Z087029021WV3D5EV3NCB {
+      aws_access_key <key> <secret>
+    }
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}
+islandhex.ca:53 {
+    metadata
+    hexcamp islandhex.ca
+    file db.islandhex.ca islandhex.ca
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}

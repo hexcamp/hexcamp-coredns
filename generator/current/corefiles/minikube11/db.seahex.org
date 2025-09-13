@@ -1,13 +1,13 @@
 $ORIGIN seahex.org.
 @	3600 IN	SOA ns.seahex.org. hostmaster.seahex.org. (
-				2025072902 ; serial
+				2025091301 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				300       ; minimum (5 minutes)
 				)
 @ 3600 IN NS ns-minikube11
-ns-minikube11	300 A 13.37.216.91
+ns-minikube11	300 A 13.37.42.193
 
 ; landing page
 @ 21600 IN A 144.217.233.191
@@ -16,6 +16,6 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.0.0.5.2.3.20.h3.seahex.org.
 ; bluesky
 _atproto 7200 IN TXT "did=did:plc:axbvrm76ppov53vttghgsw5p"
 5.2.3.20.h3.seahex.org. 300 IN NS ns-minikube11.5.2.3.20.h3.seahex.org.
-ns-minikube11.5.2.3.20.h3.seahex.org. 300 IN A 13.37.216.91
+ns-minikube11.5.2.3.20.h3.seahex.org. 300 IN A 13.37.42.193
 
 

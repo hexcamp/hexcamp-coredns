@@ -1,7 +1,7 @@
 $ORIGIN 5.1.2.3.20.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.5.1.2.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025091301 ; serial
+				2025121202 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -123,8 +123,8 @@ _dnslink.0.6.4.4.2.2.3.5.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=
 
 ; 6kgrvlbslccq.test.hex.camp - jimpick.com - vichex.ca Welcome HackMD - nuc
 5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
-_dnslink.5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeianz35jxc4hse4m4t3m2fu5x2ldf54uzrbibrvsfsg6kbwgz2l4ka"
-5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeianz35jxc4hse4m4t3m2fu5x2ldf54uzrbibrvsfsg6kbwgz2l4ka"
+_dnslink.5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeihkmurq6fq2y6cudscbcfw7qpnxvyuhtdqbunzuvhwv7bilukrq74"
+5.0.2.4.5.4.4.1.4.5.2.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeihkmurq6fq2y6cudscbcfw7qpnxvyuhtdqbunzuvhwv7bilukrq74"
 
 ; 6kgrvqaaaaaa.test.hex.camp - jimpick.com - vichex.ca Landing page - nuc
 0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
@@ -138,8 +138,8 @@ _dnslink.0.0.0.0.0.0.0.0.0.0.4.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=
 
 ; 6kgrvqaaaaaq.test.hex.camp - jimpick.com - Victoria Arts Map - nuc
 1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191
-_dnslink.1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeibjloqol54pvt5iazdn75qjepowutekidi6yaehmkog4u33t2wwjm"
-1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeibjloqol54pvt5iazdn75qjepowutekidi6yaehmkog4u33t2wwjm"
+_dnslink.1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeihhvxql4pcvrxqk7aafwtmslhm3fx2dttbtpml4v7ldsz6lj2twai"
+1.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/bafybeihhvxql4pcvrxqk7aafwtmslhm3fx2dttbtpml4v7ldsz6lj2twai"
 
 ; 6kgrwqaaaaaa.test.hex.camp - jimpick.com - VicHex OpenStreetMap tiles - nuc
 0.0.0.0.0.0.0.0.0.0.5.5.1.2.3.20.h3.test.hex.camp. 21600 IN A 144.217.233.191

@@ -1,7 +1,7 @@
 $ORIGIN 36.h3.americas.peerhex.org.
 $TTL 5m
 @	3600 IN	SOA ns.36.h3.americas.peerhex.org. hostmaster.americas.peerhex.org. (
-				2025091301 ; serial
+				2025121202 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,5 +10,10 @@ $TTL 5m
 @ IN NS ns-minikube11.36.h3.americas.peerhex.org.
 ns-minikube11 IN A 13.37.42.193
 
+
+; 6smvxbcanwaa.americas.peerhex.org - jimpick.com - Mexico City Wikipedia - nuc
+0.0.6.6.6.0.0.2.4.0.6.5.5.2.6.36.h3.americas.peerhex.org. IN 21600 A 144.217.233.191
+_dnslink.0.0.6.6.6.0.0.2.4.0.6.5.5.2.6.36.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmcCqrVvHZsR9RmNRWnru2HCJTuXHzpaMBsiZvZbTfrR1M"
+0.0.6.6.6.0.0.2.4.0.6.5.5.2.6.36.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmcCqrVvHZsR9RmNRWnru2HCJTuXHzpaMBsiZvZbTfrR1M"
 
 

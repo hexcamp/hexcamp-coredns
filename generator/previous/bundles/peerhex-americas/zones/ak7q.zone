@@ -1,14 +1,24 @@
 $ORIGIN 21.h3.americas.peerhex.org.
 $TTL 5m
 @	3600 IN	SOA ns.21.h3.americas.peerhex.org. hostmaster.americas.peerhex.org. (
-				2025080403 ; serial
+				2025121202 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
 @ IN NS ns-minikube11.21.h3.americas.peerhex.org.
-ns-minikube11 IN A 13.37.216.91
+ns-minikube11 IN A 13.37.42.193
 
+
+; 6kqqokeanwaa.americas.peerhex.org - jimpick.com - New York City Wikipedia - nuc
+0.0.6.6.6.0.0.4.0.5.4.3.0.2.0.21.h3.americas.peerhex.org. IN 21600 A 144.217.233.191
+_dnslink.0.0.6.6.6.0.0.4.0.5.4.3.0.2.0.21.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmUig62LmLCJQWD3r3qwVhyVdrSaAgdRPq8gsva1NUL7wG"
+0.0.6.6.6.0.0.4.0.5.4.3.0.2.0.21.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmUig62LmLCJQWD3r3qwVhyVdrSaAgdRPq8gsva1NUL7wG"
+
+; 6k43yrwanwaa.americas.peerhex.org - jimpick.com - Toronto Wikipedia - nuc
+0.0.6.6.6.0.0.6.6.0.1.6.3.3.6.21.h3.americas.peerhex.org. IN 21600 A 144.217.233.191
+_dnslink.0.0.6.6.6.0.0.6.6.0.1.6.3.3.6.21.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmRvaujZeE5rh2VygAyrZZPWPhmGSK6f68KCEdWwSwPmxk"
+0.0.6.6.6.0.0.6.6.0.1.6.3.3.6.21.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmRvaujZeE5rh2VygAyrZZPWPhmGSK6f68KCEdWwSwPmxk"
 
 

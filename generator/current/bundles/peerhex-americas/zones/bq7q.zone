@@ -1,7 +1,7 @@
 $ORIGIN 97.h3.americas.peerhex.org.
 $TTL 5m
 @	3600 IN	SOA ns.97.h3.americas.peerhex.org. hostmaster.americas.peerhex.org. (
-				2025091301 ; serial
+				2025121202 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,5 +10,10 @@ $TTL 5m
 @ IN NS ns-minikube11.97.h3.americas.peerhex.org.
 ns-minikube11 IN A 13.37.42.193
 
+
+; 7qzdca5anwaa.americas.peerhex.org - jimpick.com - Buenos Aires Wikipedia - nuc
+0.0.6.6.6.0.0.5.3.0.4.0.3.4.3.97.h3.americas.peerhex.org. IN 21600 A 144.217.233.191
+_dnslink.0.0.6.6.6.0.0.5.3.0.4.0.3.4.3.97.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmX8y1bq8iwMxiwJKNq2FaJkLNoBhjgkuoVzkas4E2z4KU"
+0.0.6.6.6.0.0.5.3.0.4.0.3.4.3.97.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmX8y1bq8iwMxiwJKNq2FaJkLNoBhjgkuoVzkas4E2z4KU"
 
 

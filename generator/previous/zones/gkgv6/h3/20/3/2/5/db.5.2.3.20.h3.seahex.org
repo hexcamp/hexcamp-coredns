@@ -1,14 +1,14 @@
 $ORIGIN 5.2.3.20.h3.seahex.org.
 $TTL 5m
 @	3600 IN	SOA ns.5.2.3.20.h3.seahex.org. hostmaster.seahex.org. (
-				2025080402 ; serial
+				2025121202 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
 @ IN NS ns-minikube11.5.2.3.20.h3.seahex.org.
-ns-minikube11 IN A 13.37.216.91
+ns-minikube11 IN A 13.37.42.193
 
 ; IPFS
 
@@ -224,8 +224,8 @@ _dnslink.2.5.4.3.5.0.5.4.4.5.0.2.5.2.3.20.h3.seahex.org. 300 IN TXT "dnslink=/ip
 ; 6kgvdnw3nwza.seahex.org - jimpick.com - Welcome to Hex.Camp HackMD - nuc
 2.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. 21600 IN A 144.217.233.191
 
-_dnslink.2.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. 300 IN TXT "dnslink=/ipfs/bafybeigx3hwdvpnuixu65nv7jxdcqaxn2uxlawqsdyljpo54qmc2tpapkm"
-2.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. 300 IN TXT "dnslink=/ipfs/bafybeigx3hwdvpnuixu65nv7jxdcqaxn2uxlawqsdyljpo54qmc2tpapkm"
+_dnslink.2.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. 300 IN TXT "dnslink=/ipfs/bafybeifl2daibfn53xtllbbrlkmyntkipdesnqbwmvc2iddgks7n3quzj4"
+2.6.6.6.6.6.6.6.6.6.6.0.5.2.3.20.h3.seahex.org. 300 IN TXT "dnslink=/ipfs/bafybeifl2daibfn53xtllbbrlkmyntkipdesnqbwmvc2iddgks7n3quzj4"
 
 
 ; 6kgvdnw3nw2q.seahex.org - jimpick.com - Welcome to Hex.Camp HackMD - SW Gateway - nuc
@@ -266,8 +266,8 @@ _dnslink.5.6.6.6.6.6.6.6.6.6.6.4.5.2.3.20.h3.seahex.org. 300 IN TXT "dnslink=/ip
 ; 6kgvhnw3nw3a.seahex.org - jimpick.com - HackMD Publishing Test Page - nuc
 6.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. 21600 IN A 144.217.233.191
 
-_dnslink.6.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. 300 IN TXT "dnslink=/ipfs/bafybeibzwyoff7n7q3ytcvtex7vnjmzkbwve5ikydsn4us3kk2dd7iv5vu"
-6.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. 300 IN TXT "dnslink=/ipfs/bafybeibzwyoff7n7q3ytcvtex7vnjmzkbwve5ikydsn4us3kk2dd7iv5vu"
+_dnslink.6.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. 300 IN TXT "dnslink=/ipfs/bafybeifzyr4kdwqoefng6be2kqsamjzbpyht2t4ag5mgan3ihhxxz2mbte"
+6.6.6.6.6.6.6.6.6.6.6.1.5.2.3.20.h3.seahex.org. 300 IN TXT "dnslink=/ipfs/bafybeifzyr4kdwqoefng6be2kqsamjzbpyht2t4ag5mgan3ihhxxz2mbte"
 
 
 ; 6kgvaaaaaaaa.seahex.org - jimpick.com - SeaHex Landing Page - nuc

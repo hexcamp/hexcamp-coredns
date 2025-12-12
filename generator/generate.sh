@@ -22,18 +22,28 @@ gen_new_file() {
     DATE=$(date +"%Y%m%d")
     SERIAL="${DATE}01"
   fi
+  REGION=$(echo $DIRNAME | sed -n -E 's,^.*zones/([^/]+)/.*,\1,p')
+  if [ -z "$REGION" ]; then
+    REGION=$(echo $BASENAME | sed -n -E 's,^([^/]+)\.zone$,\1,p')
+  fi
+  COMMUNITY="test.hex.camp"
+  echo Community: $COMMUNITY
+  echo Region: $REGION
+  if [ -n "$REGION" ]; then
+    DNS_UNPACKED=$(hexcamp-tool ehid-to-dns-unpacked $REGION)
+  else
+    DNS_UNPACKED=""
+  fi
+  echo DNS Unpacked: $DNS_UNPACKED
   cat << EOT > tmp/jq-cmd.txt
   {
+    community: "$COMMUNITY",
+    dnsUnpacked: "$DNS_UNPACKED",
     sites: \$sites[0],
     ips: \$ips[0],
     serial: "$SERIAL"
   }
 EOT
-  REGION=$(echo $DIRNAME | sed -n -E 's,^.*zones/([^/]+)/.*,\1,p')
-  if [ -z "$REGION" ]; then
-    REGION=$(echo $BASENAME | sed -n -E 's,^([^/]+)\.zone$,\1,p')
-  fi
-  #echo Region: $REGION
   cat tmp/sites-jim.json | jq "[.[] | select(.region == \"$REGION\")]" > tmp/region-sites.json
   jq -n \
     --slurpfile sites tmp/region-sites.json \
@@ -63,6 +73,8 @@ EOT
     #echo SERIAL: $SERIAL
     cat << EOT > tmp/jq-cmd.txt
     {
+      community: "$COMMUNITY",
+      dnsUnpacked: "$DNS_UNPACKED",
       sites: \$sites[0],
       ips: \$ips[0],
       serial: "$SERIAL"
@@ -72,20 +84,22 @@ EOT
     --slurpfile sites tmp/region-sites.json \
     --slurpfile ips ips.json \
     -f tmp/jq-cmd.txt > tmp/data.json
-    echo Jim $DIRNAME/$BASENAME
+    echo "Data (bump serial):"
+    cat tmp/data.json
+    echo "---"
     minijinja-cli templates/$DIRNAME/$BASENAME tmp/data.json  > current/$DIRNAME/$BASENAME
   fi
 }
 
 mkdir -p tmp
 
-csvclean -n sites/jim.csv > tmp/csv-clean.txt
-if [ -n "$(cat tmp/csv-clean.txt | grep -v 'No errors.')" ]; then
-  echo "CSV errors in sites/jim.csv!"
-  cat tmp/csv-clean.txt
-  exit 1
-fi
-csvjson sites/jim.csv > tmp/sites-jim.json
+cat sites/jim.csv | csvclean -a > tmp/csv-clean.csv
+#if [ -n "$(cat tmp/csv-clean.txt | grep -v 'No errors.')" ]; then
+#  echo "CSV errors in sites/jim.csv!"
+#  cat tmp/csv-clean.txt
+#  exit 1
+#fi
+csvjson tmp/csv-clean.csv > tmp/sites-jim.json
 
 #TEST=zones/gkgv6/h3/20/3/2/5/db.5.2.3.20.h3.seahex.org
 TEST=

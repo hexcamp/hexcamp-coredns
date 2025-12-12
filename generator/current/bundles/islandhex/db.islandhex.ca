@@ -1,6 +1,6 @@
 $ORIGIN islandhex.ca.
 @	3600 IN	SOA ns.islandhex.ca. hostmaster.islandhex.ca. (
-				2025091301 ; serial
+				2025121202 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)

@@ -1,7 +1,7 @@
 $ORIGIN 19.h3.americas.peerhex.org.
 $TTL 5m
 @	3600 IN	SOA ns.19.h3.americas.peerhex.org. hostmaster.americas.peerhex.org. (
-				2025091301 ; serial
+				2025121202 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -10,5 +10,20 @@ $TTL 5m
 @ IN NS ns-minikube11.19.h3.americas.peerhex.org.
 ns-minikube11 IN A 13.37.42.193
 
+
+; 6jteygvanwaa.americas.peerhex.org - jimpick.com - Chicago Wikipedia - nuc
+0.0.6.6.6.0.0.5.2.3.0.6.4.4.1.19.h3.americas.peerhex.org. IN 21600 A 144.217.233.191
+_dnslink.0.0.6.6.6.0.0.5.2.3.0.6.4.4.1.19.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmUtCjcB5KAwWTtB3fX148hRC5qkU1B4pCKjuaHpf4aLqs"
+0.0.6.6.6.0.0.5.2.3.0.6.4.4.1.19.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmUtCjcB5KAwWTtB3fX148hRC5qkU1B4pCKjuaHpf4aLqs"
+
+; 6jqaaaaaaaaa.americas.peerhex.org - jimpick.com - Peerhex Americas Landing Page - nuc
+0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.19.h3.americas.peerhex.org. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.19.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/bafybeidezenroxoz5xvickrz77jfycb6yvi4rjzkzpsnkmlvsqgvwdx6am"
+0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.19.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/bafybeidezenroxoz5xvickrz77jfycb6yvi4rjzkzpsnkmlvsqgvwdx6am"
+
+; 6jsaaaaaaaaa.americas.peerhex.org - jimpick.com - Peerhex Americas Welcome Page - nuc
+0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.19.h3.americas.peerhex.org. IN 21600 A 144.217.233.191
+_dnslink.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.19.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/bafybeihfjuoks5icz6o4japeggyphxvcv5wnb2x5wfd4fanvna64l33yzu"
+0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.19.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/bafybeihfjuoks5icz6o4japeggyphxvcv5wnb2x5wfd4fanvna64l33yzu"
 
 

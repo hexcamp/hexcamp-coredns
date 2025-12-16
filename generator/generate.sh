@@ -93,17 +93,22 @@ EOT
 
 mkdir -p tmp
 
-csvclean -n sites/jim.csv > tmp/csv-clean.txt
-if [ -n "$(cat tmp/csv-clean.txt | grep -v 'No errors.')" ]; then
-  echo "CSV errors in sites/jim.csv!"
-  cat tmp/csv-clean.txt
-  exit 1
-fi
-csvjson sites/jim.csv > tmp/sites-jim.json
+CSVCLEAN_VER=$(csvclean -V)
 
-# OS X
-#cat sites/jim.csv | csvclean -a > tmp/csv-clean.csv
-#csvjson tmp/csv-clean.csv > tmp/sites-jim.json
+if [ "$CSVCLEAN_VER" = "csvclean 1.4.0" ]; then
+  # Linux
+  csvclean -n sites/jim.csv > tmp/csv-clean.txt
+  if [ -n "$(cat tmp/csv-clean.txt | grep -v 'No errors.')" ]; then
+    echo "CSV errors in sites/jim.csv!"
+    cat tmp/csv-clean.txt
+    exit 1
+  fi
+  csvjson sites/jim.csv > tmp/sites-jim.json
+else
+  # OS X
+  cat sites/jim.csv | csvclean -a > tmp/csv-clean.csv
+  csvjson tmp/csv-clean.csv > tmp/sites-jim.json
+fi
 
 #TEST=zones/gkgv6/h3/20/3/2/5/db.5.2.3.20.h3.seahex.org
 TEST=

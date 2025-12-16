@@ -21,5 +21,30 @@ cat Corefile.template | \
 echo minikube10: proxy
 $TOP/rclone-sync.sh minikube10 proxy .
 
-#rclone sync --ignore-times . minikube10-proxy:
+cd ../../zones
+
+for z in \
+	ai \
+	as7q \
+	akpq \
+	axpq \
+	ikgrw \
+	gkgy6 \
+	gkgv6 \
+	; do \
+		echo $MINIKUBE: $z; \
+		$TOP/rclone-sync.sh $MINIKUBE $z $z
+	done
+
+cd ../bundles
+
+for b in \
+	vanhex \
+	islandhex \
+  peerhex-americas \
+	; do \
+		echo $MINIKUBE: $b; \
+		$TOP/rclone-sync.sh $MINIKUBE $b $b/zones
+	done
+
 

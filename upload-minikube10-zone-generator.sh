@@ -11,15 +11,17 @@ fi
 
 TOP=$(pwd)
 
-cd generator/current/corefiles/minikube10
+MINIKUBE=minikube9
+
+cd generator/current/corefiles/$MINIKUBE
 
 cat Corefile.template | \
   sed "s,<key>,\"$JIMPICK_DNS_READONLY_ACCESS_KEY_ID\"," | \
   sed "s,<secret>,\"$JIMPICK_DNS_READONLY_SECRET_ACCESS_KEY\","  \
   > Corefile
 
-echo minikube10: proxy
-$TOP/rclone-sync.sh minikube10 proxy .
+echo $MINIKUBE: proxy
+$TOP/rclone-sync.sh $MINIKUBE proxy .
 
 cd ../../zones
 

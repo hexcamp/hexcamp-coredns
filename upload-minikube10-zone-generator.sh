@@ -11,7 +11,7 @@ fi
 
 TOP=$(pwd)
 
-MINIKUBE=minikube9
+MINIKUBE=minikube10
 
 cd generator/current/corefiles/$MINIKUBE
 

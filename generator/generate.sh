@@ -26,7 +26,11 @@ gen_new_file() {
   if [ -z "$REGION" ]; then
     REGION=$(echo $BASENAME | sed -n -E 's,^([^/]+)\.zone$,\1,p')
   fi
-  COMMUNITY="test.hex.camp"
+  if [[ "$BASENAME" =~ vichex.ca$ ]]; then
+    COMMUNITY="vichex.ca"
+  else
+    COMMUNITY="test.hex.camp"
+  fi
   echo Community: $COMMUNITY
   echo Region: $REGION
   if [ -n "$REGION" ]; then

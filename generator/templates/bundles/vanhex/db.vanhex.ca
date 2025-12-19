@@ -7,6 +7,16 @@ $ORIGIN vanhex.ca.
 				300       ; minimum (5 minutes)
 				)
 
+{%- if ips.minikube9_ip %}
+@ 3600 IN NS ns-minikube9
+ns-minikube9	300 A {{ ips.minikube9_ip }}
+{%- endif %}
+
+{%- if ips.minikube10_ip %}
+@ 3600 IN NS ns-minikube10
+ns-minikube10	300 A {{ ips.minikube10_ip }}
+{%- endif %}
+
 {%- if ips.minikube11_ip %}
 @ 3600 IN NS ns-minikube11
 ns-minikube11	300 A {{ ips.minikube11_ip }}

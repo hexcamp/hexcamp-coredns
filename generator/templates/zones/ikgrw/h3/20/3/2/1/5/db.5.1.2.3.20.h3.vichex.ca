@@ -1,6 +1,6 @@
-$ORIGIN 5.1.2.3.20.h3.vichex.ca.
+$ORIGIN {{ dnsUnpacked }}.h3.{{ community }}.
 $TTL 5m
-@	3600 IN	SOA ns.5.1.2.3.20.h3.vichex.ca. hostmaster.vichex.ca. (
+@	3600 IN	SOA ns.{{ dnsUnpacked }}.h3.{{ community }}. hostmaster.{{ community }}. (
 				{{ serial }} ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
@@ -8,21 +8,21 @@ $TTL 5m
 				3600       ; minimum (1 hour)
 				)
 
-{%- if ips.minikube11_ip %}
-@ IN NS ns-minikube11.5.1.2.3.20.h3.vichex.ca.
-ns-minikube11 IN A {{ ips.minikube11_ip }}
-{%- endif %}
+{% for minikube_name in ips %}
+@ IN NS ns-{{ minikube_name }}.{{ dnsUnpacked }}.h3.{{ community }}.
+ns-{{ minikube_name }} IN A {{ ips[minikube_name] }}
+{%- endfor %}
 
-; 6kgrvqaeaaaa.vichex.ca - Stract Search Backend - Community Associations
-0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.vichex.ca. CNAME ovh-front-ryzen9.infra.hex.camp.
+; FIXME - needs templating
+; 6kgrvqaeaaaa.{{ community }} - Stract Search Backend - Community Associations
+0.0.0.0.0.0.1.0.0.0.3.5.1.2.3.20.h3.{{ community }}. CNAME ovh-front-ryzen9.infra.hex.camp.
 
-; 6kgrwaaeaaaa.vichex.ca - Stract Frontend - Community Associations
-0.0.0.0.0.0.1.0.0.0.4.5.1.2.3.20.h3.vichex.ca. CNAME ovh-front-ryzen9.infra.hex.camp.
+; 6kgrwaaeaaaa.{{ community }} - Stract Frontend - Community Associations
+0.0.0.0.0.0.1.0.0.0.4.5.1.2.3.20.h3.{{ community }}. CNAME ovh-front-ryzen9.infra.hex.camp.
 
 {% for site in sites %}
-; {{ site.hex_id }}.vichex.ca - {{ site.who }} - {{ site.comment }}
-{{ site.hex_reverse_path }}.h3.vichex.ca. IN 21600 A {{ site.target_ipfs_server }}
-_dnslink.{{ site.hex_reverse_path }}.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
-{{ site.hex_reverse_path }}.h3.vichex.ca. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+; {{ site.hex_id }}.{{ community }} - {{ site.who }} - {{ site.comment }}
+{{ site.hex_reverse_path }}.h3.{{ community }}. 21600 IN A {{ site.target_ipfs_server }}
+_dnslink.{{ site.hex_reverse_path }}.h3.{{ community }}. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{{ site.hex_reverse_path }}.h3.{{ community }}. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
 {% endfor %}
-

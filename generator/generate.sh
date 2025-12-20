@@ -28,6 +28,8 @@ gen_new_file() {
   fi
   if [[ "$BASENAME" =~ vichex.ca$ ]]; then
     COMMUNITY="vichex.ca"
+  elif [[ "$BASENAME" =~ seahex.org$ ]]; then
+    COMMUNITY="seahex.org"
   else
     COMMUNITY="test.hex.camp"
   fi

@@ -9,12 +9,32 @@ $TTL 5m
 				)
 
 
+{%- if ips.minikube9_ip %}
+@ IN NS ns-minikube9.20.h3.seahex.org.
+ns-minikube9 IN A {{ ips.minikube9_ip }}
+{%- endif %}
+
+{%- if ips.minikube10_ip %}
+@ IN NS ns-minikube10.20.h3.seahex.org.
+ns-minikube10 IN A {{ ips.minikube10_ip }}
+{%- endif %}
+
 {%- if ips.minikube11_ip %}
 @ IN NS ns-minikube11.20.h3.seahex.org.
 ns-minikube11 IN A {{ ips.minikube11_ip }}
 {%- endif %}
 
 ; Seattle
+{%- if ips.minikube9_ip %}
+5.2.3.20.h3.seahex.org. 3600 IN NS ns-minikube9.5.2.3.20.h3.seahex.org. 
+ns-minikube9.5.2.3.20.h3.seahex.org. 3600 IN A {{ ips.minikube9_ip }}
+{%- endif %}
+
+{%- if ips.minikube10_ip %}
+5.2.3.20.h3.seahex.org. 3600 IN NS ns-minikube10.5.2.3.20.h3.seahex.org. 
+ns-minikube10.5.2.3.20.h3.seahex.org. 3600 IN A {{ ips.minikube10_ip }}
+{%- endif %}
+
 {%- if ips.minikube11_ip %}
 5.2.3.20.h3.seahex.org. 3600 IN NS ns-minikube11.5.2.3.20.h3.seahex.org. 
 ns-minikube11.5.2.3.20.h3.seahex.org. 3600 IN A {{ ips.minikube11_ip }}

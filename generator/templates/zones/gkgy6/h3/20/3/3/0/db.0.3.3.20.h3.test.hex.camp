@@ -1,6 +1,6 @@
-$ORIGIN 0.3.3.20.h3.test.hex.camp.
+$ORIGIN {{ dnsUnpacked }}.h3.{{ community }}.
 $TTL 5m
-@	3600 IN	SOA ns.0.3.3.20.h3.test.hex.camp. hostmaster.test.hex.camp. (
+@	3600 IN	SOA ns.{{ dnsUnpacked }}.h3.{{ community }}. hostmaster.{{ community }}. (
 				{{ serial }} ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
@@ -8,15 +8,14 @@ $TTL 5m
 				3600       ; minimum (1 hour)
 				)
 
-
-{%- if ips.minikube11_ip %}
-@ IN NS ns-minikube11.0.3.3.20.h3.test.hex.camp.
-ns-minikube11 IN A {{ ips.minikube11_ip }}
-{%- endif %}
+{% for minikube_name in ips %}
+@ IN NS ns-{{ minikube_name }}.{{ dnsUnpacked }}.h3.{{ community }}.
+ns-{{ minikube_name }} IN A {{ ips[minikube_name] }}
+{%- endfor %}
 
 {% for site in sites %}
-; {{ site.hex_id }}.test.hex.camp - {{ site.who }} - {{ site.comment }}
-{{ site.hex_reverse_path }}.h3.test.hex.camp. 21600 IN A {{ site.target_ipfs_server }}
-_dnslink.{{ site.hex_reverse_path }}.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
-{{ site.hex_reverse_path }}.h3.test.hex.camp. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+; {{ site.hex_id }}.{{ community }} - {{ site.who }} - {{ site.comment }}
+{{ site.hex_reverse_path }}.h3.{{ community }}. 21600 IN A {{ site.target_ipfs_server }}
+_dnslink.{{ site.hex_reverse_path }}.h3.{{ community }}. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
+{{ site.hex_reverse_path }}.h3.{{ community }}. 300 IN TXT "dnslink=/ipfs/{{ site.dnslink_cid }}"
 {% endfor %}

@@ -1,42 +1,42 @@
 $ORIGIN test.hex.camp.
 @	3600 IN	SOA ns.test.hex.camp. hostmaster.test.hex.camp. (
-				2025120901 ; serial
+				2025122001 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				300       ; minimum (5 minutes)
 				)
 @ 3600 IN NS ns-minikube9
-ns-minikube9	300 A 54.93.98.163
-ns1	300 A 54.93.98.163
+ns-minikube9	300 A 3.75.96.130
+ns1	300 A 3.75.96.130
 @ 3600 IN NS ns-minikube10
 ns-minikube10	300 A 3.141.32.243
 ns2	300 A 3.141.32.243
 @ 3600 IN NS ns-minikube11
-ns-minikube11	300 A 15.188.51.124
-ns3	300 A 15.188.51.124
+ns-minikube11	300 A 51.44.22.98
+ns3	300 A 51.44.22.98
 
 ; ai - tokyo
 23.h3 300 IN NS ns-minikube9.23.h3.test.hex.camp.
-ns-minikube9.23.h3.test.hex.camp. 300 IN A 54.93.98.163
+ns-minikube9.23.h3.test.hex.camp. 300 IN A 3.75.96.130
 23.h3 300 IN NS ns-minikube11.23.h3.test.hex.camp.
-ns-minikube11.23.h3.test.hex.camp. 300 IN A 15.188.51.124
+ns-minikube11.23.h3.test.hex.camp. 300 IN A 51.44.22.98
 
 ; as7q - okinawa
 37.h3 300 IN NS ns-minikube9.37.h3.test.hex.camp.
-ns-minikube9.37.h3.test.hex.camp. 300 IN A 54.93.98.163
+ns-minikube9.37.h3.test.hex.camp. 300 IN A 3.75.96.130
 37.h3 300 IN NS ns-minikube11.37.h3.test.hex.camp.
-ns-minikube11.37.h3.test.hex.camp. 300 IN A 15.188.51.124
+ns-minikube11.37.h3.test.hex.camp. 300 IN A 51.44.22.98
 
 ; axpq - hawaii
 46.h3 300 IN NS ns-minikube9.46.h3.test.hex.camp.
-ns-minikube9.46.h3.test.hex.camp. 300 IN A 54.93.98.163
+ns-minikube9.46.h3.test.hex.camp. 300 IN A 3.75.96.130
 46.h3 300 IN NS ns-minikube11.46.h3.test.hex.camp.
-ns-minikube11.46.h3.test.hex.camp. 300 IN A 15.188.51.124
+ns-minikube11.46.h3.test.hex.camp. 300 IN A 51.44.22.98
 
 ; akpq - victoria, seattle
 20.h3 300 IN NS ns-minikube9.20.h3.test.hex.camp.
-ns-minikube9.20.h3.test.hex.camp. 300 IN A 54.93.98.163
+ns-minikube9.20.h3.test.hex.camp. 300 IN A 3.75.96.130
 20.h3 300 IN NS ns-minikube11.20.h3.test.hex.camp.
-ns-minikube11.20.h3.test.hex.camp. 300 IN A 15.188.51.124
+ns-minikube11.20.h3.test.hex.camp. 300 IN A 51.44.22.98
 

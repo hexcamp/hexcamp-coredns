@@ -26,7 +26,9 @@ gen_new_file() {
   if [ -z "$REGION" ]; then
     REGION=$(echo $BASENAME | sed -n -E 's,^([^/]+)\.zone$,\1,p')
   fi
-  if [[ "$BASENAME" =~ vichex.ca$ ]]; then
+  if [[ "$DIRNAME" = "bundles/vanhex/zones" ]]; then
+    COMMUNITY="vanhex.ca"
+  elif [[ "$BASENAME" =~ vichex.ca$ ]]; then
     COMMUNITY="vichex.ca"
   elif [[ "$BASENAME" =~ seahex.org$ ]]; then
     COMMUNITY="seahex.org"

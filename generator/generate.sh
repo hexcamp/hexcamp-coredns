@@ -36,6 +36,8 @@ gen_new_file() {
     COMMUNITY="vichex.ca"
   elif [[ "$BASENAME" =~ seahex.org$ ]]; then
     COMMUNITY="seahex.org"
+  elif [[ "$BASENAME" =~ americas.peerhex.org$ ]]; then
+    COMMUNITY="americas.peerhex.org"
   else
     COMMUNITY="test.hex.camp"
   fi

@@ -1,7 +1,7 @@
 $ORIGIN 37.h3.test.hex.camp.
 $TTL 5m
 @	3600 IN	SOA ns.37.h3.test.hex.camp. hostmaster.test.hex.camp. (
-				2025122001 ; serial
+				2025122101 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -9,12 +9,12 @@ $TTL 5m
 				)
 
 
-@ IN NS ns-minikube10_ip.37.h3.test.hex.camp.
-ns-minikube10_ip IN A 3.141.32.243
-@ IN NS ns-minikube11_ip.37.h3.test.hex.camp.
-ns-minikube11_ip IN A 51.44.22.98
-@ IN NS ns-minikube9_ip.37.h3.test.hex.camp.
-ns-minikube9_ip IN A 3.75.96.130
+@ IN NS ns-minikube10.37.h3.test.hex.camp.
+ns-minikube10 IN A 3.141.32.243
+@ IN NS ns-minikube11.37.h3.test.hex.camp.
+ns-minikube11 IN A 51.44.22.98
+@ IN NS ns-minikube9.37.h3.test.hex.camp.
+ns-minikube9 IN A 3.75.96.130
 
 
 ; ssrgdfv3.test.hex.camp - jimpick.com - Photos - Okinawa - nuc

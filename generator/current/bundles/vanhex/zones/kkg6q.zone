@@ -1,7 +1,7 @@
 $ORIGIN 3.4.6.3.3.20.h3.vanhex.ca.
 $TTL 5m
 @	3600 IN	SOA ns.3.4.6.3.3.20.h3.vanhex.ca. hostmaster.vanhex.ca. (
-				2025122002 ; serial
+				2025122101 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -9,12 +9,12 @@ $TTL 5m
 				)
 
 
-@ IN NS ns-minikube10_ip.3.4.6.3.3.20.h3.vanhex.ca.
-ns-minikube10_ip IN A 3.141.32.243
-@ IN NS ns-minikube11_ip.3.4.6.3.3.20.h3.vanhex.ca.
-ns-minikube11_ip IN A 51.44.22.98
-@ IN NS ns-minikube9_ip.3.4.6.3.3.20.h3.vanhex.ca.
-ns-minikube9_ip IN A 3.75.96.130
+@ IN NS ns-minikube10.3.4.6.3.3.20.h3.vanhex.ca.
+ns-minikube10 IN A 3.141.32.243
+@ IN NS ns-minikube11.3.4.6.3.3.20.h3.vanhex.ca.
+ns-minikube11 IN A 51.44.22.98
+@ IN NS ns-minikube9.3.4.6.3.3.20.h3.vanhex.ca.
+ns-minikube9 IN A 3.75.96.130
 
 
 ; 6kg6rqaaaaaa.vanhex.ca - jimpick.com - VanHex Landing Page - nuc

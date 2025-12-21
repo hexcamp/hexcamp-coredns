@@ -8,8 +8,8 @@ MINIKUBE11=$(cd ~/hexcamp-jpimac/localnet-farm/hexcamp-terraform-aws-minikube/ex
 echo minikube11: $MINIKUBE11
 
 jq -n " \
-  .minikube9_ip=\"$MINIKUBE9\" | \
-  .minikube10_ip=\"$MINIKUBE10\" | \
-  .minikube11_ip=\"$MINIKUBE11\"" > ips.json
+  .minikube9=\"$MINIKUBE9\" | \
+  .minikube10=\"$MINIKUBE10\" | \
+  .minikube11=\"$MINIKUBE11\"" > ips.json
 cat ips.json | jq
 

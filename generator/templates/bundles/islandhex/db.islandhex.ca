@@ -7,19 +7,19 @@ $ORIGIN islandhex.ca.
 				300       ; minimum (5 minutes)
 				)
 
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 @ 3600 IN NS ns-minikube9
-ns-minikube9	300 A {{ ips.minikube9_ip }}
+ns-minikube9	300 A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 @ 3600 IN NS ns-minikube10
-ns-minikube10	300 A {{ ips.minikube10_ip }}
+ns-minikube10	300 A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 @ 3600 IN NS ns-minikube11
-ns-minikube11	300 A {{ ips.minikube11_ip }}
+ns-minikube11	300 A {{ ips.minikube11 }}
 {%- endif %}
 
 ; landing page
@@ -30,34 +30,34 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.6.2.4.3.3.20.h3.islandhex.ca.
 ;_atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"
 
 ; kkg4lpy - North Salt Spring and North Galiano
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 6.2.4.3.3.20.h3.islandhex.ca.  IN NS ns-minikube9.6.2.4.3.3.20.h3.islandhex.ca.
-ns-minikube9.6.2.4.3.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube9_ip }}
+ns-minikube9.6.2.4.3.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 6.2.4.3.3.20.h3.islandhex.ca.  IN NS ns-minikube10.6.2.4.3.3.20.h3.islandhex.ca.
-ns-minikube10.6.2.4.3.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube10_ip }}
+ns-minikube10.6.2.4.3.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 6.2.4.3.3.20.h3.islandhex.ca.  IN NS ns-minikube11.6.2.4.3.3.20.h3.islandhex.ca.
-ns-minikube11.6.2.4.3.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube11_ip }}
+ns-minikube11.6.2.4.3.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube11 }}
 {%- endif %}
 
 ; kkgre7y - South Salt Spring
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 1.1.1.2.3.20.h3.islandhex.ca.  IN NS ns-minikube9.1.1.1.2.3.20.h3.islandhex.ca.
-ns-minikube9.1.1.1.2.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube9_ip }}
+ns-minikube9.1.1.1.2.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 1.1.1.2.3.20.h3.islandhex.ca.  IN NS ns-minikube10.1.1.1.2.3.20.h3.islandhex.ca.
-ns-minikube10.1.1.1.2.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube10_ip }}
+ns-minikube10.1.1.1.2.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 1.1.1.2.3.20.h3.islandhex.ca.  IN NS ns-minikube11.1.1.1.2.3.20.h3.islandhex.ca.
-ns-minikube11.1.1.1.2.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube11_ip }}
+ns-minikube11.1.1.1.2.3.20.h3.islandhex.ca. 300 IN A {{ ips.minikube11 }}
 {%- endif %}
 

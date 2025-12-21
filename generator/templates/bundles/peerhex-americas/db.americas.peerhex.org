@@ -7,19 +7,19 @@ $ORIGIN americas.peerhex.org.
 				300       ; minimum (5 minutes)
 				)
 
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 @ 3600 IN NS ns-minikube9
-ns-minikube9	300 A {{ ips.minikube9_ip }}
+ns-minikube9	300 A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 @ 3600 IN NS ns-minikube10
-ns-minikube10	300 A {{ ips.minikube10_ip }}
+ns-minikube10	300 A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 @ 3600 IN NS ns-minikube11
-ns-minikube11	300 A {{ ips.minikube11_ip }}
+ns-minikube11	300 A {{ ips.minikube11 }}
 {%- endif %}
 
 ; landing page
@@ -30,35 +30,35 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.19.h3.americas.peerh
 ;_atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"
 
 ; kkg6q - Vancouver
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 3.4.6.3.3.20.h3.americas.peerhex.org.  IN NS ns-minikube9.3.4.6.3.3.20.h3.americas.peerhex.org.
-ns-minikube9.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A {{ ips.minikube9_ip }}
+ns-minikube9.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 3.4.6.3.3.20.h3.americas.peerhex.org.  IN NS ns-minikube10.3.4.6.3.3.20.h3.americas.peerhex.org.
-ns-minikube10.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A {{ ips.minikube10_ip }}
+ns-minikube10.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 3.4.6.3.3.20.h3.americas.peerhex.org.  IN NS ns-minikube11.3.4.6.3.3.20.h3.americas.peerhex.org.
-ns-minikube11.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A {{ ips.minikube11_ip }}
+ns-minikube11.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A {{ ips.minikube11 }}
 {%- endif %}
 
 ; aspq - Mexico City Base Cell
-{%- if ips.minikube9_ip %}
-36.h3.americas.peerhex.org.  IN NS ns-minikube9_ip.36.h3.americas.peerhex.org.
-ns-minikube9_ip.36.h3.americas.peerhex.org. 300 IN A {{ ips.minikube9_ip }}
+{%- if ips.minikube9 %}
+36.h3.americas.peerhex.org.  IN NS ns-minikube9.36.h3.americas.peerhex.org.
+ns-minikube9.36.h3.americas.peerhex.org. 300 IN A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
-36.h3.americas.peerhex.org.  IN NS ns-minikube10_ip.36.h3.americas.peerhex.org.
-ns-minikube10_ip.36.h3.americas.peerhex.org. 300 IN A {{ ips.minikube10_ip }}
+{%- if ips.minikube10 %}
+36.h3.americas.peerhex.org.  IN NS ns-minikube10.36.h3.americas.peerhex.org.
+ns-minikube10.36.h3.americas.peerhex.org. 300 IN A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
-36.h3.americas.peerhex.org.  IN NS ns-minikube11_ip.36.h3.americas.peerhex.org.
-ns-minikube11_ip.36.h3.americas.peerhex.org. 300 IN A {{ ips.minikube11_ip }}
+{%- if ips.minikube11 %}
+36.h3.americas.peerhex.org.  IN NS ns-minikube11.36.h3.americas.peerhex.org.
+ns-minikube11.36.h3.americas.peerhex.org. 300 IN A {{ ips.minikube11 }}
 {%- endif %}
 
 

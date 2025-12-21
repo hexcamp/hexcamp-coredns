@@ -9,50 +9,50 @@ $TTL 5m
 				)
 
 
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 @ IN NS ns-minikube9.20.h3.test.hex.camp.
-ns-minikube9 IN A {{ ips.minikube9_ip }}
+ns-minikube9 IN A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 @ IN NS ns-minikube10.20.h3.test.hex.camp.
-ns-minikube10 IN A {{ ips.minikube10_ip }}
+ns-minikube10 IN A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 @ IN NS ns-minikube11.20.h3.test.hex.camp.
-ns-minikube11 IN A {{ ips.minikube11_ip }}
+ns-minikube11 IN A {{ ips.minikube11 }}
 {%- endif %}
 
 ; Victoria
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 5.1.2.3.20.h3.test.hex.camp. 3600 IN NS ns-minikube9.5.1.2.3.20.h3.test.hex.camp.
-ns-minikube9.5.1.2.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube9_ip }}
+ns-minikube9.5.1.2.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 5.1.2.3.20.h3.test.hex.camp. 3600 IN NS ns-minikube10.5.1.2.3.20.h3.test.hex.camp.
-ns-minikube10.5.1.2.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube10_ip }}
+ns-minikube10.5.1.2.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 5.1.2.3.20.h3.test.hex.camp. 3600 IN NS ns-minikube11.5.1.2.3.20.h3.test.hex.camp.
-ns-minikube11.5.1.2.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube11_ip }}
+ns-minikube11.5.1.2.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube11 }}
 {%- endif %}
 
 ; Cortes Island
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 0.3.3.20.h3.test.hex.camp. 3500 IN NS ns-minikube9.0.3.3.20.h3.test.hex.camp.
-ns-minikube9.0.3.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube9_ip }}
+ns-minikube9.0.3.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 0.3.3.20.h3.test.hex.camp. 3500 IN NS ns-minikube10.0.3.3.20.h3.test.hex.camp.
-ns-minikube10.0.3.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube10_ip }}
+ns-minikube10.0.3.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 0.3.3.20.h3.test.hex.camp. 3500 IN NS ns-minikube11.0.3.3.20.h3.test.hex.camp.
-ns-minikube11.0.3.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube11_ip }}
+ns-minikube11.0.3.3.20.h3.test.hex.camp. 3600 IN A {{ ips.minikube11 }}
 {%- endif %}
 

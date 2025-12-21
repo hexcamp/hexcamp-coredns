@@ -7,9 +7,9 @@ $ORIGIN seahex.org.
 				300       ; minimum (5 minutes)
 				)
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 @ 3600 IN NS ns-minikube11
-ns-minikube11	300 A {{ ips.minikube11_ip }}
+ns-minikube11	300 A {{ ips.minikube11 }}
 {%- endif %}
 
 ; landing page
@@ -19,9 +19,9 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.0.0.5.2.3.20.h3.seahex.org.
 ; bluesky
 _atproto 7200 IN TXT "did=did:plc:axbvrm76ppov53vttghgsw5p"
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 5.2.3.20.h3.seahex.org. 300 IN NS ns-minikube11.5.2.3.20.h3.seahex.org.
-ns-minikube11.5.2.3.20.h3.seahex.org. 300 IN A {{ ips.minikube11_ip }}
+ns-minikube11.5.2.3.20.h3.seahex.org. 300 IN A {{ ips.minikube11 }}
 {%- endif %}
 
 

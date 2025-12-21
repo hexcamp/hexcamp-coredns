@@ -7,61 +7,61 @@ $ORIGIN test.hex.camp.
 				300       ; minimum (5 minutes)
 				)
 
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 @ 3600 IN NS ns-minikube9
-ns-minikube9	300 A {{ ips.minikube9_ip }}
-ns1	300 A {{ ips.minikube9_ip }}
+ns-minikube9	300 A {{ ips.minikube9 }}
+ns1	300 A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 @ 3600 IN NS ns-minikube10
-ns-minikube10	300 A {{ ips.minikube10_ip }}
-ns2	300 A {{ ips.minikube10_ip }}
+ns-minikube10	300 A {{ ips.minikube10 }}
+ns2	300 A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 @ 3600 IN NS ns-minikube11
-ns-minikube11	300 A {{ ips.minikube11_ip }}
-ns3	300 A {{ ips.minikube11_ip }}
+ns-minikube11	300 A {{ ips.minikube11 }}
+ns3	300 A {{ ips.minikube11 }}
 {%- endif %}
 
 ; ai - tokyo
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 23.h3 300 IN NS ns-minikube9.23.h3.test.hex.camp.
-ns-minikube9.23.h3.test.hex.camp. 300 IN A {{ ips.minikube9_ip }}
+ns-minikube9.23.h3.test.hex.camp. 300 IN A {{ ips.minikube9 }}
 {%- endif %}
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 23.h3 300 IN NS ns-minikube11.23.h3.test.hex.camp.
-ns-minikube11.23.h3.test.hex.camp. 300 IN A {{ ips.minikube11_ip }}
+ns-minikube11.23.h3.test.hex.camp. 300 IN A {{ ips.minikube11 }}
 {%- endif %}
 
 ; as7q - okinawa
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 37.h3 300 IN NS ns-minikube9.37.h3.test.hex.camp.
-ns-minikube9.37.h3.test.hex.camp. 300 IN A {{ ips.minikube9_ip }}
+ns-minikube9.37.h3.test.hex.camp. 300 IN A {{ ips.minikube9 }}
 {%- endif %}
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 37.h3 300 IN NS ns-minikube11.37.h3.test.hex.camp.
-ns-minikube11.37.h3.test.hex.camp. 300 IN A {{ ips.minikube11_ip }}
+ns-minikube11.37.h3.test.hex.camp. 300 IN A {{ ips.minikube11 }}
 {%- endif %}
 
 ; axpq - hawaii
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 46.h3 300 IN NS ns-minikube9.46.h3.test.hex.camp.
-ns-minikube9.46.h3.test.hex.camp. 300 IN A {{ ips.minikube9_ip }}
+ns-minikube9.46.h3.test.hex.camp. 300 IN A {{ ips.minikube9 }}
 {%- endif %}
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 46.h3 300 IN NS ns-minikube11.46.h3.test.hex.camp.
-ns-minikube11.46.h3.test.hex.camp. 300 IN A {{ ips.minikube11_ip }}
+ns-minikube11.46.h3.test.hex.camp. 300 IN A {{ ips.minikube11 }}
 {%- endif %}
 
 ; akpq - victoria, seattle
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 20.h3 300 IN NS ns-minikube9.20.h3.test.hex.camp.
-ns-minikube9.20.h3.test.hex.camp. 300 IN A {{ ips.minikube9_ip }}
+ns-minikube9.20.h3.test.hex.camp. 300 IN A {{ ips.minikube9 }}
 {%- endif %}
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 20.h3 300 IN NS ns-minikube11.20.h3.test.hex.camp.
-ns-minikube11.20.h3.test.hex.camp. 300 IN A {{ ips.minikube11_ip }}
+ns-minikube11.20.h3.test.hex.camp. 300 IN A {{ ips.minikube11 }}
 {%- endif %}
 

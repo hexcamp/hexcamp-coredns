@@ -8,34 +8,34 @@ $TTL 5m
 				3600       ; minimum (1 hour)
 				)
 
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 @ IN NS ns-minikube9.20.h3.vichex.ca.
-ns-minikube9 IN A {{ ips.minikube9_ip }}
+ns-minikube9 IN A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 @ IN NS ns-minikube10.20.h3.vichex.ca.
-ns-minikube10 IN A {{ ips.minikube10_ip }}
+ns-minikube10 IN A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 @ IN NS ns-minikube11.20.h3.vichex.ca.
-ns-minikube11 IN A {{ ips.minikube11_ip }}
+ns-minikube11 IN A {{ ips.minikube11 }}
 {%- endif %}
 
 ; Victoria
-{%- if ips.minikube9_ip %}
+{%- if ips.minikube9 %}
 5.1.2.3.20.h3.vichex.ca. 3600 IN NS ns-minikube9.5.1.2.3.20.h3.vichex.ca. 
-ns-minikube9.5.1.2.3.20.h3.vichex.ca. 3600 IN A {{ ips.minikube9_ip }}
+ns-minikube9.5.1.2.3.20.h3.vichex.ca. 3600 IN A {{ ips.minikube9 }}
 {%- endif %}
 
-{%- if ips.minikube10_ip %}
+{%- if ips.minikube10 %}
 5.1.2.3.20.h3.vichex.ca. 3600 IN NS ns-minikube10.5.1.2.3.20.h3.vichex.ca. 
-ns-minikube10.5.1.2.3.20.h3.vichex.ca. 3600 IN A {{ ips.minikube10_ip }}
+ns-minikube10.5.1.2.3.20.h3.vichex.ca. 3600 IN A {{ ips.minikube10 }}
 {%- endif %}
 
-{%- if ips.minikube11_ip %}
+{%- if ips.minikube11 %}
 5.1.2.3.20.h3.vichex.ca. 3600 IN NS ns-minikube11.5.1.2.3.20.h3.vichex.ca. 
-ns-minikube11.5.1.2.3.20.h3.vichex.ca. 3600 IN A {{ ips.minikube11_ip }}
+ns-minikube11.5.1.2.3.20.h3.vichex.ca. 3600 IN A {{ ips.minikube11 }}
 {%- endif %}
 

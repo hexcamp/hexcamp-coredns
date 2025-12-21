@@ -28,6 +28,10 @@ gen_new_file() {
   fi
   if [[ "$DIRNAME" = "bundles/vanhex/zones" ]]; then
     COMMUNITY="vanhex.ca"
+  elif [[ "$DIRNAME" = "bundles/islandhex/zones" ]]; then
+    COMMUNITY="islandhex.ca"
+  elif [[ "$DIRNAME" = "bundles/peerhex-americas/zones" ]]; then
+    COMMUNITY="americas.peerhex.org"
   elif [[ "$BASENAME" =~ vichex.ca$ ]]; then
     COMMUNITY="vichex.ca"
   elif [[ "$BASENAME" =~ seahex.org$ ]]; then

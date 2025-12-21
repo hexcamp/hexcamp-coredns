@@ -1,19 +1,24 @@
 $ORIGIN 51.h3.americas.peerhex.org.
 $TTL 5m
 @	3600 IN	SOA ns.51.h3.americas.peerhex.org. hostmaster.americas.peerhex.org. (
-				2025122001 ; serial
+				2025122101 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
 				3600       ; minimum (1 hour)
 				)
-@ IN NS ns-minikube11.51.h3.americas.peerhex.org.
-ns-minikube11 IN A 51.44.22.98
+
+
+@ IN NS ns-minikube10_ip.51.h3.americas.peerhex.org.
+ns-minikube10_ip IN A 3.141.32.243
+@ IN NS ns-minikube11_ip.51.h3.americas.peerhex.org.
+ns-minikube11_ip IN A 51.44.22.98
+@ IN NS ns-minikube9_ip.51.h3.americas.peerhex.org.
+ns-minikube9_ip IN A 3.75.96.130
 
 
 ; 6zxasjlanwaa.americas.peerhex.org - jimpick.com - Bogotá Wikipedia - nuc
-0.0.6.6.6.0.0.3.5.4.4.4.0.4.3.51.h3.americas.peerhex.org. IN 21600 A 144.217.233.191
+0.0.6.6.6.0.0.3.5.4.4.4.0.4.3.51.h3.americas.peerhex.org. 21600 IN A 144.217.233.191
 _dnslink.0.0.6.6.6.0.0.3.5.4.4.4.0.4.3.51.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmSEocXZgnw4TYmDRxYCLEjFsmfgjrHu4rmWZFssVEsHGX"
 0.0.6.6.6.0.0.3.5.4.4.4.0.4.3.51.h3.americas.peerhex.org. 300 IN TXT "dnslink=/ipfs/QmSEocXZgnw4TYmDRxYCLEjFsmfgjrHu4rmWZFssVEsHGX"
-
 

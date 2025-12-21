@@ -1,23 +1,29 @@
 $ORIGIN 6.2.4.3.3.20.h3.islandhex.ca.
 $TTL 5m
-@       3600 IN SOA ns.6.2.4.3.3.20.h3.islandhex.ca. hostmaster.islandhex.ca. (
-                                2025122001 ; serial
-                                7200       ; refresh (2 hours)
-                                3600       ; retry (1 hour)
-                                1209600    ; expire (2 weeks)
-                                3600       ; minimum (1 hour)
-                                )
-@ IN NS ns-minikube11.6.2.4.3.3.20.h3.islandhex.ca.
-ns-minikube11 IN A 51.44.22.98
+@	3600 IN	SOA ns.6.2.4.3.3.20.h3.islandhex.ca. hostmaster.islandhex.ca. (
+				2025122101 ; serial
+				7200       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				3600       ; minimum (1 hour)
+				)
+
+
+@ IN NS ns-minikube10_ip.6.2.4.3.3.20.h3.islandhex.ca.
+ns-minikube10_ip IN A 3.141.32.243
+@ IN NS ns-minikube11_ip.6.2.4.3.3.20.h3.islandhex.ca.
+ns-minikube11_ip IN A 51.44.22.98
+@ IN NS ns-minikube9_ip.6.2.4.3.3.20.h3.islandhex.ca.
+ns-minikube9_ip IN A 3.75.96.130
 
 
 ; 6kg4laaaaaaa.islandhex.ca - jimpick.com - IslandHex Landing Page - nuc
-0.0.0.0.0.0.0.0.0.0.6.2.4.3.3.20.h3.islandhex.ca. IN 21600 A 144.217.233.191
+0.0.0.0.0.0.0.0.0.0.6.2.4.3.3.20.h3.islandhex.ca. 21600 IN A 144.217.233.191
 _dnslink.0.0.0.0.0.0.0.0.0.0.6.2.4.3.3.20.h3.islandhex.ca. 300 IN TXT "dnslink=/ipfs/bafybeiho3oqzmmlstxit2nqieufdpqntfp6hvo6jnzambfacugclanb2ui"
 0.0.0.0.0.0.0.0.0.0.6.2.4.3.3.20.h3.islandhex.ca. 300 IN TXT "dnslink=/ipfs/bafybeiho3oqzmmlstxit2nqieufdpqntfp6hvo6jnzambfacugclanb2ui"
 
 ; 6kg4lcaaaaaa.islandhex.ca - jimpick.com - IslandHex Welcome Page - nuc
-0.0.0.0.0.0.0.0.0.1.6.2.4.3.3.20.h3.islandhex.ca. IN 21600 A 144.217.233.191
+0.0.0.0.0.0.0.0.0.1.6.2.4.3.3.20.h3.islandhex.ca. 21600 IN A 144.217.233.191
 _dnslink.0.0.0.0.0.0.0.0.0.1.6.2.4.3.3.20.h3.islandhex.ca. 300 IN TXT "dnslink=/ipfs/bafybeiflgf3lckjicwj73u2s2h3ulrzlsklpiqo55wfbbtspzwuw2yef5a"
 0.0.0.0.0.0.0.0.0.1.6.2.4.3.3.20.h3.islandhex.ca. 300 IN TXT "dnslink=/ipfs/bafybeiflgf3lckjicwj73u2s2h3ulrzlsklpiqo55wfbbtspzwuw2yef5a"
 

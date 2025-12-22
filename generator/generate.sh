@@ -11,6 +11,13 @@ gen_new_file() {
   DIRNAME=$(dirname $1)
   BASENAME=$(basename $1)
   echo Generating: current/$DIRNAME/$BASENAME
+  if [ -L templates/$DIRNAME/$BASENAME ]; then
+    READLINK=$(readlink -f templates/$DIRNAME/$BASENAME)
+    READLINK_DIR=$(dirname $READLINK)
+  else
+    READLINK=""
+    READLINK_DIR=""
+  fi
   mkdir -p current/$DIRNAME
   if [ -f previous/$DIRNAME/$BASENAME ]; then
     SERIAL=$(cat previous/$DIRNAME/$BASENAME | sed -n -E 's,^[[:space:]]+([[:digit:]]+).*; serial,\1,p')
@@ -55,13 +62,20 @@ gen_new_file() {
     dnsUnpacked: "$DNS_UNPACKED",
     sites: \$sites[0],
     ips: \$ips[0],
+    zones: \$zones[0],
     serial: "$SERIAL"
   }
 EOT
   cat tmp/sites-jim.json | jq "[.[] | select(.region == \"$REGION\")]" > tmp/region-sites.json
+  if [ -n "$READLINK_DIR" -a -f "$READLINK_DIR/zones.json" ]; then
+    cp -f "$READLINK_DIR/zones.json" tmp/zones.json
+  else
+    echo '[]' > tmp/zones.json
+  fi
   jq -n \
     --slurpfile sites tmp/region-sites.json \
     --slurpfile ips ips.json \
+    --slurpfile zones tmp/zones.json \
     -f tmp/jq-cmd.txt > tmp/data.json
   echo ">>" minijinja-cli templates/$DIRNAME/$BASENAME
   echo "Data:"
@@ -91,12 +105,14 @@ EOT
       dnsUnpacked: "$DNS_UNPACKED",
       sites: \$sites[0],
       ips: \$ips[0],
+      zones: \$zones[0],
       serial: "$SERIAL"
     }
 EOT
   jq -n \
     --slurpfile sites tmp/region-sites.json \
     --slurpfile ips ips.json \
+    --slurpfile zones tmp/zones.json \
     -f tmp/jq-cmd.txt > tmp/data.json
     echo "Data (bump serial):"
     cat tmp/data.json

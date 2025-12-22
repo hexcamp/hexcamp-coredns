@@ -1,4 +1,5 @@
 $ORIGIN {{ community }}.
+$TTL 5m
 @	3600 IN	SOA ns.{{ community }}. hostmaster.{{ community }}. (
 				{{ serial }} ; serial
 				7200       ; refresh (2 hours)
@@ -28,4 +29,3 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.19.h3.{{ community }
 ns-{{ minikube_name }}.{{ zone.dnsUnpacked }}.h3.{{ community }}. 300 IN A {{ ips[minikube_name] }}
 {%- endfor %}
 {%- endfor %}
-

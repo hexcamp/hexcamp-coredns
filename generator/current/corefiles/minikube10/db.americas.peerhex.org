@@ -1,6 +1,7 @@
 $ORIGIN americas.peerhex.org.
+$TTL 5m
 @	3600 IN	SOA ns.americas.peerhex.org. hostmaster.americas.peerhex.org. (
-				2025122106 ; serial
+				2025122201 ; serial
 				7200       ; refresh (2 hours)
 				3600       ; retry (1 hour)
 				1209600    ; expire (2 weeks)
@@ -22,16 +23,37 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.19.h3.americas.peerh
 ; bluesky
 ;_atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"
 
-; kkg6q - Vancouver
+; Subzones
 
-3.4.6.3.3.20.h3.americas.peerhex.org.  IN NS ns-minikube10.3.4.6.3.3.20.h3.americas.peerhex.org.
-ns-minikube10.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A 3.141.32.243
-3.4.6.3.3.20.h3.americas.peerhex.org.  IN NS ns-minikube11.3.4.6.3.3.20.h3.americas.peerhex.org.
-ns-minikube11.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A 51.44.22.98
-3.4.6.3.3.20.h3.americas.peerhex.org.  IN NS ns-minikube9.3.4.6.3.3.20.h3.americas.peerhex.org.
-ns-minikube9.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A 3.75.96.130
 
-; aspq - Mexico City Base Cell
+;; Zone: aj7q
+
+19.h3.americas.peerhex.org.  IN NS ns-minikube10.19.h3.americas.peerhex.org.
+ns-minikube10.19.h3.americas.peerhex.org. 300 IN A 3.141.32.243
+19.h3.americas.peerhex.org.  IN NS ns-minikube11.19.h3.americas.peerhex.org.
+ns-minikube11.19.h3.americas.peerhex.org. 300 IN A 51.44.22.98
+19.h3.americas.peerhex.org.  IN NS ns-minikube9.19.h3.americas.peerhex.org.
+ns-minikube9.19.h3.americas.peerhex.org. 300 IN A 3.75.96.130
+
+;; Zone: ak7q
+
+21.h3.americas.peerhex.org.  IN NS ns-minikube10.21.h3.americas.peerhex.org.
+ns-minikube10.21.h3.americas.peerhex.org. 300 IN A 3.141.32.243
+21.h3.americas.peerhex.org.  IN NS ns-minikube11.21.h3.americas.peerhex.org.
+ns-minikube11.21.h3.americas.peerhex.org. 300 IN A 51.44.22.98
+21.h3.americas.peerhex.org.  IN NS ns-minikube9.21.h3.americas.peerhex.org.
+ns-minikube9.21.h3.americas.peerhex.org. 300 IN A 3.75.96.130
+
+;; Zone: akpq
+
+20.h3.americas.peerhex.org.  IN NS ns-minikube10.20.h3.americas.peerhex.org.
+ns-minikube10.20.h3.americas.peerhex.org. 300 IN A 3.141.32.243
+20.h3.americas.peerhex.org.  IN NS ns-minikube11.20.h3.americas.peerhex.org.
+ns-minikube11.20.h3.americas.peerhex.org. 300 IN A 51.44.22.98
+20.h3.americas.peerhex.org.  IN NS ns-minikube9.20.h3.americas.peerhex.org.
+ns-minikube9.20.h3.americas.peerhex.org. 300 IN A 3.75.96.130
+
+;; Zone: aspq
 
 36.h3.americas.peerhex.org.  IN NS ns-minikube10.36.h3.americas.peerhex.org.
 ns-minikube10.36.h3.americas.peerhex.org. 300 IN A 3.141.32.243
@@ -39,3 +61,48 @@ ns-minikube10.36.h3.americas.peerhex.org. 300 IN A 3.141.32.243
 ns-minikube11.36.h3.americas.peerhex.org. 300 IN A 51.44.22.98
 36.h3.americas.peerhex.org.  IN NS ns-minikube9.36.h3.americas.peerhex.org.
 ns-minikube9.36.h3.americas.peerhex.org. 300 IN A 3.75.96.130
+
+;; Zone: az7q
+
+51.h3.americas.peerhex.org.  IN NS ns-minikube10.51.h3.americas.peerhex.org.
+ns-minikube10.51.h3.americas.peerhex.org. 300 IN A 3.141.32.243
+51.h3.americas.peerhex.org.  IN NS ns-minikube11.51.h3.americas.peerhex.org.
+ns-minikube11.51.h3.americas.peerhex.org. 300 IN A 51.44.22.98
+51.h3.americas.peerhex.org.  IN NS ns-minikube9.51.h3.americas.peerhex.org.
+ns-minikube9.51.h3.americas.peerhex.org. 300 IN A 3.75.96.130
+
+;; Zone: ba
+
+71.h3.americas.peerhex.org.  IN NS ns-minikube10.71.h3.americas.peerhex.org.
+ns-minikube10.71.h3.americas.peerhex.org. 300 IN A 3.141.32.243
+71.h3.americas.peerhex.org.  IN NS ns-minikube11.71.h3.americas.peerhex.org.
+ns-minikube11.71.h3.americas.peerhex.org. 300 IN A 51.44.22.98
+71.h3.americas.peerhex.org.  IN NS ns-minikube9.71.h3.americas.peerhex.org.
+ns-minikube9.71.h3.americas.peerhex.org. 300 IN A 3.75.96.130
+
+;; Zone: bkpq
+
+84.h3.americas.peerhex.org.  IN NS ns-minikube10.84.h3.americas.peerhex.org.
+ns-minikube10.84.h3.americas.peerhex.org. 300 IN A 3.141.32.243
+84.h3.americas.peerhex.org.  IN NS ns-minikube11.84.h3.americas.peerhex.org.
+ns-minikube11.84.h3.americas.peerhex.org. 300 IN A 51.44.22.98
+84.h3.americas.peerhex.org.  IN NS ns-minikube9.84.h3.americas.peerhex.org.
+ns-minikube9.84.h3.americas.peerhex.org. 300 IN A 3.75.96.130
+
+;; Zone: bq7q
+
+97.h3.americas.peerhex.org.  IN NS ns-minikube10.97.h3.americas.peerhex.org.
+ns-minikube10.97.h3.americas.peerhex.org. 300 IN A 3.141.32.243
+97.h3.americas.peerhex.org.  IN NS ns-minikube11.97.h3.americas.peerhex.org.
+ns-minikube11.97.h3.americas.peerhex.org. 300 IN A 51.44.22.98
+97.h3.americas.peerhex.org.  IN NS ns-minikube9.97.h3.americas.peerhex.org.
+ns-minikube9.97.h3.americas.peerhex.org. 300 IN A 3.75.96.130
+
+;; Zone: kkg6q
+
+3.4.6.3.3.20.h3.americas.peerhex.org.  IN NS ns-minikube10.3.4.6.3.3.20.h3.americas.peerhex.org.
+ns-minikube10.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A 3.141.32.243
+3.4.6.3.3.20.h3.americas.peerhex.org.  IN NS ns-minikube11.3.4.6.3.3.20.h3.americas.peerhex.org.
+ns-minikube11.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A 51.44.22.98
+3.4.6.3.3.20.h3.americas.peerhex.org.  IN NS ns-minikube9.3.4.6.3.3.20.h3.americas.peerhex.org.
+ns-minikube9.3.4.6.3.3.20.h3.americas.peerhex.org. 300 IN A 3.75.96.130

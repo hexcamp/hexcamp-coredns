@@ -30,9 +30,9 @@ cat generator/ips.json
 
 #IP_7=$(cat generator/ips.json | jq -r .minikube7_ip)
 #IP_8=$(cat generator/ips.json | jq -r .minikube8_ip)
-IP_9=$(cat generator/ips.json | jq -r .minikube9_ip)
-IP_10=$(cat generator/ips.json | jq -r .minikube10_ip)
-IP_11=$(cat generator/ips.json | jq -r .minikube11_ip)
+IP_9=$(cat generator/ips.json | jq -r .minikube9)
+IP_10=$(cat generator/ips.json | jq -r .minikube10)
+IP_11=$(cat generator/ips.json | jq -r .minikube11)
 
 set +e
 #if [ -n "$IP_7" ]; then

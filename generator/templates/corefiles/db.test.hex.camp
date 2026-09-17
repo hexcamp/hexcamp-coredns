@@ -7,23 +7,10 @@ $ORIGIN test.hex.camp.
 				300       ; minimum (5 minutes)
 				)
 
-{%- if ips.minikube9 %}
-@ 3600 IN NS ns-minikube9
-ns-minikube9	300 A {{ ips.minikube9 }}
-ns1	300 A {{ ips.minikube9 }}
-{%- endif %}
-
-{%- if ips.minikube10 %}
-@ 3600 IN NS ns-minikube10
-ns-minikube10	300 A {{ ips.minikube10 }}
-ns2	300 A {{ ips.minikube10 }}
-{%- endif %}
-
-{%- if ips.minikube11 %}
-@ 3600 IN NS ns-minikube11
-ns-minikube11	300 A {{ ips.minikube11 }}
-ns3	300 A {{ ips.minikube11 }}
-{%- endif %}
+{% for minikube_name in ips %}
+@ IN NS ns-{{ minikube_name }}
+ns-{{ minikube_name }} IN A {{ ips[minikube_name] }}
+{%- endfor %}
 
 ; ai - tokyo
 {%- if ips.minikube9 %}

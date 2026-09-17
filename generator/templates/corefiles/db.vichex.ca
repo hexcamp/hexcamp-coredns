@@ -7,10 +7,10 @@ $ORIGIN vichex.ca.
 				300       ; minimum (5 minutes)
 				)
 
-{%- if ips.minikube11 %}
-@ 3600 IN NS ns-minikube11
-ns-minikube11	300 A {{ ips.minikube11 }}
-{%- endif %}
+{% for minikube_name in ips %}
+@ IN NS ns-{{ minikube_name }}
+ns-{{ minikube_name }} IN A {{ ips[minikube_name] }}
+{%- endfor %}
 
 ; landing page
 @ 21600 IN A 144.217.233.191

@@ -8,8 +8,10 @@ $ORIGIN vichex.ca.
 				)
 
 {% for minikube_name in ips %}
+{%- if ips[minikube_name] %}
 @ IN NS ns-{{ minikube_name }}
 ns-{{ minikube_name }} IN A {{ ips[minikube_name] }}
+{%- endif %}
 {%- endfor %}
 
 ; landing page
@@ -20,7 +22,9 @@ _dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.3.5.1.2.3.20.h3.vichex.ca.
 _atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"
 
 {% for minikube_name in ips %}
+{%- if ips[minikube_name] %}
 5.1.2.3.20.h3.{{ community }}.  IN NS ns-{{ minikube_name }}.5.1.2.3.20.h3.{{ community }}.
 ns-{{ minikube_name }}.5.1.2.3.20.h3.{{ community }}. 300 IN A {{ ips[minikube_name] }}
+{%- endif %}
 {%- endfor %}
 

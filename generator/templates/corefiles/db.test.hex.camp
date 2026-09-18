@@ -8,8 +8,10 @@ $ORIGIN test.hex.camp.
 				)
 
 {% for minikube_name in ips %}
+{%- if ips[minikube_name] %}
 @ IN NS ns-{{ minikube_name }}
 ns-{{ minikube_name }} IN A {{ ips[minikube_name] }}
+{%- endif %}
 {%- endfor %}
 
 ; ai - tokyo

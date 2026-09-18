@@ -9,8 +9,10 @@ $TTL 5m
 				)
 
 {% for minikube_name in ips %}
+{%- if ips[minikube_name] %}
 @ IN NS ns-{{ minikube_name }}
 ns-{{ minikube_name }} IN A {{ ips[minikube_name] }}
+{%- endif %}
 {%- endfor %}
 
 ; landing page
@@ -25,7 +27,9 @@ _atproto 300 TXT "did=did:plc:jaa4ygmm55ban3yhsibc3n4m"
 
 ;; Zone: {{ zone.ehid }}
 {% for minikube_name in ips %}
+{%- if ips[minikube_name] %}
 {{ zone.dnsUnpacked }}.h3.{{ community }}.  IN NS ns-{{ minikube_name }}.{{ zone.dnsUnpacked }}.h3.{{ community }}.
 ns-{{ minikube_name }}.{{ zone.dnsUnpacked }}.h3.{{ community }}. 300 IN A {{ ips[minikube_name] }}
+{%- endif %}
 {%- endfor %}
 {%- endfor %}

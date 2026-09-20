@@ -1,0 +1,35 @@
+$ORIGIN {{ community }}.
+$TTL 5m
+@	3600 IN	SOA ns.{{ community }}. hostmaster.{{ community }}. (
+				{{ serial }} ; serial
+				7200       ; refresh (2 hours)
+				3600       ; retry (1 hour)
+				1209600    ; expire (2 weeks)
+				300       ; minimum (5 minutes)
+				)
+
+{% for minikube_name in ips %}
+{%- if ips[minikube_name] %}
+@ IN NS ns-{{ minikube_name }}
+ns-{{ minikube_name }} IN A {{ ips[minikube_name] }}
+{%- endif %}
+{%- endfor %}
+
+; landing page
+@ 21600 IN A 144.217.233.191
+_dnslink 21600 CNAME _dnslink.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.19.h3.{{ community }}.
+
+; bluesky
+;_atproto 300 TXT "did=did:plc:byvfniwaqx3rznumglkrbk35"
+
+; Subzones
+{% for zone in zones %}
+
+;; Zone: {{ zone.ehid }}
+{% for minikube_name in ips %}
+{%- if ips[minikube_name] %}
+{{ zone.dnsUnpacked }}.h3.{{ community }}.  IN NS ns-{{ minikube_name }}.{{ zone.dnsUnpacked }}.h3.{{ community }}.
+ns-{{ minikube_name }}.{{ zone.dnsUnpacked }}.h3.{{ community }}. 300 IN A {{ ips[minikube_name] }}
+{%- endif %}
+{%- endfor %}
+{%- endfor %}

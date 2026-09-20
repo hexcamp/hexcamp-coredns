@@ -57,7 +57,6 @@ set -e
 echo
 
 cd generator
-#./copy-current-to-prev.sh
 ./generate.sh
 
 exit

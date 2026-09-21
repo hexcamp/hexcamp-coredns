@@ -44,6 +44,7 @@ for b in \
 	vanhex \
 	islandhex \
   peerhex-americas \
+  cdmxhex \
 	; do \
 		echo $MINIKUBE: $b; \
 		$TOP/rclone-sync.sh $MINIKUBE $b $b/zones

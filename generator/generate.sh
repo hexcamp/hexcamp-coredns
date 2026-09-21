@@ -31,6 +31,8 @@ gen_new_file() {
     COMMUNITY="islandhex.ca"
   elif [[ "$DIRNAME" = "bundles/peerhex-americas/zones" ]]; then
     COMMUNITY="americas.peerhex.org"
+  elif [[ "$DIRNAME" = "bundles/cdmxhex/zones" ]]; then
+    COMMUNITY="cdmxhex.org"
   elif [[ "$BASENAME" =~ vichex.ca$ ]]; then
     COMMUNITY="vichex.ca"
   elif [[ "$BASENAME" =~ vanhex.ca$ ]]; then
@@ -41,6 +43,8 @@ gen_new_file() {
     COMMUNITY="seahex.org"
   elif [[ "$BASENAME" =~ americas.peerhex.org$ ]]; then
     COMMUNITY="americas.peerhex.org"
+  elif [[ "$BASENAME" =~ cdmxhex.org$ ]]; then
+    COMMUNITY="cdmxhex.org"
   else
     COMMUNITY="test.hex.camp"
   fi

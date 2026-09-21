@@ -3,3 +3,4 @@ SETENV
 *-secret
 *.swp
 tmp
+generator/current

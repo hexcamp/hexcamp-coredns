@@ -289,3 +289,42 @@ islandhex.ca:53 {
     #cache
     prometheus 0.0.0.0:9153
 }
+h3.cdmxhex.org:53 {
+    view cname_lookup {
+      expr metadata('hexcamp/lookup') == 'true'
+    }
+    file /bundles/cdmxhex/gsmv6.zone 5.2.6.36.h3.cdmxhex.org
+
+    #forward . 8.8.8.8
+    unbound
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+    debug
+}
+cdmxhex.org:53 {
+    view acme_challenge {
+      expr name() matches '^_acme-challenge\\.'
+    }
+    route53 cdmxhex.org.:Z05325962B2Z9K282ZU3X {
+      aws_access_key <key> <secret>
+    }
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}
+cdmxhex.org:53 {
+    metadata
+    hexcamp cdmxhex.org
+    file db.cdmxhex.org cdmxhex.org
+    file /bundles/cdmxhex/gsmv6.zone 5.2.6.36.h3.cdmxhex.org
+    log
+    errors
+    reload
+    #cache
+    prometheus 0.0.0.0:9153
+}

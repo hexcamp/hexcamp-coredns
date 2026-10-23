@@ -19,8 +19,7 @@ gen_new_file() {
     READLINK_DIR=""
   fi
   mkdir -p current/$DIRNAME
-  DATE=$(date +"%Y%m%d")
-  SERIAL="${DATE}01"
+  SERIAL=$(date +%s)
   REGION=$(echo $DIRNAME | sed -n -E 's,^.*zones/([^/]+)/.*,\1,p')
   if [ -z "$REGION" ]; then
     REGION=$(echo $BASENAME | sed -n -E 's,^([^/]+)\.zone$,\1,p')
@@ -82,8 +81,7 @@ EOT
   cat tmp/data.json
   echo "---"
   minijinja-cli templates/$DIRNAME/$BASENAME tmp/data.json > current/$DIRNAME/$BASENAME
-  DATE=$(date +"%Y%m%d")
-  SERIAL="${DATE}01"
+  SERIAL=$(date +%s)
   cat << EOT > tmp/jq-cmd.txt
   {
     community: "$COMMUNITY",
